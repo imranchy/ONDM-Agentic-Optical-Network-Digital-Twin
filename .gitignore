@@ -1,5 +1,45 @@
 .venv/
+venv/
 __pycache__/
+*.py[cod]
+.ipynb_checkpoints/
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+models/
+checkpoints/
+runs/
+wandb/
 *.gguf
 *.safetensors
+*.pt
+*.pth
+*.onnx
+outputs/
+results/
+simulations/tmp/
+simulations/cache/
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- ONDM app (added 2026-11-13) ---
+# local research archives / legacy pilots kept out of the active release
+*.zip
+optical_topology_pilot/
+optical_topology_semantics_pilot/
+optical_topology_v2_pilot/
+Untitled.ipynb
+# runtime caches and local state
+simulations/cache/
+simulations/netbox/
+simulations/smoke/
+simulations/generated/*.log
+.claude/
+.pytest_cache/
+*.pptx.tmp

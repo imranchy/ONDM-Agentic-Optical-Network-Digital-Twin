@@ -1,0 +1,183 @@
+{
+  "network_name": "ONDM_poc_topo_0003_A_B",
+  "elements": [
+    {
+      "uid": "Trx_A",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "city": "Site B",
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_1",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 67.5,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_1",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_2",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 67.5,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_2",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_3",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 67.5,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_3",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_4",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 67.5,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Trx_B",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "city": "Site B",
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    }
+  ],
+  "connections": [
+    {
+      "from_node": "Trx_A",
+      "to_node": "Fiber_1"
+    },
+    {
+      "from_node": "Fiber_1",
+      "to_node": "Edfa_1"
+    },
+    {
+      "from_node": "Edfa_1",
+      "to_node": "Fiber_2"
+    },
+    {
+      "from_node": "Fiber_2",
+      "to_node": "Edfa_2"
+    },
+    {
+      "from_node": "Edfa_2",
+      "to_node": "Fiber_3"
+    },
+    {
+      "from_node": "Fiber_3",
+      "to_node": "Edfa_3"
+    },
+    {
+      "from_node": "Edfa_3",
+      "to_node": "Fiber_4"
+    },
+    {
+      "from_node": "Fiber_4",
+      "to_node": "Trx_B"
+    }
+  ]
+}

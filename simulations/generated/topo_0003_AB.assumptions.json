@@ -1,0 +1,12 @@
+{
+  "source_graph": "optical_topology_v2_pilot\\graphs\\topo_0003.json",
+  "source": "A",
+  "target": "B",
+  "diagram_edge_distance_km": 270.0,
+  "fiber_span_count": 4,
+  "fiber_span_length_km": 67.5,
+  "modeling_scope": "One directed optical line, not full network or ROADM/ILA mapping",
+  "endpoint_assumption": "Test transceivers replace original node equipment semantics",
+  "fiber_and_edfa_assumption": "Parameters copied from installed GNPy example",
+  "validation_status": "Generated schema only; GNPy simulation must be executed and checked"
+}
