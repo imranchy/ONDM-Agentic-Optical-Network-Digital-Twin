@@ -30,8 +30,4 @@ Use the provided `ONDM-GitHub-Starter.zip` to populate `data/semantic_pilot/`, `
 
 See [coding agent brief](docs/CODING_AGENT_BRIEF.md) for the Monday 16 November prototype scope and [GNPy status](docs/GNPY_INTEGRATION.md) for physical-layer limitations.
 
-## Research and safety boundaries
 
-All topologies are **synthetic**. Do not claim deployed-network validity, real operator inventory, live NetBox synchronization or GNPy optical feasibility without demonstrated tool execution. Never commit tokens, credentials, customer inventory or large model checkpoints.
-
-License and publication rights are to be confirmed before reuse beyond the research project.
