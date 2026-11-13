@@ -1,0 +1,630 @@
+{
+  "sample_id": "topo_0024",
+  "image": "topo_0024.png",
+  "topology_type": "mesh",
+  "nodes": [
+    {
+      "id": "A",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 524,
+        "y": 1140
+      },
+      "bbox_xyxy_px": [
+        494,
+        1110,
+        554,
+        1170
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "id": "B",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 574,
+        "y": 516
+      },
+      "bbox_xyxy_px": [
+        544,
+        486,
+        604,
+        546
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "id": "C",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 187,
+        "y": 677
+      },
+      "bbox_xyxy_px": [
+        157,
+        647,
+        217,
+        707
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "id": "D",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 1140,
+        "y": 704
+      },
+      "bbox_xyxy_px": [
+        1110,
+        674,
+        1170,
+        734
+      ],
+      "site_role": "terminal_roadm",
+      "attached_transceiver": true
+    },
+    {
+      "id": "E",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 408,
+        "y": 315
+      },
+      "bbox_xyxy_px": [
+        378,
+        285,
+        438,
+        345
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "id": "F",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 955,
+        "y": 701
+      },
+      "bbox_xyxy_px": [
+        925,
+        671,
+        985,
+        731
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "id": "G",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 404,
+        "y": 673
+      },
+      "bbox_xyxy_px": [
+        374,
+        643,
+        434,
+        703
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "id": "H",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 599,
+        "y": 140
+      },
+      "bbox_xyxy_px": [
+        569,
+        110,
+        629,
+        170
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "id": "I",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 140,
+        "y": 1047
+      },
+      "bbox_xyxy_px": [
+        110,
+        1017,
+        170,
+        1077
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "id": "J",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 329,
+        "y": 918
+      },
+      "bbox_xyxy_px": [
+        299,
+        888,
+        359,
+        948
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "id": "K",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 592,
+        "y": 906
+      },
+      "bbox_xyxy_px": [
+        562,
+        876,
+        622,
+        936
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "id": "L",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 709,
+        "y": 690
+      },
+      "bbox_xyxy_px": [
+        679,
+        660,
+        739,
+        720
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "J",
+      "distance_km": 280,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        324,
+        913,
+        529,
+        1145
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "source": "A",
+      "target": "L",
+      "distance_km": 150,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        519,
+        685,
+        714,
+        1145
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "source": "B",
+      "target": "G",
+      "distance_km": 250,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        399,
+        511,
+        579,
+        678
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "source": "B",
+      "target": "L",
+      "distance_km": 320,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        569,
+        511,
+        714,
+        695
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "source": "C",
+      "target": "G",
+      "distance_km": 220,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        182,
+        668,
+        409,
+        682
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "source": "C",
+      "target": "I",
+      "distance_km": 270,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        135,
+        672,
+        192,
+        1052
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "source": "D",
+      "target": "F",
+      "distance_km": 50,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        950,
+        696,
+        1145,
+        709
+      ],
+      "site_role": "terminal_roadm",
+      "attached_transceiver": true
+    },
+    {
+      "source": "E",
+      "target": "G",
+      "distance_km": 390,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        399,
+        310,
+        413,
+        678
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "source": "E",
+      "target": "H",
+      "distance_km": 320,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        403,
+        135,
+        604,
+        320
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "source": "E",
+      "target": "J",
+      "distance_km": 370,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        324,
+        310,
+        413,
+        923
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "source": "F",
+      "target": "L",
+      "distance_km": 200,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        704,
+        685,
+        960,
+        706
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "source": "G",
+      "target": "J",
+      "distance_km": 230,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        324,
+        668,
+        409,
+        923
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "source": "G",
+      "target": "K",
+      "distance_km": 200,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        399,
+        668,
+        597,
+        911
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "source": "H",
+      "target": "L",
+      "distance_km": 350,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        594,
+        135,
+        714,
+        695
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "source": "I",
+      "target": "J",
+      "distance_km": 310,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        135,
+        913,
+        334,
+        1052
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    },
+    {
+      "source": "K",
+      "target": "L",
+      "distance_km": 140,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        587,
+        685,
+        714,
+        911
+      ],
+      "site_role": "switching_roadm",
+      "attached_transceiver": false
+    }
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "difficulty": "hard",
+    "image_size": 1280,
+    "node_separation_min_px": 185.0,
+    "label_placement_conflicts": 0,
+    "distance_label_boxes": [
+      {
+        "source": "A",
+        "target": "J",
+        "text": "280 km",
+        "bbox_xyxy_px": [
+          404,
+          1001,
+          482,
+          1026
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "L",
+        "text": "150 km",
+        "bbox_xyxy_px": [
+          572,
+          974,
+          650,
+          999
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "B",
+        "target": "G",
+        "text": "250 km",
+        "bbox_xyxy_px": [
+          434,
+          565,
+          512,
+          590
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "B",
+        "target": "L",
+        "text": "320 km",
+        "bbox_xyxy_px": [
+          584,
+          604,
+          662,
+          629
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "C",
+        "target": "G",
+        "text": "220 km",
+        "bbox_xyxy_px": [
+          256,
+          685,
+          334,
+          710
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "C",
+        "target": "I",
+        "text": "270 km",
+        "bbox_xyxy_px": [
+          101,
+          846,
+          179,
+          871
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "D",
+        "target": "F",
+        "text": "50 km",
+        "bbox_xyxy_px": [
+          1014,
+          667,
+          1081,
+          692
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "E",
+        "target": "G",
+        "text": "390 km",
+        "bbox_xyxy_px": [
+          344,
+          481,
+          422,
+          506
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "E",
+        "target": "H",
+        "text": "320 km",
+        "bbox_xyxy_px": [
+          480,
+          231,
+          558,
+          256
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "E",
+        "target": "J",
+        "text": "370 km",
+        "bbox_xyxy_px": [
+          306,
+          601,
+          384,
+          626
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "F",
+        "target": "L",
+        "text": "200 km",
+        "bbox_xyxy_px": [
+          794,
+          660,
+          872,
+          685
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "G",
+        "target": "J",
+        "text": "230 km",
+        "bbox_xyxy_px": [
+          305,
+          776,
+          383,
+          801
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "G",
+        "target": "K",
+        "text": "200 km",
+        "bbox_xyxy_px": [
+          441,
+          791,
+          519,
+          816
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "H",
+        "target": "L",
+        "text": "350 km",
+        "bbox_xyxy_px": [
+          592,
+          407,
+          670,
+          432
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "I",
+        "target": "J",
+        "text": "310 km",
+        "bbox_xyxy_px": [
+          208,
+          988,
+          286,
+          1013
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "K",
+        "target": "L",
+        "text": "140 km",
+        "bbox_xyxy_px": [
+          631,
+          796,
+          709,
+          821
+        ],
+        "placement_conflicts": 0
+      }
+    ],
+    "equipment_semantics": "ROADM switching sites; endpoint transceivers attached; inline EDFAs on spans",
+    "physical_layer": "synthetic reference design, not field measurements",
+    "simulation_parameters": "GNPy example equipment profile; parameters are assumptions",
+    "logical_graph_representation": "ROADM sites only; optical spans include inline amplifiers"
+  }
+}
