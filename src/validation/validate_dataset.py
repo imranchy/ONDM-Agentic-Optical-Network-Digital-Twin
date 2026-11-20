@@ -14,6 +14,7 @@ import csv
 import json
 import math
 import re
+import warnings
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -25,6 +26,9 @@ from src.generation.render import LEGEND_ENTRIES
 from src.generation.taxonomy import CLASSES, LEAKAGE_TOKENS
 from src.generation.topology_bench import haversine_km
 from src.validation.label_rules import evaluate
+
+# networkx >=3.5 notes a hash change for unattributed graphs; hashes are only compared within one run
+warnings.filterwarnings("ignore", message="The hashes produced for graphs without")
 
 CHECKS = {
     # id: (category, description)
