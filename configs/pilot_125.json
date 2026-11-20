@@ -1,0 +1,158 @@
+{
+  "dataset_name": "ONDM_Optical_Topology_Pilot_125",
+  "generator_version": "0.1.0",
+  "master_seed": 20261120,
+  "per_class": 25,
+  "output_dir": "data/pilot/ONDM_pilot_125",
+  "topology_bench_catalog": "references/topology_bench/real_catalog.json",
+  "common": {
+    "route_factor_terrestrial": [
+      1.2,
+      1.6
+    ],
+    "route_factor_submarine": [
+      1.05,
+      1.25
+    ],
+    "terrestrial_max_span_km": [
+      70,
+      100
+    ],
+    "submarine_repeater_spacing_km": [
+      50,
+      90
+    ],
+    "unrepeatered_max_km": 350,
+    "dci_pluggable_reach_km": 120
+  },
+  "long_haul_core": {
+    "min_nodes": 8,
+    "max_nodes": 30,
+    "min_extent_km": 1500,
+    "max_extent_km": 6000,
+    "min_mean_link_km": 250,
+    "max_link_km": 3000,
+    "min_length_ratio": 0.999,
+    "max_length_ratio": 3.0
+  },
+  "metro_ring": {
+    "variants": [
+      "single_ring",
+      "dual_hub_ring",
+      "dual_ring"
+    ],
+    "nodes_single": [
+      5,
+      12
+    ],
+    "nodes_dual_each": [
+      4,
+      8
+    ],
+    "radius_km": [
+      4,
+      20
+    ]
+  },
+  "metro_aggregation": {
+    "hubs": [
+      1,
+      2
+    ],
+    "agg_nodes": [
+      3,
+      6
+    ],
+    "co_nodes": [
+      4,
+      14
+    ],
+    "agg_tier_variants": [
+      "ring",
+      "partial_mesh"
+    ],
+    "agg_radius_km": [
+      6,
+      20
+    ],
+    "access_offset_km": [
+      3,
+      12
+    ],
+    "dual_homing_prob": [
+      0.3,
+      0.8
+    ]
+  },
+  "dci": {
+    "variants": [
+      "metro_dci",
+      "regional_dci"
+    ],
+    "variant_probs": [
+      0.5,
+      0.5
+    ],
+    "metro_dc_sites": [
+      3,
+      7
+    ],
+    "metro_radius_km": [
+      8,
+      40
+    ],
+    "regional_campuses": [
+      2,
+      4
+    ],
+    "regional_city_km": [
+      80,
+      450
+    ],
+    "dcs_per_campus": [
+      1,
+      2
+    ],
+    "regional_roadm_prob": 0.5
+  },
+  "submarine": {
+    "variants": [
+      "point_to_point",
+      "branched_trunk",
+      "festoon"
+    ],
+    "variant_probs": [
+      0.3,
+      0.45,
+      0.25
+    ],
+    "start_lat": [
+      -45,
+      55
+    ],
+    "trunk_gc_km": [
+      1200,
+      8000
+    ],
+    "branching_units": [
+      1,
+      3
+    ],
+    "branch_gc_km": [
+      200,
+      1200
+    ],
+    "festoon_cls": [
+      3,
+      6
+    ],
+    "festoon_gc_km": [
+      80,
+      300
+    ],
+    "backhaul_km": [
+      10,
+      150
+    ]
+  }
+}

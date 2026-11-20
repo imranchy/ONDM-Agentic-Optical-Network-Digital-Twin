@@ -42,3 +42,8 @@ references/topology_bench/raw/
 Thumbs.db
 .claude/
 *.pptx.tmp
+
+# pilot diagrams are regenerated deterministically and shipped in the review ZIP
+data/pilot/**/*.png
+# large contact-sheet PDFs (PNG versions are committed)
+figures/**/0[1-6]_contact_sheet_*.pdf
