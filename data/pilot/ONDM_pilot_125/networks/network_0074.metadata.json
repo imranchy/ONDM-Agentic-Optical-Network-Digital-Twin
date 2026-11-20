@@ -1,0 +1,97 @@
+{
+ "scenario_id": "network_0074",
+ "ground_truth": {
+  "category": "metro_aggregation",
+  "category_display": "Metro Aggregation"
+ },
+ "generation_family": "metro_aggregation_partial_mesh_2hub",
+ "group_key": "SYN_metro_aggregation_0011",
+ "seed": 3749749093,
+ "master_seed": 20261120,
+ "generation_attempt": 0,
+ "provenance": {
+  "topology_origin": "generated_from_documented_architectural_template",
+  "source_dataset": null,
+  "source_topology_id": null,
+  "coordinates": "synthetic sites around real anchor city (A7)",
+  "fiber_connections": "synthetic",
+  "fiber_lengths": "synthetic: great-circle x route factor (A2)",
+  "equipment": "synthetic_assignment",
+  "optical_parameters": "assumed"
+ },
+ "geography": {
+  "scope": "metro_or_regional",
+  "anchor_city": {
+   "name": "Pathankot",
+   "country": "India",
+   "lat": 32.28,
+   "lon": 75.65,
+   "source_topology": "TB_101_TATANID"
+  },
+  "coordinate_source": "synthetic offsets from Topology Bench anchor city",
+  "countries": [
+   "India"
+  ],
+  "geo_extent_km": 34.2,
+  "coordinate_provenance": "synthetic sites around real anchor city (A7)",
+  "length_note": "Fibre length is NOT straight-line distance; see route factor per edge and assumptions A1/A2. Routes do not follow surveyed rights-of-way or real cables."
+ },
+ "equipment_assumptions": {
+  "terrestrial_max_span_km": 86.8,
+  "submarine_repeater_spacing_km": 69.9,
+  "unrepeatered_max_km": 350,
+  "dci_pluggable_reach_km": 120
+ },
+ "assumption_ids": [
+  "A2_synthetic_route_factor",
+  "A3_terrestrial_span",
+  "A6_terminals",
+  "A9_roadm_degree"
+ ],
+ "network_size": {
+  "n_nodes": 16,
+  "n_edges": 28,
+  "total_fiber_km": 443.7,
+  "link_km_min": 3.51,
+  "link_km_max": 32.46,
+  "n_inline_amplifiers": 0,
+  "roles": {
+   "CO": 9,
+   "HUB_ROADM": 2,
+   "ROADM": 5
+  }
+ },
+ "params": {
+  "dual_homing_prob": 0.634,
+  "agg_tier": "partial_mesh"
+ },
+ "structural_signature_wl": "6ca601fb7a96125957f79a01bafcdccc",
+ "generation": {
+  "config_file": "configs/pilot_125.json",
+  "config_sha256": "e22074a3784e99e6eed681198dbfaddcaa8ddf51c4ea1880c091cac28bd7c729",
+  "generator_version": "0.1.0",
+  "git_commit": "fd37f7f65e15c8b84cef93ae96f1db6454559a90",
+  "render_style_hash": "8aba402914e01f0c"
+ },
+ "validation": {
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "rules_satisfied": [
+   "metro_aggregation"
+  ],
+  "ambiguous": false,
+  "structural_cues": [
+   "distribution_tier_is_ring"
+  ],
+  "issues": [
+   {
+    "check": "L3_structural_cue",
+    "severity": "INFO",
+    "message": "distribution_tier_is_ring"
+   }
+  ],
+  "validator": "src/validation/validate_dataset.py",
+  "human_review": "pending"
+ }
+}

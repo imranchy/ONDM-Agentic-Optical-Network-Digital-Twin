@@ -1,0 +1,111 @@
+scenario_id,check,severity,message
+network_0001,L3_structural_cue,INFO,structure_ring_like
+network_0001,L3_structural_cue,INFO,long_links_like_long_haul
+network_0003,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0004,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0005,L3_structural_cue,INFO,structure_ring_like
+network_0006,L3_structural_cue,INFO,structure_tree
+network_0006,L3_structural_cue,INFO,long_links_like_long_haul
+network_0007,L3_structural_cue,INFO,structure_ring_like
+network_0007,L3_structural_cue,INFO,long_links_like_long_haul
+network_0008,G4_scope,WARNING,max link 1027 km > 900 for dci
+network_0008,L3_structural_cue,INFO,structure_ring_like
+network_0008,L3_structural_cue,INFO,long_links_like_long_haul
+network_0010,L3_structural_cue,INFO,structure_tree
+network_0014,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0015,S6_class_structure,INFO,5 degree-1 spur site(s) (present in published source topology)
+network_0015,L3_structural_cue,INFO,structure_tree
+network_0020,D5_overlap,WARNING,1 label pair(s) overlap > 15% (worst 20%)
+network_0020,L3_structural_cue,INFO,long_links_like_long_haul
+network_0021,L3_structural_cue,INFO,structure_ring_like
+network_0021,L3_structural_cue,INFO,long_links_like_long_haul
+network_0023,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0025,L3_structural_cue,INFO,structure_ring_like
+network_0026,S6_class_structure,INFO,8 degree-1 spur site(s) (present in published source topology)
+network_0029,L3_structural_cue,INFO,structure_ring_like
+network_0031,L3_structural_cue,INFO,structure_ring_like
+network_0031,L3_structural_cue,INFO,long_links_like_long_haul
+network_0032,L3_structural_cue,INFO,long_links_like_long_haul
+network_0036,D5_overlap,WARNING,4 label pair(s) overlap > 15% (worst 47%)
+network_0037,S6_class_structure,INFO,3 degree-1 spur site(s) (present in published source topology)
+network_0039,G3_route_factor,WARNING,L02: fibre/great-circle ratio 2.75
+network_0039,G3_route_factor,WARNING,L07: fibre/great-circle ratio 2.54
+network_0039,G3_route_factor,WARNING,L09: fibre/great-circle ratio 2.01
+network_0039,G3_route_factor,WARNING,L10: fibre/great-circle ratio 2.07
+network_0039,G3_route_factor,WARNING,L17: fibre/great-circle ratio 2.44
+network_0041,L3_structural_cue,INFO,long_links_like_long_haul
+network_0043,S6_class_structure,INFO,2 degree-1 spur site(s) (present in published source topology)
+network_0043,L3_structural_cue,INFO,structure_ring_like
+network_0044,L3_structural_cue,INFO,structure_ring_like
+network_0044,L3_structural_cue,INFO,long_links_like_long_haul
+network_0046,L3_structural_cue,INFO,structure_ring_like
+network_0046,L3_structural_cue,INFO,long_links_like_long_haul
+network_0047,L3_structural_cue,INFO,structure_ring_like
+network_0048,L3_structural_cue,INFO,long_links_like_long_haul
+network_0049,L3_structural_cue,INFO,long_links_like_long_haul
+network_0051,S6_class_structure,INFO,2 degree-1 spur site(s) (present in published source topology)
+network_0051,L3_structural_cue,INFO,structure_ring_like
+network_0055,L3_structural_cue,INFO,structure_tree
+network_0062,D5_overlap,WARNING,2 label pair(s) overlap > 15% (worst 21%)
+network_0062,L3_structural_cue,INFO,structure_tree
+network_0062,L3_structural_cue,INFO,long_links_like_long_haul
+network_0063,L3_structural_cue,INFO,structure_ring_like
+network_0063,L3_structural_cue,INFO,long_links_like_long_haul
+network_0064,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0067,L3_structural_cue,INFO,structure_ring_like
+network_0068,L3_structural_cue,INFO,structure_tree
+network_0068,L3_structural_cue,INFO,long_links_like_long_haul
+network_0069,D5_overlap,WARNING,1 label pair(s) overlap > 15% (worst 24%)
+network_0074,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0075,L3_structural_cue,INFO,structure_ring_like
+network_0075,L3_structural_cue,INFO,long_links_like_long_haul
+network_0077,L3_structural_cue,INFO,structure_ring_like
+network_0078,G3_route_factor,WARNING,L01: fibre/great-circle ratio 2.04
+network_0078,G3_route_factor,WARNING,L03: fibre/great-circle ratio 2.12
+network_0078,G3_route_factor,WARNING,L08: fibre/great-circle ratio 2.50
+network_0078,G3_route_factor,WARNING,L12: fibre/great-circle ratio 2.54
+network_0078,G3_route_factor,WARNING,L21: fibre/great-circle ratio 2.31
+network_0078,G3_route_factor,WARNING,L27: fibre/great-circle ratio 2.24
+network_0078,G3_route_factor,WARNING,L30: fibre/great-circle ratio 2.75
+network_0078,G3_route_factor,WARNING,L32: fibre/great-circle ratio 2.12
+network_0078,G3_route_factor,WARNING,L33: fibre/great-circle ratio 2.44
+network_0078,G3_route_factor,WARNING,L34: fibre/great-circle ratio 2.11
+network_0078,G3_route_factor,WARNING,L35: fibre/great-circle ratio 2.12
+network_0078,G3_route_factor,WARNING,L36: fibre/great-circle ratio 2.03
+network_0078,G3_route_factor,WARNING,L41: fibre/great-circle ratio 2.29
+network_0078,G3_route_factor,WARNING,L43: fibre/great-circle ratio 2.16
+network_0078,D5_overlap,WARNING,2 label pair(s) overlap > 15% (worst 24%)
+network_0081,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0082,S6_class_structure,INFO,5 degree-1 spur site(s) (present in published source topology)
+network_0082,D5_overlap,WARNING,1 label pair(s) overlap > 15% (worst 22%)
+network_0082,L3_structural_cue,INFO,structure_tree
+network_0083,D5_overlap,WARNING,1 label pair(s) overlap > 15% (worst 18%)
+network_0083,L3_structural_cue,INFO,long_links_like_long_haul
+network_0084,L3_structural_cue,INFO,long_links_like_long_haul
+network_0085,L3_structural_cue,INFO,long_links_like_long_haul
+network_0086,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0089,S6_class_structure,INFO,1 degree-1 spur site(s) (present in published source topology)
+network_0092,L3_structural_cue,INFO,structure_ring_like
+network_0093,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0098,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0100,L3_structural_cue,INFO,structure_ring_like
+network_0101,S6_class_structure,INFO,6 degree-1 spur site(s) (present in published source topology)
+network_0102,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0104,L3_structural_cue,INFO,structure_ring_like
+network_0105,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0106,L3_structural_cue,INFO,long_links_like_long_haul
+network_0107,L3_structural_cue,INFO,structure_ring_like
+network_0109,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0111,D5_overlap,WARNING,1 label pair(s) overlap > 15% (worst 17%)
+network_0112,L3_structural_cue,INFO,structure_ring_like
+network_0113,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0114,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0117,L3_structural_cue,INFO,structure_ring_like
+network_0118,S6_class_structure,INFO,2 degree-1 spur site(s) (present in published source topology)
+network_0118,L3_structural_cue,INFO,structure_ring_like
+network_0119,D5_overlap,WARNING,1 label pair(s) overlap > 15% (worst 17%)
+network_0119,L3_structural_cue,INFO,long_links_like_long_haul
+network_0120,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0121,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0122,L3_structural_cue,INFO,distribution_tier_is_ring
+network_0123,L3_structural_cue,INFO,long_links_like_long_haul

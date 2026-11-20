@@ -1,0 +1,177 @@
+{
+ "scenario_id": "network_0038",
+ "directed": false,
+ "node_count": 7,
+ "edge_count": 7,
+ "nodes": [
+  {
+   "id": "S01",
+   "role": "OADM",
+   "lat": 25.93389,
+   "lon": 119.28779,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S01\nOADM"
+  },
+  {
+   "id": "S02",
+   "role": "OADM",
+   "lat": 26.11387,
+   "lon": 119.44656,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S02\nOADM"
+  },
+  {
+   "id": "S03",
+   "role": "OADM",
+   "lat": 25.99422,
+   "lon": 119.14573,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S03\nOADM"
+  },
+  {
+   "id": "S04",
+   "role": "HUB_ROADM",
+   "lat": 26.21805,
+   "lon": 119.36579,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S04\nHUB ROADM-2D"
+  },
+  {
+   "id": "S05",
+   "role": "OADM",
+   "lat": 26.11421,
+   "lon": 119.13718,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S05\nOADM"
+  },
+  {
+   "id": "S06",
+   "role": "OADM",
+   "lat": 26.22823,
+   "lon": 119.24948,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S06\nOADM"
+  },
+  {
+   "id": "S07",
+   "role": "OADM",
+   "lat": 25.95884,
+   "lon": 119.40357,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S07\nOADM"
+  }
+ ],
+ "edges": [
+  {
+   "id": "L01",
+   "u": "S01",
+   "v": "S03",
+   "medium": "terrestrial",
+   "length_km": 22.21,
+   "great_circle_km": 15.707,
+   "route_factor": 1.4143,
+   "n_spans": 1,
+   "span_length_km": 22.21,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "22 km"
+  },
+  {
+   "id": "L02",
+   "u": "S01",
+   "v": "S07",
+   "medium": "terrestrial",
+   "length_km": 15.74,
+   "great_circle_km": 11.904,
+   "route_factor": 1.3224,
+   "n_spans": 1,
+   "span_length_km": 15.74,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "16 km"
+  },
+  {
+   "id": "L03",
+   "u": "S02",
+   "v": "S04",
+   "medium": "terrestrial",
+   "length_km": 21.64,
+   "great_circle_km": 14.113,
+   "route_factor": 1.5333,
+   "n_spans": 1,
+   "span_length_km": 21.64,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "22 km"
+  },
+  {
+   "id": "L04",
+   "u": "S02",
+   "v": "S07",
+   "medium": "terrestrial",
+   "length_km": 23.14,
+   "great_circle_km": 17.766,
+   "route_factor": 1.3025,
+   "n_spans": 1,
+   "span_length_km": 23.14,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "23 km"
+  },
+  {
+   "id": "L05",
+   "u": "S03",
+   "v": "S05",
+   "medium": "terrestrial",
+   "length_km": 18.26,
+   "great_circle_km": 13.37,
+   "route_factor": 1.3658,
+   "n_spans": 1,
+   "span_length_km": 18.26,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "18 km"
+  },
+  {
+   "id": "L06",
+   "u": "S04",
+   "v": "S06",
+   "medium": "terrestrial",
+   "length_km": 14.21,
+   "great_circle_km": 11.657,
+   "route_factor": 1.2189,
+   "n_spans": 1,
+   "span_length_km": 14.21,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "14 km"
+  },
+  {
+   "id": "L07",
+   "u": "S05",
+   "v": "S06",
+   "medium": "terrestrial",
+   "length_km": 22.8,
+   "great_circle_km": 16.922,
+   "route_factor": 1.3472,
+   "n_spans": 1,
+   "span_length_km": 22.8,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "23 km"
+  }
+ ],
+ "connectivity": {
+  "connected": true,
+  "components": 1,
+  "min_degree": 2,
+  "max_degree": 2
+ }
+}

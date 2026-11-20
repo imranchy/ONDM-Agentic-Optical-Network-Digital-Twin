@@ -1,0 +1,93 @@
+{
+ "scenario_id": "network_0052",
+ "ground_truth": {
+  "category": "dci",
+  "category_display": "Data Center Interconnect"
+ },
+ "generation_family": "dci_metro_dci",
+ "group_key": "SYN_dci_0010",
+ "seed": 2490097776,
+ "master_seed": 20261120,
+ "generation_attempt": 0,
+ "provenance": {
+  "topology_origin": "generated_from_documented_architectural_template",
+  "source_dataset": null,
+  "source_topology_id": null,
+  "coordinates": "synthetic sites around real anchor city (A7)",
+  "fiber_connections": "synthetic",
+  "fiber_lengths": "synthetic: great-circle x route factor (A2)",
+  "equipment": "synthetic_assignment",
+  "optical_parameters": "assumed"
+ },
+ "geography": {
+  "scope": "metro",
+  "anchor_city": {
+   "name": "Rock Hill",
+   "country": "United States of America (the)",
+   "lat": 34.92,
+   "lon": -81.03,
+   "source_topology": "TB_079_PALMETTO"
+  },
+  "coordinate_source": "synthetic offsets from Topology Bench anchor city",
+  "countries": [
+   "United States of America (the)"
+  ],
+  "anchor_cities": [
+   {
+    "name": "Rock Hill",
+    "country": "United States of America (the)",
+    "lat": 34.92,
+    "lon": -81.03,
+    "source_topology": "TB_079_PALMETTO"
+   }
+  ],
+  "geo_extent_km": 60.5,
+  "coordinate_provenance": "synthetic sites around real anchor city (A7)",
+  "length_note": "Fibre length is NOT straight-line distance; see route factor per edge and assumptions A1/A2. Routes do not follow surveyed rights-of-way or real cables."
+ },
+ "equipment_assumptions": {
+  "terrestrial_max_span_km": 88.5,
+  "submarine_repeater_spacing_km": 84.8,
+  "unrepeatered_max_km": 350,
+  "dci_pluggable_reach_km": 120
+ },
+ "assumption_ids": [
+  "A2_synthetic_route_factor",
+  "A3_terrestrial_span",
+  "A5_dci_reach",
+  "A6_terminals"
+ ],
+ "network_size": {
+  "n_nodes": 7,
+  "n_edges": 9,
+  "total_fiber_km": 385.3,
+  "link_km_min": 21.02,
+  "link_km_max": 92.06,
+  "n_inline_amplifiers": 1,
+  "roles": {
+   "DC": 7
+  }
+ },
+ "params": null,
+ "structural_signature_wl": "8cf2d35b81acb710439609b2325fc274",
+ "generation": {
+  "config_file": "configs/pilot_125.json",
+  "config_sha256": "e22074a3784e99e6eed681198dbfaddcaa8ddf51c4ea1880c091cac28bd7c729",
+  "generator_version": "0.1.0",
+  "git_commit": "fd37f7f65e15c8b84cef93ae96f1db6454559a90",
+  "render_style_hash": "8aba402914e01f0c"
+ },
+ "validation": {
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "rules_satisfied": [
+   "dci"
+  ],
+  "ambiguous": false,
+  "structural_cues": [],
+  "issues": [],
+  "validator": "src/validation/validate_dataset.py",
+  "human_review": "pending"
+ }
+}

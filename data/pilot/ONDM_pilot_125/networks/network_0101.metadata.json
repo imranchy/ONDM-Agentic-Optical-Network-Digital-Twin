@@ -1,0 +1,90 @@
+{
+ "scenario_id": "network_0101",
+ "ground_truth": {
+  "category": "long_haul_core",
+  "category_display": "Long-haul / Core"
+ },
+ "generation_family": "tb_real_derived_mesh",
+ "group_key": "TB_015",
+ "seed": 1144492628,
+ "master_seed": 20261120,
+ "generation_attempt": 0,
+ "provenance": {
+  "topology_origin": "derived_from_published_real_world_topology",
+  "source_dataset": "Topology Bench real_topologies (doi:10.5281/zenodo.13921775, CC-BY-4.0)",
+  "source_topology_id": "TB_015_CLARANET",
+  "source_file": "TOP_15_CLARANET.xlsx",
+  "modification": "none to graph/coordinates/lengths; duplicate edges/self-loops removed if present",
+  "coordinates": "real_derived (Topology Bench node lat/lon)",
+  "fiber_connections": "real_derived (Topology Bench edges)",
+  "fiber_lengths": "real_derived_with_route_factor (Topology Bench computed length, A1)",
+  "equipment": "synthetic_assignment",
+  "optical_parameters": "assumed"
+ },
+ "geography": {
+  "scope": "national_or_continental",
+  "countries": [
+   "France",
+   "Germany",
+   "Netherlands (Kingdom of the)",
+   "Portugal",
+   "Spain",
+   "United Kingdom of Great Britain and Northern Ireland (the)"
+  ],
+  "coordinate_source": "Topology Bench",
+  "geo_extent_km": 2392.4,
+  "coordinate_provenance": "real_derived (Topology Bench node lat/lon)",
+  "length_note": "Fibre length is NOT straight-line distance; see route factor per edge and assumptions A1/A2. Routes do not follow surveyed rights-of-way or real cables."
+ },
+ "equipment_assumptions": {
+  "terrestrial_max_span_km": 81.4,
+  "submarine_repeater_spacing_km": 54.3,
+  "unrepeatered_max_km": 350,
+  "dci_pluggable_reach_km": 120
+ },
+ "assumption_ids": [
+  "A1_tb_lengths",
+  "A3_terrestrial_span",
+  "A6_terminals",
+  "A9_roadm_degree"
+ ],
+ "network_size": {
+  "n_nodes": 15,
+  "n_edges": 18,
+  "total_fiber_km": 11874.4,
+  "link_km_min": 166.57,
+  "link_km_max": 1981.35,
+  "n_inline_amplifiers": 137,
+  "roles": {
+   "ROADM": 15
+  }
+ },
+ "params": null,
+ "structural_signature_wl": "e7ea40d137445fa90f8c804132ad8731",
+ "generation": {
+  "config_file": "configs/pilot_125.json",
+  "config_sha256": "e22074a3784e99e6eed681198dbfaddcaa8ddf51c4ea1880c091cac28bd7c729",
+  "generator_version": "0.1.0",
+  "git_commit": "fd37f7f65e15c8b84cef93ae96f1db6454559a90",
+  "render_style_hash": "8aba402914e01f0c"
+ },
+ "validation": {
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "rules_satisfied": [
+   "long_haul_core"
+  ],
+  "ambiguous": false,
+  "structural_cues": [],
+  "issues": [
+   {
+    "check": "S6_class_structure",
+    "severity": "INFO",
+    "message": "6 degree-1 spur site(s) (present in published source topology)"
+   }
+  ],
+  "validator": "src/validation/validate_dataset.py",
+  "human_review": "pending"
+ }
+}

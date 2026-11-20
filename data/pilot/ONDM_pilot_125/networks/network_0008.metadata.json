@@ -1,0 +1,133 @@
+{
+ "scenario_id": "network_0008",
+ "ground_truth": {
+  "category": "dci",
+  "category_display": "Data Center Interconnect"
+ },
+ "generation_family": "dci_regional_dci",
+ "group_key": "SYN_dci_0009",
+ "seed": 2119013740,
+ "master_seed": 20261120,
+ "generation_attempt": 0,
+ "provenance": {
+  "topology_origin": "generated_from_documented_architectural_template",
+  "source_dataset": null,
+  "source_topology_id": null,
+  "coordinates": "synthetic sites around real anchor city (A7)",
+  "fiber_connections": "synthetic",
+  "fiber_lengths": "synthetic: great-circle x route factor (A2)",
+  "equipment": "synthetic_assignment",
+  "optical_parameters": "assumed"
+ },
+ "geography": {
+  "scope": "regional",
+  "anchor_city": {
+   "name": "Santarem",
+   "country": "Portugal",
+   "lat": 39.2363637,
+   "lon": -8.6867081,
+   "source_topology": "TB_083_PORTUGAL"
+  },
+  "coordinate_source": "synthetic offsets from Topology Bench anchor city",
+  "countries": [
+   "Portugal"
+  ],
+  "anchor_cities": [
+   {
+    "name": "Santarem",
+    "country": "Portugal",
+    "lat": 39.2363637,
+    "lon": -8.6867081,
+    "source_topology": "TB_083_PORTUGAL"
+   },
+   {
+    "name": "Guarda",
+    "country": "Portugal",
+    "lat": 40.7046066,
+    "lon": -7.1951392360713,
+    "source_topology": "TB_083_PORTUGAL"
+   },
+   {
+    "name": "Santiago de Compostela",
+    "country": "Spain",
+    "lat": 42.88,
+    "lon": -8.55,
+    "source_topology": "TB_087_REDIRIS"
+   },
+   {
+    "name": "Sevilla",
+    "country": "Spain",
+    "lat": 37.38,
+    "lon": -5.98,
+    "source_topology": "TB_022_COST"
+   }
+  ],
+  "geo_extent_km": 649.4,
+  "coordinate_provenance": "synthetic sites around real anchor city (A7)",
+  "length_note": "Fibre length is NOT straight-line distance; see route factor per edge and assumptions A1/A2. Routes do not follow surveyed rights-of-way or real cables."
+ },
+ "equipment_assumptions": {
+  "terrestrial_max_span_km": 97.1,
+  "submarine_repeater_spacing_km": 62.2,
+  "unrepeatered_max_km": 350,
+  "dci_pluggable_reach_km": 120
+ },
+ "assumption_ids": [
+  "A2_synthetic_route_factor",
+  "A3_terrestrial_span",
+  "A5_dci_reach",
+  "A6_terminals"
+ ],
+ "network_size": {
+  "n_nodes": 4,
+  "n_edges": 4,
+  "total_fiber_km": 2113.5,
+  "link_km_min": 278.34,
+  "link_km_max": 1026.69,
+  "n_inline_amplifiers": 20,
+  "roles": {
+   "DC": 4
+  }
+ },
+ "params": null,
+ "structural_signature_wl": "05938fa8ac4fc6cea1eec421c6c91144",
+ "generation": {
+  "config_file": "configs/pilot_125.json",
+  "config_sha256": "e22074a3784e99e6eed681198dbfaddcaa8ddf51c4ea1880c091cac28bd7c729",
+  "generator_version": "0.1.0",
+  "git_commit": "fd37f7f65e15c8b84cef93ae96f1db6454559a90",
+  "render_style_hash": "8aba402914e01f0c"
+ },
+ "validation": {
+  "status": "PASS_WITH_WARNINGS",
+  "errors": 0,
+  "warnings": 1,
+  "rules_satisfied": [
+   "dci"
+  ],
+  "ambiguous": false,
+  "structural_cues": [
+   "structure_ring_like",
+   "long_links_like_long_haul"
+  ],
+  "issues": [
+   {
+    "check": "G4_scope",
+    "severity": "WARNING",
+    "message": "max link 1027 km > 900 for dci"
+   },
+   {
+    "check": "L3_structural_cue",
+    "severity": "INFO",
+    "message": "structure_ring_like"
+   },
+   {
+    "check": "L3_structural_cue",
+    "severity": "INFO",
+    "message": "long_links_like_long_haul"
+   }
+  ],
+  "validator": "src/validation/validate_dataset.py",
+  "human_review": "pending"
+ }
+}

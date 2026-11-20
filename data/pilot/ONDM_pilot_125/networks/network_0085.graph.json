@@ -1,0 +1,200 @@
+{
+ "scenario_id": "network_0085",
+ "directed": false,
+ "node_count": 8,
+ "edge_count": 8,
+ "nodes": [
+  {
+   "id": "S01",
+   "role": "POP_ROADM",
+   "lat": 20.72379,
+   "lon": -86.82375,
+   "degree": 1,
+   "tier": null,
+   "diagram_label": "S01\nPOP ROADM-1D"
+  },
+  {
+   "id": "S02",
+   "role": "BU",
+   "lat": 11.85487,
+   "lon": -88.02397,
+   "degree": 3,
+   "tier": null,
+   "diagram_label": "S02\nBU"
+  },
+  {
+   "id": "S03",
+   "role": "POP_ROADM",
+   "lat": 3.94209,
+   "lon": -117.98782,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S03\nPOP ROADM-2D"
+  },
+  {
+   "id": "S04",
+   "role": "POP_ROADM",
+   "lat": 13.50555,
+   "lon": -79.5003,
+   "degree": 1,
+   "tier": null,
+   "diagram_label": "S04\nPOP ROADM-1D"
+  },
+  {
+   "id": "S05",
+   "role": "CLS",
+   "lat": 13.53948,
+   "lon": -79.79104,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S05\nCLS SLTE"
+  },
+  {
+   "id": "S06",
+   "role": "CLS",
+   "lat": 20.65078,
+   "lon": -86.73609,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S06\nCLS SLTE"
+  },
+  {
+   "id": "S07",
+   "role": "POP_ROADM",
+   "lat": 4.39939,
+   "lon": -118.81929,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S07\nPOP ROADM-2D"
+  },
+  {
+   "id": "S08",
+   "role": "CLS",
+   "lat": 3.89625,
+   "lon": -117.69378,
+   "degree": 3,
+   "tier": null,
+   "diagram_label": "S08\nCLS SLTE"
+  }
+ ],
+ "edges": [
+  {
+   "id": "L01",
+   "u": "S01",
+   "v": "S06",
+   "medium": "terrestrial",
+   "length_km": 16.17,
+   "great_circle_km": 12.209,
+   "route_factor": 1.3247,
+   "n_spans": 1,
+   "span_length_km": 16.17,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "16 km"
+  },
+  {
+   "id": "L02",
+   "u": "S02",
+   "v": "S05",
+   "medium": "submarine",
+   "length_km": 1140.2,
+   "great_circle_km": 912.435,
+   "route_factor": 1.2496,
+   "n_spans": 21,
+   "span_length_km": 54.3,
+   "n_inline_amplifiers": 20,
+   "inline_amplifier_type": "SUBMARINE_REPEATER",
+   "diagram_label": "1140 km \u00b7 20 RPT"
+  },
+  {
+   "id": "L03",
+   "u": "S02",
+   "v": "S06",
+   "medium": "submarine",
+   "length_km": 1220.24,
+   "great_circle_km": 987.654,
+   "route_factor": 1.2355,
+   "n_spans": 22,
+   "span_length_km": 55.47,
+   "n_inline_amplifiers": 21,
+   "inline_amplifier_type": "SUBMARINE_REPEATER",
+   "diagram_label": "1220 km \u00b7 21 RPT"
+  },
+  {
+   "id": "L04",
+   "u": "S02",
+   "v": "S08",
+   "medium": "submarine",
+   "length_km": 3776.24,
+   "great_circle_km": 3382.344,
+   "route_factor": 1.1165,
+   "n_spans": 67,
+   "span_length_km": 56.36,
+   "n_inline_amplifiers": 66,
+   "inline_amplifier_type": "SUBMARINE_REPEATER",
+   "diagram_label": "3776 km \u00b7 66 RPT"
+  },
+  {
+   "id": "L05",
+   "u": "S03",
+   "v": "S07",
+   "medium": "terrestrial",
+   "length_km": 139.28,
+   "great_circle_km": 105.302,
+   "route_factor": 1.3226,
+   "n_spans": 2,
+   "span_length_km": 69.64,
+   "n_inline_amplifiers": 1,
+   "inline_amplifier_type": "ILA_EDFA",
+   "diagram_label": "139 km \u00b7 1 ILA"
+  },
+  {
+   "id": "L06",
+   "u": "S03",
+   "v": "S08",
+   "medium": "terrestrial",
+   "length_km": 42.8,
+   "great_circle_km": 33.015,
+   "route_factor": 1.2965,
+   "n_spans": 1,
+   "span_length_km": 42.8,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "43 km"
+  },
+  {
+   "id": "L07",
+   "u": "S04",
+   "v": "S05",
+   "medium": "terrestrial",
+   "length_km": 38.49,
+   "great_circle_km": 31.658,
+   "route_factor": 1.2158,
+   "n_spans": 1,
+   "span_length_km": 38.49,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "38 km"
+  },
+  {
+   "id": "L08",
+   "u": "S07",
+   "v": "S08",
+   "medium": "terrestrial",
+   "length_km": 187.71,
+   "great_circle_km": 136.787,
+   "route_factor": 1.3723,
+   "n_spans": 3,
+   "span_length_km": 62.57,
+   "n_inline_amplifiers": 2,
+   "inline_amplifier_type": "ILA_EDFA",
+   "diagram_label": "188 km \u00b7 2 ILA"
+  }
+ ],
+ "connectivity": {
+  "connected": true,
+  "components": 1,
+  "min_degree": 1,
+  "max_degree": 3
+ }
+}

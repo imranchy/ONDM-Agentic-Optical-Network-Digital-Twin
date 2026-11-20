@@ -1,0 +1,195 @@
+{
+ "scenario_id": "network_0107",
+ "items": [
+  {
+   "equipment_id": "EQ0001",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 40.49
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0002",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L02",
+    "position_km_from_u": 73.21
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0003",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L03",
+    "position_km_from_u": 38.1
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0004",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S01"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0005",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S01"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0006",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S01"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0007",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S01"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0008",
+   "type": "COHERENT_TRANSPONDER_ZRPLUS",
+   "location": {
+    "node": "S01"
+   },
+   "count": 6,
+   "max_dc_path_km": 146.4,
+   "assumption": "A5_dci_reach"
+  },
+  {
+   "equipment_id": "EQ0009",
+   "type": "DWDM_MUX_DEMUX",
+   "location": {
+    "node": "S01"
+   },
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0010",
+   "type": "ROADM",
+   "location": {
+    "node": "S02"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0011",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S02"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0012",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S02"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0013",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S02"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0014",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S02"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0015",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S02"
+   },
+   "count": 7,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0016",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S03"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0017",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S03"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0018",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S03"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0019",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S03"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0020",
+   "type": "COHERENT_TRANSPONDER_ZRPLUS",
+   "location": {
+    "node": "S03"
+   },
+   "count": 7,
+   "max_dc_path_km": 146.4,
+   "assumption": "A5_dci_reach"
+  },
+  {
+   "equipment_id": "EQ0021",
+   "type": "DWDM_MUX_DEMUX",
+   "location": {
+    "node": "S03"
+   },
+   "assumption": "A6_terminals"
+  }
+ ],
+ "parameters": {
+  "terrestrial_max_span_km": 74.2,
+  "submarine_repeater_spacing_km": 70.3,
+  "unrepeatered_max_km": 350,
+  "dci_pluggable_reach_km": 120
+ },
+ "assumptions": {
+  "A3_terrestrial_span": "Terrestrial inline amplifier (ILA/EDFA) count per link = ceil(L / S) - 1 with a per-scenario maximum span length S drawn from [70, 100] km; spans are equal length. ~80 km spans are a common planning assumption (e.g. GNPy example networks); not a standard.",
+  "A5_dci_reach": "Metro DCI links up to 120 km are terminated by coherent pluggables (400ZR-class, OIF 400ZR targets amplified point-to-point links of roughly 80-120 km); longer DCI links use ZR+/transponder-class terminals and inline amplifiers per A3.",
+  "A6_terminals": "Transponder / pluggable counts per site are synthetic and indicative only; they encode where traffic is terminated, not dimensioned capacity.",
+  "A9_roadm_degree": "ROADM degree equals the number of fibre links at the site."
+ },
+ "note": "Synthetic equipment assignment. Counts and types are modelling assumptions, not vendor designs; no GNPy simulation has been run for this scenario."
+}

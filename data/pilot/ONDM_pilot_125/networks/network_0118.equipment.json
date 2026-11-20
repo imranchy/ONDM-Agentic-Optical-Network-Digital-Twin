@@ -1,0 +1,2727 @@
+{
+ "scenario_id": "network_0118",
+ "items": [
+  {
+   "equipment_id": "EQ0001",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 64.51
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0002",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 129.01
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0003",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L02",
+    "position_km_from_u": 76.0
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0004",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L02",
+    "position_km_from_u": 152.01
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0005",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L02",
+    "position_km_from_u": 228.01
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0006",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L02",
+    "position_km_from_u": 304.02
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0007",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L02",
+    "position_km_from_u": 380.02
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0008",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L02",
+    "position_km_from_u": 456.03
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0009",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L02",
+    "position_km_from_u": 532.03
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0010",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L02",
+    "position_km_from_u": 608.04
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0011",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L02",
+    "position_km_from_u": 684.04
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0012",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L03",
+    "position_km_from_u": 70.88
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0013",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L03",
+    "position_km_from_u": 141.77
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0014",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L03",
+    "position_km_from_u": 212.65
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0015",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L03",
+    "position_km_from_u": 283.54
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0016",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 78.95
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0017",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 157.89
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0018",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 236.84
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0019",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 315.79
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0020",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 394.74
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0021",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 473.68
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0022",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 552.63
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0023",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 631.58
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0024",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 710.53
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0025",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 789.47
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0026",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 868.42
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0027",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 947.37
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0028",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 1026.32
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0029",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 1105.26
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0030",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 1184.21
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0031",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 1263.16
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0032",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 1342.11
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0033",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L04",
+    "position_km_from_u": 1421.05
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0034",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L05",
+    "position_km_from_u": 70.82
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0035",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L05",
+    "position_km_from_u": 141.64
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0036",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L05",
+    "position_km_from_u": 212.45
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0037",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L05",
+    "position_km_from_u": 283.27
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0038",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L06",
+    "position_km_from_u": 78.44
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0039",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L06",
+    "position_km_from_u": 156.88
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0040",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L06",
+    "position_km_from_u": 235.31
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0041",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L06",
+    "position_km_from_u": 313.75
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0042",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L06",
+    "position_km_from_u": 392.19
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0043",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L06",
+    "position_km_from_u": 470.62
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0044",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L06",
+    "position_km_from_u": 549.06
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0045",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 71.86
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0046",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 143.72
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0047",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 215.58
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0048",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 287.44
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0049",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 359.31
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0050",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 431.17
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0051",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 503.03
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0052",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L08",
+    "position_km_from_u": 74.72
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0053",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L08",
+    "position_km_from_u": 149.44
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0054",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L08",
+    "position_km_from_u": 224.17
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0055",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 76.95
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0056",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 153.9
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0057",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 230.84
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0058",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 307.79
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0059",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 384.74
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0060",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 461.69
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0061",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 538.64
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0062",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 615.59
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0063",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 692.53
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0064",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 769.48
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0065",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 846.43
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0066",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 923.38
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0067",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 1000.33
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0068",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 1077.28
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0069",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 1154.22
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0070",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 1231.17
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0071",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L10",
+    "position_km_from_u": 67.0
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0072",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L10",
+    "position_km_from_u": 134.0
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0073",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L10",
+    "position_km_from_u": 201.01
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0074",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L11",
+    "position_km_from_u": 70.71
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0075",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L11",
+    "position_km_from_u": 141.42
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0076",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L11",
+    "position_km_from_u": 212.13
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0077",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L11",
+    "position_km_from_u": 282.84
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0078",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L11",
+    "position_km_from_u": 353.55
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0079",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L11",
+    "position_km_from_u": 424.26
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0080",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 80.79
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0081",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 161.58
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0082",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 242.37
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0083",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 323.16
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0084",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 403.95
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0085",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 484.74
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0086",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 565.53
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0087",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 646.32
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0088",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 727.11
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0089",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 807.9
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0090",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 888.69
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0091",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 969.48
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0092",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 1050.27
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0093",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 1131.06
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0094",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 1211.85
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0095",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 1292.64
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0096",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 1373.43
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0097",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 1454.22
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0098",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 1535.01
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0099",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 1615.8
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0100",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L12",
+    "position_km_from_u": 1696.59
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0101",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L13",
+    "position_km_from_u": 78.31
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0102",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L13",
+    "position_km_from_u": 156.61
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0103",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L13",
+    "position_km_from_u": 234.92
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0104",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L13",
+    "position_km_from_u": 313.23
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0105",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L13",
+    "position_km_from_u": 391.53
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0106",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L13",
+    "position_km_from_u": 469.84
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0107",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L13",
+    "position_km_from_u": 548.14
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0108",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L13",
+    "position_km_from_u": 626.45
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0109",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L13",
+    "position_km_from_u": 704.76
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0110",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L13",
+    "position_km_from_u": 783.06
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0111",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L14",
+    "position_km_from_u": 72.59
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0112",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L14",
+    "position_km_from_u": 145.19
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0113",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L14",
+    "position_km_from_u": 217.78
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0114",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L14",
+    "position_km_from_u": 290.38
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0115",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L14",
+    "position_km_from_u": 362.98
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0116",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L14",
+    "position_km_from_u": 435.57
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0117",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L14",
+    "position_km_from_u": 508.16
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0118",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L15",
+    "position_km_from_u": 78.64
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0119",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L15",
+    "position_km_from_u": 157.28
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0120",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L15",
+    "position_km_from_u": 235.92
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0121",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L15",
+    "position_km_from_u": 314.56
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0122",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L15",
+    "position_km_from_u": 393.2
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0123",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L15",
+    "position_km_from_u": 471.84
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0124",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L15",
+    "position_km_from_u": 550.48
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0125",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L15",
+    "position_km_from_u": 629.12
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0126",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L15",
+    "position_km_from_u": 707.76
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0127",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L15",
+    "position_km_from_u": 786.4
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0128",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L15",
+    "position_km_from_u": 865.04
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0129",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L15",
+    "position_km_from_u": 943.68
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0130",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L15",
+    "position_km_from_u": 1022.32
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0131",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L15",
+    "position_km_from_u": 1100.96
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0132",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L15",
+    "position_km_from_u": 1179.6
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0133",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L15",
+    "position_km_from_u": 1258.24
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0134",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 80.4
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0135",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 160.8
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0136",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 241.2
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0137",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 321.6
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0138",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 402.0
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0139",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 482.4
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0140",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 562.8
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0141",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 643.2
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0142",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 723.6
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0143",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 804.0
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0144",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 884.4
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0145",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 964.8
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0146",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 1045.2
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0147",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 1125.6
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0148",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 1206.0
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0149",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 1286.4
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0150",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L16",
+    "position_km_from_u": 1366.8
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0151",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L17",
+    "position_km_from_u": 76.25
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0152",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L17",
+    "position_km_from_u": 152.5
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0153",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L17",
+    "position_km_from_u": 228.75
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0154",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L17",
+    "position_km_from_u": 305.0
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0155",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L17",
+    "position_km_from_u": 381.25
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0156",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L17",
+    "position_km_from_u": 457.51
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0157",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L17",
+    "position_km_from_u": 533.76
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0158",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L17",
+    "position_km_from_u": 610.01
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0159",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L17",
+    "position_km_from_u": 686.26
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0160",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L17",
+    "position_km_from_u": 762.51
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0161",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L18",
+    "position_km_from_u": 74.64
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0162",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L18",
+    "position_km_from_u": 149.28
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0163",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L18",
+    "position_km_from_u": 223.93
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0164",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L18",
+    "position_km_from_u": 298.57
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0165",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L18",
+    "position_km_from_u": 373.21
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0166",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L18",
+    "position_km_from_u": 447.85
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0167",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L18",
+    "position_km_from_u": 522.49
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0168",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L18",
+    "position_km_from_u": 597.13
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0169",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L18",
+    "position_km_from_u": 671.77
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0170",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L18",
+    "position_km_from_u": 746.42
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0171",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L18",
+    "position_km_from_u": 821.06
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0172",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L19",
+    "position_km_from_u": 77.85
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0173",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L19",
+    "position_km_from_u": 155.7
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0174",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L19",
+    "position_km_from_u": 233.55
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0175",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L19",
+    "position_km_from_u": 311.4
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0176",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L19",
+    "position_km_from_u": 389.24
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0177",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L19",
+    "position_km_from_u": 467.09
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0178",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L19",
+    "position_km_from_u": 544.94
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0179",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L19",
+    "position_km_from_u": 622.79
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0180",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L19",
+    "position_km_from_u": 700.64
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0181",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L19",
+    "position_km_from_u": 778.49
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0182",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L19",
+    "position_km_from_u": 856.34
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0183",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L19",
+    "position_km_from_u": 934.19
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0184",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L19",
+    "position_km_from_u": 1012.03
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0185",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L19",
+    "position_km_from_u": 1089.88
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0186",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L19",
+    "position_km_from_u": 1167.73
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0187",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L19",
+    "position_km_from_u": 1245.58
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0188",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L20",
+    "position_km_from_u": 73.17
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0189",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L20",
+    "position_km_from_u": 146.34
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0190",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L20",
+    "position_km_from_u": 219.51
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0191",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L20",
+    "position_km_from_u": 292.69
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0192",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L20",
+    "position_km_from_u": 365.86
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0193",
+   "type": "ROADM",
+   "location": {
+    "node": "S01"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0194",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S01"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0195",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S01"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0196",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S01"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0197",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S01"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0198",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S01"
+   },
+   "count": 6,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0199",
+   "type": "ROADM",
+   "location": {
+    "node": "S02"
+   },
+   "degree": 1,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0200",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S02"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0201",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S02"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0202",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S02"
+   },
+   "count": 8,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0203",
+   "type": "ROADM",
+   "location": {
+    "node": "S03"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0204",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S03"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0205",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S03"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0206",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S03"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0207",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S03"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0208",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S03"
+   },
+   "count": 6,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0209",
+   "type": "ROADM",
+   "location": {
+    "node": "S04"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0210",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S04"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0211",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S04"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0212",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S04"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0213",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S04"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0214",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S04"
+   },
+   "count": 7,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0215",
+   "type": "ROADM",
+   "location": {
+    "node": "S05"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0216",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S05"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0217",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S05"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0218",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S05"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0219",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S05"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0220",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S05"
+   },
+   "count": 7,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0221",
+   "type": "ROADM",
+   "location": {
+    "node": "S06"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0222",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S06"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0223",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S06"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0224",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S06"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0225",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S06"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0226",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S06"
+   },
+   "count": 5,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0227",
+   "type": "ROADM",
+   "location": {
+    "node": "S07"
+   },
+   "degree": 1,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0228",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S07"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0229",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S07"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0230",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S07"
+   },
+   "count": 9,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0231",
+   "type": "ROADM",
+   "location": {
+    "node": "S08"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0232",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S08"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0233",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S08"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0234",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S08"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0235",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S08"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0236",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S08"
+   },
+   "count": 7,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0237",
+   "type": "ROADM",
+   "location": {
+    "node": "S09"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0238",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S09"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0239",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S09"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0240",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S09"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0241",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S09"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0242",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S09"
+   },
+   "count": 6,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0243",
+   "type": "ROADM",
+   "location": {
+    "node": "S10"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0244",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S10"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0245",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S10"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0246",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S10"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0247",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S10"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0248",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S10"
+   },
+   "count": 4,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0249",
+   "type": "ROADM",
+   "location": {
+    "node": "S11"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0250",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S11"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0251",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S11"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0252",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S11"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0253",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S11"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0254",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S11"
+   },
+   "count": 4,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0255",
+   "type": "ROADM",
+   "location": {
+    "node": "S12"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0256",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S12"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0257",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S12"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0258",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S12"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0259",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S12"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0260",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S12"
+   },
+   "count": 4,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0261",
+   "type": "ROADM",
+   "location": {
+    "node": "S13"
+   },
+   "degree": 4,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0262",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S13"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0263",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S13"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0264",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S13"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0265",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S13"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0266",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S13"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0267",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S13"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0268",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S13"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0269",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S13"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0270",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S13"
+   },
+   "count": 5,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0271",
+   "type": "ROADM",
+   "location": {
+    "node": "S14"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0272",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S14"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0273",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S14"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0274",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S14"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0275",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S14"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0276",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S14"
+   },
+   "count": 7,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0277",
+   "type": "ROADM",
+   "location": {
+    "node": "S15"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0278",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S15"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0279",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S15"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0280",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S15"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0281",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S15"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0282",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S15"
+   },
+   "count": 3,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0283",
+   "type": "ROADM",
+   "location": {
+    "node": "S16"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0284",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S16"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0285",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S16"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0286",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S16"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0287",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S16"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0288",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S16"
+   },
+   "count": 3,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0289",
+   "type": "ROADM",
+   "location": {
+    "node": "S17"
+   },
+   "degree": 3,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0290",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S17"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0291",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S17"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0292",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S17"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0293",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S17"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0294",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S17"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0295",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S17"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0296",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S17"
+   },
+   "count": 10,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0297",
+   "type": "ROADM",
+   "location": {
+    "node": "S18"
+   },
+   "degree": 3,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0298",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S18"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0299",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S18"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0300",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S18"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0301",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S18"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0302",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S18"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0303",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S18"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0304",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S18"
+   },
+   "count": 10,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0305",
+   "type": "ROADM",
+   "location": {
+    "node": "S19"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0306",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S19"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0307",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S19"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0308",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S19"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0309",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S19"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0310",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S19"
+   },
+   "count": 5,
+   "assumption": "A6_terminals"
+  }
+ ],
+ "parameters": {
+  "terrestrial_max_span_km": 81.2,
+  "submarine_repeater_spacing_km": 77.8,
+  "unrepeatered_max_km": 350,
+  "dci_pluggable_reach_km": 120
+ },
+ "assumptions": {
+  "A3_terrestrial_span": "Terrestrial inline amplifier (ILA/EDFA) count per link = ceil(L / S) - 1 with a per-scenario maximum span length S drawn from [70, 100] km; spans are equal length. ~80 km spans are a common planning assumption (e.g. GNPy example networks); not a standard.",
+  "A6_terminals": "Transponder / pluggable counts per site are synthetic and indicative only; they encode where traffic is terminated, not dimensioned capacity.",
+  "A9_roadm_degree": "ROADM degree equals the number of fibre links at the site."
+ },
+ "note": "Synthetic equipment assignment. Counts and types are modelling assumptions, not vendor designs; no GNPy simulation has been run for this scenario."
+}

@@ -1,0 +1,30 @@
+scenario_id,check,severity,message
+network_0008,G4_scope,WARNING,max link 1027 km > 900 for dci
+network_0020,D5_overlap,WARNING,1 label pair(s) overlap > 15% (worst 20%)
+network_0036,D5_overlap,WARNING,4 label pair(s) overlap > 15% (worst 47%)
+network_0039,G3_route_factor,WARNING,L02: fibre/great-circle ratio 2.75
+network_0039,G3_route_factor,WARNING,L07: fibre/great-circle ratio 2.54
+network_0039,G3_route_factor,WARNING,L09: fibre/great-circle ratio 2.01
+network_0039,G3_route_factor,WARNING,L10: fibre/great-circle ratio 2.07
+network_0039,G3_route_factor,WARNING,L17: fibre/great-circle ratio 2.44
+network_0062,D5_overlap,WARNING,2 label pair(s) overlap > 15% (worst 21%)
+network_0069,D5_overlap,WARNING,1 label pair(s) overlap > 15% (worst 24%)
+network_0078,G3_route_factor,WARNING,L01: fibre/great-circle ratio 2.04
+network_0078,G3_route_factor,WARNING,L03: fibre/great-circle ratio 2.12
+network_0078,G3_route_factor,WARNING,L08: fibre/great-circle ratio 2.50
+network_0078,G3_route_factor,WARNING,L12: fibre/great-circle ratio 2.54
+network_0078,G3_route_factor,WARNING,L21: fibre/great-circle ratio 2.31
+network_0078,G3_route_factor,WARNING,L27: fibre/great-circle ratio 2.24
+network_0078,G3_route_factor,WARNING,L30: fibre/great-circle ratio 2.75
+network_0078,G3_route_factor,WARNING,L32: fibre/great-circle ratio 2.12
+network_0078,G3_route_factor,WARNING,L33: fibre/great-circle ratio 2.44
+network_0078,G3_route_factor,WARNING,L34: fibre/great-circle ratio 2.11
+network_0078,G3_route_factor,WARNING,L35: fibre/great-circle ratio 2.12
+network_0078,G3_route_factor,WARNING,L36: fibre/great-circle ratio 2.03
+network_0078,G3_route_factor,WARNING,L41: fibre/great-circle ratio 2.29
+network_0078,G3_route_factor,WARNING,L43: fibre/great-circle ratio 2.16
+network_0078,D5_overlap,WARNING,2 label pair(s) overlap > 15% (worst 24%)
+network_0082,D5_overlap,WARNING,1 label pair(s) overlap > 15% (worst 22%)
+network_0083,D5_overlap,WARNING,1 label pair(s) overlap > 15% (worst 18%)
+network_0111,D5_overlap,WARNING,1 label pair(s) overlap > 15% (worst 17%)
+network_0119,D5_overlap,WARNING,1 label pair(s) overlap > 15% (worst 17%)

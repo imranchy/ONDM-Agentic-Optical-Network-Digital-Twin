@@ -1,0 +1,1587 @@
+{
+ "scenario_id": "network_0123",
+ "items": [
+  {
+   "equipment_id": "EQ0001",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 72.7
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0002",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 145.41
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0003",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 218.11
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0004",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 290.81
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0005",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 363.51
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0006",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 436.22
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0007",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 508.92
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0008",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 581.62
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0009",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 654.32
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0010",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 727.03
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0011",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 799.73
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0012",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 872.43
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0013",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 945.13
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0014",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 1017.84
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0015",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 1090.54
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0016",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 1163.24
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0017",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 1235.94
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0018",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 1308.65
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0019",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 1381.35
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0020",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 1454.05
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0021",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 1526.75
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0022",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 1599.46
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0023",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 1672.16
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0024",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 1744.86
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0025",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 1817.56
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0026",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 1890.27
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0027",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 1962.97
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0028",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 2035.67
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0029",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 2108.37
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0030",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 2181.08
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0031",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 2253.78
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0032",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 2326.48
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0033",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 2399.18
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0034",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 2471.89
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0035",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 2544.59
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0036",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 2617.29
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0037",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 2689.99
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0038",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 2762.7
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0039",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 2835.4
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0040",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 2908.1
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0041",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 2980.8
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0042",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 3053.51
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0043",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 3126.21
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0044",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 3198.91
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0045",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 3271.61
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0046",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 3344.32
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0047",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 3417.02
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0048",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 3489.72
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0049",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 3562.42
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0050",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 3635.13
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0051",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 3707.83
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0052",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 3780.53
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0053",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 3853.23
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0054",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 3925.94
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0055",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 3998.64
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0056",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 4071.34
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0057",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 4144.04
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0058",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 4216.75
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0059",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 4289.45
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0060",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 4362.15
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0061",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 4434.85
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0062",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 4507.56
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0063",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 4580.26
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0064",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 4652.96
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0065",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 4725.66
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0066",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 4798.37
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0067",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 4871.07
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0068",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 4943.77
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0069",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 5016.47
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0070",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L01",
+    "position_km_from_u": 5089.18
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0071",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L02",
+    "position_km_from_u": 42.95
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0072",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L05",
+    "position_km_from_u": 54.63
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0073",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L06",
+    "position_km_from_u": 76.89
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0074",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 72.25
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0075",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 144.49
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0076",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 216.74
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0077",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 288.98
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0078",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 361.23
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0079",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 433.48
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0080",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 505.72
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0081",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 577.97
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0082",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 650.21
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0083",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 722.46
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0084",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 794.7
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0085",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 866.95
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0086",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 939.2
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0087",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 1011.44
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0088",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 1083.69
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0089",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 1155.93
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0090",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 1228.18
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0091",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 1300.43
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0092",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 1372.67
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0093",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 1444.92
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0094",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 1517.16
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0095",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 1589.41
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0096",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 1661.66
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0097",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 1733.9
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0098",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 1806.15
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0099",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 1878.39
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0100",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 1950.64
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0101",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 2022.88
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0102",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 2095.13
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0103",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 2167.38
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0104",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 2239.62
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0105",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 2311.87
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0106",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 2384.11
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0107",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 2456.36
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0108",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 2528.61
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0109",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 2600.85
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0110",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 2673.1
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0111",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 2745.34
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0112",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 2817.59
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0113",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 2889.83
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0114",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 2962.08
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0115",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 3034.33
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0116",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 3106.57
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0117",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 3178.82
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0118",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 3251.06
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0119",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 3323.31
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0120",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 3395.56
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0121",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 3467.8
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0122",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 3540.05
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0123",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 3612.29
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0124",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 3684.54
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0125",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 3756.79
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0126",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 3829.03
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0127",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 3901.28
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0128",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 3973.52
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0129",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 4045.77
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0130",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 4118.01
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0131",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 4190.26
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0132",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 4262.51
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0133",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 4334.75
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0134",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 4407.0
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0135",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L07",
+    "position_km_from_u": 4479.24
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0136",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 72.66
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0137",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 145.31
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0138",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 217.97
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0139",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 290.63
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0140",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 363.29
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0141",
+   "type": "SUBMARINE_REPEATER",
+   "location": {
+    "edge": "L09",
+    "position_km_from_u": 435.94
+   },
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0142",
+   "type": "ILA_EDFA",
+   "location": {
+    "edge": "L10",
+    "position_km_from_u": 64.22
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0143",
+   "type": "SLTE",
+   "location": {
+    "node": "S01"
+   },
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0144",
+   "type": "POWER_FEED_EQUIPMENT",
+   "location": {
+    "node": "S01"
+   },
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0145",
+   "type": "ROADM",
+   "location": {
+    "node": "S02"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0146",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S02"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0147",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S02"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0148",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S02"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0149",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S02"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0150",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S02"
+   },
+   "count": 4,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0151",
+   "type": "SLTE",
+   "location": {
+    "node": "S03"
+   },
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0152",
+   "type": "POWER_FEED_EQUIPMENT",
+   "location": {
+    "node": "S03"
+   },
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0153",
+   "type": "SLTE",
+   "location": {
+    "node": "S04"
+   },
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0154",
+   "type": "POWER_FEED_EQUIPMENT",
+   "location": {
+    "node": "S04"
+   },
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0155",
+   "type": "ROADM",
+   "location": {
+    "node": "S05"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0156",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S05"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0157",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S05"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0158",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S05"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0159",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S05"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0160",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S05"
+   },
+   "count": 1,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0161",
+   "type": "ROADM",
+   "location": {
+    "node": "S06"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0162",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S06"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0163",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S06"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0164",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S06"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0165",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S06"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0166",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S06"
+   },
+   "count": 2,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0167",
+   "type": "ROADM",
+   "location": {
+    "node": "S07"
+   },
+   "degree": 2,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0168",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S07"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0169",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S07"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0170",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S07"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0171",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S07"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0172",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S07"
+   },
+   "count": 1,
+   "assumption": "A6_terminals"
+  },
+  {
+   "equipment_id": "EQ0173",
+   "type": "BRANCHING_UNIT",
+   "location": {
+    "node": "S08"
+   },
+   "ports": 3,
+   "assumption": "A4_submarine_repeater"
+  },
+  {
+   "equipment_id": "EQ0174",
+   "type": "ROADM",
+   "location": {
+    "node": "S09"
+   },
+   "degree": 1,
+   "assumption": "A9_roadm_degree"
+  },
+  {
+   "equipment_id": "EQ0175",
+   "type": "EDFA_BOOSTER",
+   "location": {
+    "node": "S09"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0176",
+   "type": "EDFA_PREAMP",
+   "location": {
+    "node": "S09"
+   },
+   "assumption": "A3_terrestrial_span"
+  },
+  {
+   "equipment_id": "EQ0177",
+   "type": "COHERENT_TRANSPONDER",
+   "location": {
+    "node": "S09"
+   },
+   "count": 2,
+   "assumption": "A6_terminals"
+  }
+ ],
+ "parameters": {
+  "terrestrial_max_span_km": 77.4,
+  "submarine_repeater_spacing_km": 72.8,
+  "unrepeatered_max_km": 350,
+  "dci_pluggable_reach_km": 120
+ },
+ "assumptions": {
+  "A3_terrestrial_span": "Terrestrial inline amplifier (ILA/EDFA) count per link = ceil(L / S) - 1 with a per-scenario maximum span length S drawn from [70, 100] km; spans are equal length. ~80 km spans are a common planning assumption (e.g. GNPy example networks); not a standard.",
+  "A4_submarine_repeater": "Repeatered undersea segments: repeater count = ceil(L / S) - 1 with S drawn from [50, 90] km. Segments <= 350 km may be unrepeatered (festoon). Assumption, not a design.",
+  "A6_terminals": "Transponder / pluggable counts per site are synthetic and indicative only; they encode where traffic is terminated, not dimensioned capacity.",
+  "A9_roadm_degree": "ROADM degree equals the number of fibre links at the site."
+ },
+ "note": "Synthetic equipment assignment. Counts and types are modelling assumptions, not vendor designs; no GNPy simulation has been run for this scenario."
+}

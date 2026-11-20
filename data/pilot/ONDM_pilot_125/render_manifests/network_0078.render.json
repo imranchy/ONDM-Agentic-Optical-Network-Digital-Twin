@@ -1,0 +1,1211 @@
+{
+ "image_px": [
+  1600,
+  1200
+ ],
+ "style_hash": "8aba402914e01f0c",
+ "font_px": {
+  "node": 17.77777777777778,
+  "edge": 15.555555555555555,
+  "legend": 16.666666666666668
+ },
+ "plot_area_px": [
+  8.0,
+  12.0,
+  1264.0,
+  1188.0
+ ],
+ "legend_area_px": [
+  1280.0,
+  24.0,
+  1584.0,
+  1176.0
+ ],
+ "nodes": [
+  {
+   "node_id": "S01",
+   "role": "ROADM",
+   "xy_axes": [
+    0.7169,
+    0.4785
+   ],
+   "text": "S01\nROADM-2D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    858.1,
+    649.7,
+    958.7,
+    687.0
+   ]
+  },
+  {
+   "node_id": "S02",
+   "role": "ROADM",
+   "xy_axes": [
+    0.9539,
+    0.4923
+   ],
+   "text": "S02\nROADM-3D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    1155.8,
+    633.4,
+    1256.5,
+    670.8
+   ]
+  },
+  {
+   "node_id": "S03",
+   "role": "ROADM",
+   "xy_axes": [
+    0.9257,
+    0.5725
+   ],
+   "text": "S03\nROADM-4D",
+   "placement_score": 800.0,
+   "bbox_px": [
+    1120.3,
+    539.2,
+    1221.0,
+    576.5
+   ]
+  },
+  {
+   "node_id": "S04",
+   "role": "ROADM",
+   "xy_axes": [
+    0.7599,
+    0.5519
+   ],
+   "text": "S04\nROADM-4D",
+   "placement_score": 400.0,
+   "bbox_px": [
+    912.0,
+    563.5,
+    1012.7,
+    600.8
+   ]
+  },
+  {
+   "node_id": "S05",
+   "role": "ROADM",
+   "xy_axes": [
+    0.8369,
+    0.5877
+   ],
+   "text": "S05\nROADM-5D",
+   "placement_score": 800.0,
+   "bbox_px": [
+    934.0,
+    478.1,
+    1034.7,
+    515.5
+   ]
+  },
+  {
+   "node_id": "S06",
+   "role": "ROADM",
+   "xy_axes": [
+    0.3587,
+    0.5089
+   ],
+   "text": "S06\nROADM-3D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    408.2,
+    527.7,
+    508.9,
+    565.0
+   ]
+  },
+  {
+   "node_id": "S07",
+   "role": "ROADM",
+   "xy_axes": [
+    0.9437,
+    0.7212
+   ],
+   "text": "S07\nROADM-3D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    1068.2,
+    321.2,
+    1168.9,
+    358.6
+   ]
+  },
+  {
+   "node_id": "S08",
+   "role": "ROADM",
+   "xy_axes": [
+    0.92,
+    0.92
+   ],
+   "text": "S08\nROADM-2D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    1113.2,
+    44.3,
+    1213.9,
+    81.6
+   ]
+  },
+  {
+   "node_id": "S09",
+   "role": "ROADM",
+   "xy_axes": [
+    0.6353,
+    0.5327
+   ],
+   "text": "S09\nROADM-2D",
+   "placement_score": 400.0,
+   "bbox_px": [
+    755.6,
+    499.8,
+    856.3,
+    537.1
+   ]
+  },
+  {
+   "node_id": "S10",
+   "role": "ROADM",
+   "xy_axes": [
+    0.87,
+    0.5083
+   ],
+   "text": "S10\nROADM-4D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    1050.3,
+    634.6,
+    1151.0,
+    672.0
+   ]
+  },
+  {
+   "node_id": "S11",
+   "role": "ROADM",
+   "xy_axes": [
+    0.08,
+    0.08
+   ],
+   "text": "S11\nROADM-2D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    58.1,
+    1118.4,
+    158.8,
+    1155.7
+   ]
+  },
+  {
+   "node_id": "S12",
+   "role": "ROADM",
+   "xy_axes": [
+    0.6394,
+    0.4435
+   ],
+   "text": "S12\nROADM-4D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    760.8,
+    690.9,
+    861.5,
+    728.3
+   ]
+  },
+  {
+   "node_id": "S13",
+   "role": "ROADM",
+   "xy_axes": [
+    0.6027,
+    0.6441
+   ],
+   "text": "S13\nROADM-2D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    714.6,
+    368.8,
+    815.3,
+    406.1
+   ]
+  },
+  {
+   "node_id": "S14",
+   "role": "ROADM",
+   "xy_axes": [
+    0.276,
+    0.3907
+   ],
+   "text": "S14\nROADM-3D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    379.0,
+    753.0,
+    479.7,
+    790.3
+   ]
+  },
+  {
+   "node_id": "S15",
+   "role": "ROADM",
+   "xy_axes": [
+    0.2339,
+    0.4646
+   ],
+   "text": "S15\nROADM-4D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    251.5,
+    579.9,
+    352.2,
+    617.2
+   ]
+  },
+  {
+   "node_id": "S16",
+   "role": "ROADM",
+   "xy_axes": [
+    0.7577,
+    0.6368
+   ],
+   "text": "S16\nROADM-5D",
+   "placement_score": 400.0,
+   "bbox_px": [
+    834.6,
+    377.3,
+    935.3,
+    414.6
+   ]
+  },
+  {
+   "node_id": "S17",
+   "role": "ROADM",
+   "xy_axes": [
+    0.7999,
+    0.4602
+   ],
+   "text": "S17\nROADM-3D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    962.3,
+    691.2,
+    1063.0,
+    728.5
+   ]
+  },
+  {
+   "node_id": "S18",
+   "role": "ROADM",
+   "xy_axes": [
+    0.477,
+    0.4936
+   ],
+   "text": "S18\nROADM-3D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    556.8,
+    525.7,
+    657.5,
+    563.0
+   ]
+  },
+  {
+   "node_id": "S19",
+   "role": "ROADM",
+   "xy_axes": [
+    0.8209,
+    0.6937
+   ],
+   "text": "S19\nROADM-4D",
+   "placement_score": 549.6,
+   "bbox_px": [
+    988.7,
+    290.4,
+    1089.4,
+    327.7
+   ]
+  },
+  {
+   "node_id": "S20",
+   "role": "ROADM",
+   "xy_axes": [
+    0.5529,
+    0.5535
+   ],
+   "text": "S20\nROADM-4D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    577.3,
+    475.3,
+    678.0,
+    512.6
+   ]
+  },
+  {
+   "node_id": "S21",
+   "role": "ROADM",
+   "xy_axes": [
+    0.5583,
+    0.4687
+   ],
+   "text": "S21\nROADM-4D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    658.9,
+    661.3,
+    759.5,
+    698.6
+   ]
+  },
+  {
+   "node_id": "S22",
+   "role": "ROADM",
+   "xy_axes": [
+    0.6786,
+    0.6058
+   ],
+   "text": "S22\nROADM-5D",
+   "placement_score": 400.0,
+   "bbox_px": [
+    715.2,
+    456.9,
+    815.8,
+    494.2
+   ]
+  },
+  {
+   "node_id": "S23",
+   "role": "ROADM",
+   "xy_axes": [
+    0.8948,
+    0.6517
+   ],
+   "text": "S23\nROADM-3D",
+   "placement_score": 400.0,
+   "bbox_px": [
+    1156.3,
+    402.9,
+    1256.9,
+    440.3
+   ]
+  },
+  {
+   "node_id": "S24",
+   "role": "ROADM",
+   "xy_axes": [
+    0.7436,
+    0.729
+   ],
+   "text": "S24\nROADM-4D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    816.8,
+    312.0,
+    917.5,
+    349.3
+   ]
+  },
+  {
+   "node_id": "S25",
+   "role": "ROADM",
+   "xy_axes": [
+    0.4063,
+    0.4385
+   ],
+   "text": "S25\nROADM-4D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    468.0,
+    696.8,
+    568.7,
+    734.1
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "L01",
+   "u": "S01",
+   "v": "S12",
+   "text": "279 km \u00b7 3 ILA",
+   "amp_markers_drawn": 3,
+   "dashed": false,
+   "placement_score": 800.0,
+   "bbox_px": [
+    775.8,
+    607.8,
+    891.1,
+    623.6
+   ]
+  },
+  {
+   "edge_id": "L02",
+   "u": "S01",
+   "v": "S17",
+   "text": "227 km \u00b7 2 ILA",
+   "amp_markers_drawn": 2,
+   "dashed": false,
+   "placement_score": 800.0,
+   "bbox_px": [
+    928.0,
+    614.1,
+    1043.4,
+    629.8
+   ]
+  },
+  {
+   "edge_id": "L03",
+   "u": "S02",
+   "v": "S03",
+   "text": "191 km \u00b7 2 ILA",
+   "amp_markers_drawn": 2,
+   "dashed": false,
+   "placement_score": 1104.6,
+   "bbox_px": [
+    1140.7,
+    580.4,
+    1256.0,
+    596.1
+   ]
+  },
+  {
+   "edge_id": "L04",
+   "u": "S02",
+   "v": "S05",
+   "text": "99 km \u00b7 1 ILA",
+   "amp_markers_drawn": 1,
+   "dashed": false,
+   "placement_score": 400.0,
+   "bbox_px": [
+    1038.8,
+    513.6,
+    1144.2,
+    529.4
+   ]
+  },
+  {
+   "edge_id": "L05",
+   "u": "S02",
+   "v": "S10",
+   "text": "59 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    1124.6,
+    610.2,
+    1174.6,
+    626.0
+   ]
+  },
+  {
+   "edge_id": "L06",
+   "u": "S03",
+   "v": "S05",
+   "text": "176 km \u00b7 2 ILA",
+   "amp_markers_drawn": 2,
+   "dashed": false,
+   "placement_score": 800.0,
+   "bbox_px": [
+    1064.0,
+    460.8,
+    1179.4,
+    476.5
+   ]
+  },
+  {
+   "edge_id": "L07",
+   "u": "S03",
+   "v": "S07",
+   "text": "368 km \u00b7 4 ILA",
+   "amp_markers_drawn": 4,
+   "dashed": false,
+   "placement_score": 400.0,
+   "bbox_px": [
+    1128.8,
+    384.5,
+    1244.2,
+    400.2
+   ]
+  },
+  {
+   "edge_id": "L08",
+   "u": "S03",
+   "v": "S19",
+   "text": "143 km \u00b7 1 ILA",
+   "amp_markers_drawn": 1,
+   "dashed": false,
+   "placement_score": 400.0,
+   "bbox_px": [
+    990.4,
+    431.7,
+    1105.8,
+    447.4
+   ]
+  },
+  {
+   "edge_id": "L09",
+   "u": "S04",
+   "v": "S10",
+   "text": "71 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    1013.9,
+    539.2,
+    1063.9,
+    555.0
+   ]
+  },
+  {
+   "edge_id": "L10",
+   "u": "S04",
+   "v": "S16",
+   "text": "145 km \u00b7 1 ILA",
+   "amp_markers_drawn": 1,
+   "dashed": false,
+   "placement_score": 400.0,
+   "bbox_px": [
+    902.8,
+    461.2,
+    1018.2,
+    476.9
+   ]
+  },
+  {
+   "edge_id": "L11",
+   "u": "S04",
+   "v": "S17",
+   "text": "55 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 123.2,
+   "bbox_px": [
+    1009.4,
+    591.5,
+    1059.4,
+    607.2
+   ]
+  },
+  {
+   "edge_id": "L12",
+   "u": "S04",
+   "v": "S22",
+   "text": "376 km \u00b7 4 ILA",
+   "amp_markers_drawn": 4,
+   "dashed": false,
+   "placement_score": 1115.5,
+   "bbox_px": [
+    831.4,
+    530.8,
+    946.8,
+    546.5
+   ]
+  },
+  {
+   "edge_id": "L13",
+   "u": "S05",
+   "v": "S10",
+   "text": "45 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 1.8,
+   "bbox_px": [
+    1063.2,
+    554.3,
+    1113.2,
+    570.0
+   ]
+  },
+  {
+   "edge_id": "L14",
+   "u": "S05",
+   "v": "S16",
+   "text": "112 km \u00b7 1 ILA",
+   "amp_markers_drawn": 1,
+   "dashed": false,
+   "placement_score": 1791.6,
+   "bbox_px": [
+    972.3,
+    449.9,
+    1087.6,
+    465.6
+   ]
+  },
+  {
+   "edge_id": "L15",
+   "u": "S05",
+   "v": "S19",
+   "text": "119 km \u00b7 1 ILA",
+   "amp_markers_drawn": 1,
+   "dashed": false,
+   "placement_score": 400.0,
+   "bbox_px": [
+    989.4,
+    414.2,
+    1104.8,
+    429.9
+   ]
+  },
+  {
+   "edge_id": "L16",
+   "u": "S06",
+   "v": "S15",
+   "text": "421 km \u00b7 5 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    329.2,
+    625.4,
+    444.6,
+    641.2
+   ]
+  },
+  {
+   "edge_id": "L17",
+   "u": "S06",
+   "v": "S18",
+   "text": "457 km \u00b7 5 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    475.2,
+    590.6,
+    590.5,
+    606.4
+   ]
+  },
+  {
+   "edge_id": "L18",
+   "u": "S06",
+   "v": "S25",
+   "text": "99 km \u00b7 1 ILA",
+   "amp_markers_drawn": 1,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    452.4,
+    612.5,
+    557.8,
+    628.2
+   ]
+  },
+  {
+   "edge_id": "L19",
+   "u": "S07",
+   "v": "S08",
+   "text": "890 km \u00b7 10 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    1115.7,
+    215.1,
+    1241.1,
+    230.9
+   ]
+  },
+  {
+   "edge_id": "L20",
+   "u": "S07",
+   "v": "S23",
+   "text": "118 km \u00b7 1 ILA",
+   "amp_markers_drawn": 1,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    1065.9,
+    359.4,
+    1181.2,
+    375.1
+   ]
+  },
+  {
+   "edge_id": "L21",
+   "u": "S08",
+   "v": "S24",
+   "text": "1397 km \u00b7 16 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    970.3,
+    197.7,
+    1105.6,
+    213.5
+   ]
+  },
+  {
+   "edge_id": "L22",
+   "u": "S09",
+   "v": "S12",
+   "text": "45 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    762.4,
+    586.1,
+    812.4,
+    601.8
+   ]
+  },
+  {
+   "edge_id": "L23",
+   "u": "S09",
+   "v": "S20",
+   "text": "176 km \u00b7 2 ILA",
+   "amp_markers_drawn": 2,
+   "dashed": false,
+   "placement_score": 431.4,
+   "bbox_px": [
+    657.7,
+    571.1,
+    773.0,
+    586.8
+   ]
+  },
+  {
+   "edge_id": "L24",
+   "u": "S10",
+   "v": "S17",
+   "text": "43 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    1060.6,
+    614.8,
+    1110.6,
+    630.5
+   ]
+  },
+  {
+   "edge_id": "L25",
+   "u": "S11",
+   "v": "S14",
+   "text": "1266 km \u00b7 15 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    197.9,
+    923.4,
+    333.2,
+    939.2
+   ]
+  },
+  {
+   "edge_id": "L26",
+   "u": "S11",
+   "v": "S15",
+   "text": "1368 km \u00b7 16 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    118.8,
+    852.9,
+    254.2,
+    868.7
+   ]
+  },
+  {
+   "edge_id": "L27",
+   "u": "S12",
+   "v": "S21",
+   "text": "312 km \u00b7 3 ILA",
+   "amp_markers_drawn": 3,
+   "dashed": false,
+   "placement_score": 800.0,
+   "bbox_px": [
+    728.8,
+    631.8,
+    844.2,
+    647.5
+   ]
+  },
+  {
+   "edge_id": "L28",
+   "u": "S12",
+   "v": "S22",
+   "text": "376 km \u00b7 4 ILA",
+   "amp_markers_drawn": 4,
+   "dashed": false,
+   "placement_score": 557.6,
+   "bbox_px": [
+    822.0,
+    552.9,
+    937.4,
+    568.6
+   ]
+  },
+  {
+   "edge_id": "L29",
+   "u": "S13",
+   "v": "S20",
+   "text": "337 km \u00b7 4 ILA",
+   "amp_markers_drawn": 4,
+   "dashed": false,
+   "placement_score": 1139.2,
+   "bbox_px": [
+    647.1,
+    447.2,
+    762.4,
+    462.9
+   ]
+  },
+  {
+   "edge_id": "L30",
+   "u": "S13",
+   "v": "S22",
+   "text": "378 km \u00b7 4 ILA",
+   "amp_markers_drawn": 4,
+   "dashed": false,
+   "placement_score": 400.0,
+   "bbox_px": [
+    782.6,
+    416.1,
+    897.9,
+    431.8
+   ]
+  },
+  {
+   "edge_id": "L31",
+   "u": "S14",
+   "v": "S15",
+   "text": "178 km \u00b7 2 ILA",
+   "amp_markers_drawn": 2,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    305.5,
+    658.6,
+    420.8,
+    674.3
+   ]
+  },
+  {
+   "edge_id": "L32",
+   "u": "S14",
+   "v": "S25",
+   "text": "472 km \u00b7 5 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    371.9,
+    674.9,
+    487.2,
+    690.6
+   ]
+  },
+  {
+   "edge_id": "L33",
+   "u": "S15",
+   "v": "S25",
+   "text": "548 km \u00b7 6 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 636.3,
+   "bbox_px": [
+    416.0,
+    639.1,
+    531.4,
+    654.8
+   ]
+  },
+  {
+   "edge_id": "L34",
+   "u": "S16",
+   "v": "S19",
+   "text": "160 km \u00b7 1 ILA",
+   "amp_markers_drawn": 1,
+   "dashed": false,
+   "placement_score": 800.0,
+   "bbox_px": [
+    941.7,
+    397.8,
+    1057.0,
+    413.5
+   ]
+  },
+  {
+   "edge_id": "L35",
+   "u": "S16",
+   "v": "S22",
+   "text": "176 km \u00b7 2 ILA",
+   "amp_markers_drawn": 2,
+   "dashed": false,
+   "placement_score": 400.0,
+   "bbox_px": [
+    825.1,
+    439.2,
+    940.5,
+    455.0
+   ]
+  },
+  {
+   "edge_id": "L36",
+   "u": "S16",
+   "v": "S24",
+   "text": "343 km \u00b7 4 ILA",
+   "amp_markers_drawn": 4,
+   "dashed": false,
+   "placement_score": 400.0,
+   "bbox_px": [
+    869.7,
+    358.2,
+    985.1,
+    373.9
+   ]
+  },
+  {
+   "edge_id": "L37",
+   "u": "S18",
+   "v": "S20",
+   "text": "116 km \u00b7 1 ILA",
+   "amp_markers_drawn": 1,
+   "dashed": false,
+   "placement_score": 400.0,
+   "bbox_px": [
+    631.5,
+    586.9,
+    746.9,
+    602.6
+   ]
+  },
+  {
+   "edge_id": "L38",
+   "u": "S18",
+   "v": "S21",
+   "text": "55 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    633.2,
+    614.3,
+    683.2,
+    630.0
+   ]
+  },
+  {
+   "edge_id": "L39",
+   "u": "S19",
+   "v": "S23",
+   "text": "245 km \u00b7 2 ILA",
+   "amp_markers_drawn": 2,
+   "dashed": false,
+   "placement_score": 2658.8,
+   "bbox_px": [
+    1027.7,
+    389.0,
+    1143.1,
+    404.8
+   ]
+  },
+  {
+   "edge_id": "L40",
+   "u": "S20",
+   "v": "S21",
+   "text": "58 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    722.8,
+    604.6,
+    772.8,
+    620.4
+   ]
+  },
+  {
+   "edge_id": "L41",
+   "u": "S21",
+   "v": "S25",
+   "text": "616 km \u00b7 7 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    575.2,
+    643.1,
+    690.5,
+    658.9
+   ]
+  },
+  {
+   "edge_id": "L42",
+   "u": "S22",
+   "v": "S24",
+   "text": "317 km \u00b7 3 ILA",
+   "amp_markers_drawn": 3,
+   "dashed": false,
+   "placement_score": 1982.6,
+   "bbox_px": [
+    824.2,
+    348.7,
+    939.6,
+    364.4
+   ]
+  },
+  {
+   "edge_id": "L43",
+   "u": "S23",
+   "v": "S24",
+   "text": "270 km \u00b7 3 ILA",
+   "amp_markers_drawn": 3,
+   "dashed": false,
+   "placement_score": 661.4,
+   "bbox_px": [
+    950.3,
+    333.3,
+    1065.7,
+    349.1
+   ]
+  }
+ ],
+ "legend": [
+  {
+   "text": "Legend",
+   "bbox_px": [
+    1298.2,
+    52.8,
+    1378.2,
+    71.7
+   ]
+  },
+  {
+   "text": "ROADM (n-degree)",
+   "bbox_px": [
+    1362.1,
+    113.4,
+    1521.4,
+    130.4
+   ]
+  },
+  {
+   "text": "OADM add/drop",
+   "bbox_px": [
+    1362.1,
+    187.1,
+    1496.4,
+    204.1
+   ]
+  },
+  {
+   "text": "Central office (CO)",
+   "bbox_px": [
+    1362.1,
+    260.9,
+    1518.1,
+    277.9
+   ]
+  },
+  {
+   "text": "Data centre (DC)",
+   "bbox_px": [
+    1362.1,
+    334.6,
+    1504.7,
+    351.6
+   ]
+  },
+  {
+   "text": "Cable landing (CLS)",
+   "bbox_px": [
+    1362.1,
+    408.3,
+    1530.1,
+    425.3
+   ]
+  },
+  {
+   "text": "Branching unit (BU)",
+   "bbox_px": [
+    1362.1,
+    482.1,
+    1531.1,
+    499.1
+   ]
+  },
+  {
+   "text": "Terrestrial fibre",
+   "bbox_px": [
+    1362.1,
+    555.8,
+    1489.2,
+    572.8
+   ]
+  },
+  {
+   "text": "Undersea cable",
+   "bbox_px": [
+    1362.1,
+    629.5,
+    1492.1,
+    646.5
+   ]
+  },
+  {
+   "text": "Amplifier ILA / RPT",
+   "bbox_px": [
+    1362.1,
+    703.2,
+    1519.5,
+    720.2
+   ]
+  },
+  {
+   "text": "TRM: transponder",
+   "bbox_px": [
+    1298.2,
+    777.0,
+    1450.2,
+    794.0
+   ]
+  },
+  {
+   "text": "ZR: 400ZR pluggable",
+   "bbox_px": [
+    1298.2,
+    850.7,
+    1479.7,
+    867.7
+   ]
+  },
+  {
+   "text": "TRP: ZR+ transponder",
+   "bbox_px": [
+    1298.2,
+    924.4,
+    1488.2,
+    941.4
+   ]
+  },
+  {
+   "text": "SLTE: line terminal",
+   "bbox_px": [
+    1298.2,
+    998.2,
+    1455.6,
+    1015.2
+   ]
+  },
+  {
+   "text": "Link: km \u00b7 amplifiers",
+   "bbox_px": [
+    1298.2,
+    1071.9,
+    1471.2,
+    1088.9
+   ]
+  }
+ ],
+ "scenario_id": "network_0078"
+}

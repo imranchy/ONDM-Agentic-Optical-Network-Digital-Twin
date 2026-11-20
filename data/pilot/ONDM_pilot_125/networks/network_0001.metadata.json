@@ -1,0 +1,130 @@
+{
+ "scenario_id": "network_0001",
+ "ground_truth": {
+  "category": "dci",
+  "category_display": "Data Center Interconnect"
+ },
+ "generation_family": "dci_regional_dci",
+ "group_key": "SYN_dci_0001",
+ "seed": 2943623273,
+ "master_seed": 20261120,
+ "generation_attempt": 0,
+ "provenance": {
+  "topology_origin": "generated_from_documented_architectural_template",
+  "source_dataset": null,
+  "source_topology_id": null,
+  "coordinates": "synthetic sites around real anchor city (A7)",
+  "fiber_connections": "synthetic",
+  "fiber_lengths": "synthetic: great-circle x route factor (A2)",
+  "equipment": "synthetic_assignment",
+  "optical_parameters": "assumed"
+ },
+ "geography": {
+  "scope": "regional",
+  "anchor_city": {
+   "name": "Coeur d'Alene",
+   "country": "United States of America (the)",
+   "lat": 47.68,
+   "lon": -116.78,
+   "source_topology": "TB_074_NOEL"
+  },
+  "coordinate_source": "synthetic offsets from Topology Bench anchor city",
+  "countries": [
+   "United States of America (the)"
+  ],
+  "anchor_cities": [
+   {
+    "name": "Coeur d'Alene",
+    "country": "United States of America (the)",
+    "lat": 47.68,
+    "lon": -116.78,
+    "source_topology": "TB_074_NOEL"
+   },
+   {
+    "name": "Everett",
+    "country": "United States of America (the)",
+    "lat": 47.98,
+    "lon": -122.2,
+    "source_topology": "TB_074_NOEL"
+   },
+   {
+    "name": "Pullman",
+    "country": "United States of America (the)",
+    "lat": 46.73,
+    "lon": -117.18,
+    "source_topology": "TB_074_NOEL"
+   },
+   {
+    "name": "Kelowna",
+    "country": "Canada",
+    "lat": 49.88,
+    "lon": -119.49,
+    "source_topology": "TB_011_CANARIE"
+   }
+  ],
+  "geo_extent_km": 406.4,
+  "coordinate_provenance": "synthetic sites around real anchor city (A7)",
+  "length_note": "Fibre length is NOT straight-line distance; see route factor per edge and assumptions A1/A2. Routes do not follow surveyed rights-of-way or real cables."
+ },
+ "equipment_assumptions": {
+  "terrestrial_max_span_km": 85.5,
+  "submarine_repeater_spacing_km": 59.9,
+  "unrepeatered_max_km": 350,
+  "dci_pluggable_reach_km": 120
+ },
+ "assumption_ids": [
+  "A2_synthetic_route_factor",
+  "A3_terrestrial_span",
+  "A5_dci_reach",
+  "A6_terminals",
+  "A9_roadm_degree"
+ ],
+ "network_size": {
+  "n_nodes": 7,
+  "n_edges": 8,
+  "total_fiber_km": 2217.1,
+  "link_km_min": 8.62,
+  "link_km_max": 555.87,
+  "n_inline_amplifiers": 23,
+  "roles": {
+   "DC": 6,
+   "ROADM": 1
+  }
+ },
+ "params": null,
+ "structural_signature_wl": "b5a46116168e8c5f624570c8e6b95a8c",
+ "generation": {
+  "config_file": "configs/pilot_125.json",
+  "config_sha256": "e22074a3784e99e6eed681198dbfaddcaa8ddf51c4ea1880c091cac28bd7c729",
+  "generator_version": "0.1.0",
+  "git_commit": "fd37f7f65e15c8b84cef93ae96f1db6454559a90",
+  "render_style_hash": "8aba402914e01f0c"
+ },
+ "validation": {
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "rules_satisfied": [
+   "dci"
+  ],
+  "ambiguous": false,
+  "structural_cues": [
+   "structure_ring_like",
+   "long_links_like_long_haul"
+  ],
+  "issues": [
+   {
+    "check": "L3_structural_cue",
+    "severity": "INFO",
+    "message": "structure_ring_like"
+   },
+   {
+    "check": "L3_structural_cue",
+    "severity": "INFO",
+    "message": "long_links_like_long_haul"
+   }
+  ],
+  "validator": "src/validation/validate_dataset.py",
+  "human_review": "pending"
+ }
+}

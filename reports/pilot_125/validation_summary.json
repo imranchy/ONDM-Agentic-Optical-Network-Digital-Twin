@@ -1,0 +1,446 @@
+{
+ "dataset": "data\\pilot\\ONDM_pilot_125",
+ "n_scenarios": 125,
+ "category_distribution": {
+  "long_haul_core": 25,
+  "metro_ring": 25,
+  "metro_aggregation": 25,
+  "dci": 25,
+  "submarine": 25
+ },
+ "status_counts": {
+  "PASS": 114,
+  "PASS_WITH_WARNINGS": 11
+ },
+ "status_by_category": {
+  "long_haul_core": {
+   "PASS": 19,
+   "PASS_WITH_WARNINGS": 6
+  },
+  "metro_ring": {
+   "PASS": 25
+  },
+  "metro_aggregation": {
+   "PASS": 25
+  },
+  "dci": {
+   "PASS": 24,
+   "PASS_WITH_WARNINGS": 1
+  },
+  "submarine": {
+   "PASS": 21,
+   "PASS_WITH_WARNINGS": 4
+  }
+ },
+ "issues_by_check": {
+  "S1_node_ids": {
+   "category": "structural",
+   "description": "node ids unique and well-formed (S\\d\\d)"
+  },
+  "S2_edge_endpoints": {
+   "category": "structural",
+   "description": "every edge endpoint is a defined node"
+  },
+  "S3_dup_edges": {
+   "category": "structural",
+   "description": "no duplicate edges or self-loops"
+  },
+  "S4_connected": {
+   "category": "structural",
+   "description": "graph connected, no isolated nodes"
+  },
+  "S5_counts": {
+   "category": "structural",
+   "description": "declared node/edge counts match lists"
+  },
+  "S6_class_structure": {
+   "category": "structural",
+   "description": "class-specific structural requirements",
+   "INFO": 9
+  },
+  "S7_duplicates": {
+   "category": "structural",
+   "description": "no isomorphic (role+medium labelled) duplicate graphs in dataset"
+  },
+  "S8_near_duplicate_images": {
+   "category": "structural",
+   "description": "no near-identical images (dHash Hamming <= 4)"
+  },
+  "E1_locations": {
+   "category": "equipment",
+   "description": "every equipment item references a valid node or edge"
+  },
+  "E2_switching": {
+   "category": "equipment",
+   "description": "ROADM/OADM equipment degree equals graph degree; one per site"
+  },
+  "E3_amplifiers": {
+   "category": "equipment",
+   "description": "ILA only on terrestrial links, repeaters only undersea; counts/positions consistent"
+  },
+  "E4_spans": {
+   "category": "equipment",
+   "description": "spans x span length = link length; span length <= declared maximum"
+  },
+  "E5_class_compat": {
+   "category": "equipment",
+   "description": "equipment types compatible with the network class"
+  },
+  "E6_terminals": {
+   "category": "equipment",
+   "description": "terminal-bearing sites have terminal equipment; BUs have none"
+  },
+  "E7_dci_reach": {
+   "category": "equipment",
+   "description": "400ZR pluggables only where DC-to-DC path <= declared reach"
+  },
+  "E8_attributes": {
+   "category": "equipment",
+   "description": "every equipment item carries type, location and assumption id"
+  },
+  "G1_latlon": {
+   "category": "geographic",
+   "description": "latitude/longitude within valid ranges"
+  },
+  "G2_length_ge_gc": {
+   "category": "geographic",
+   "description": "fibre length >= great-circle distance recomputed from coordinates"
+  },
+  "G3_route_factor": {
+   "category": "geographic",
+   "description": "fibre/great-circle ratio within [1.0, 2.0]",
+   "WARNING": 19
+  },
+  "G4_scope": {
+   "category": "geographic",
+   "description": "geographic extent and link lengths plausible for the class",
+   "WARNING": 1
+  },
+  "G5_provenance": {
+   "category": "geographic",
+   "description": "coordinate/length provenance recorded and consistent with class"
+  },
+  "D1_image": {
+   "category": "diagram",
+   "description": "image readable, expected size, not blank"
+  },
+  "D2_complete": {
+   "category": "diagram",
+   "description": "every node and edge drawn; drawn labels match graph JSON"
+  },
+  "D3_in_bounds": {
+   "category": "diagram",
+   "description": "all labels inside the drawing area"
+  },
+  "D4_font": {
+   "category": "diagram",
+   "description": "label font size >= 14 px (node) / 12 px (link) at native resolution"
+  },
+  "D5_overlap": {
+   "category": "diagram",
+   "description": "label overlaps (area > 15% of smaller label)",
+   "WARNING": 9
+  },
+  "D6_leakage": {
+   "category": "diagram",
+   "description": "no category names / hints in drawn text or PNG metadata"
+  },
+  "D7_style": {
+   "category": "diagram",
+   "description": "identical style hash and legend in every image"
+  },
+  "D8_symbols": {
+   "category": "diagram",
+   "description": "drawn equipment line matches inventory"
+  },
+  "D9_amp_markers": {
+   "category": "diagram",
+   "description": "amplifier markers drawn = min(count, 5)"
+  },
+  "L1_rule": {
+   "category": "label",
+   "description": "assigned class satisfies its own evidence rule"
+  },
+  "L2_ambiguity": {
+   "category": "label",
+   "description": "no other class rule satisfied (else ambiguity warning)"
+  },
+  "L3_structural_cue": {
+   "category": "label",
+   "description": "structure-only cues pointing elsewhere (informative)",
+   "INFO": 72
+  }
+ },
+ "duplicates": {
+  "isomorphic_labelled_pairs": 0,
+  "isomorphic_structure_only_pairs": 18,
+  "near_identical_image_pairs": 0,
+  "min_dhash_distance_overall": 13
+ },
+ "ambiguity_warnings": 0,
+ "structural_cues": {
+  "structure_ring_like": 24,
+  "long_links_like_long_haul": 23,
+  "distribution_tier_is_ring": 18,
+  "structure_tree": 7
+ },
+ "structure_by_category": {
+  "n_nodes": {
+   "long_haul_core": {
+    "min": 8,
+    "median": 19.0,
+    "max": 28
+   },
+   "metro_ring": {
+    "min": 5,
+    "median": 9.0,
+    "max": 12
+   },
+   "metro_aggregation": {
+    "min": 9,
+    "median": 15.0,
+    "max": 21
+   },
+   "dci": {
+    "min": 3,
+    "median": 6.0,
+    "max": 9
+   },
+   "submarine": {
+    "min": 4,
+    "median": 10.0,
+    "max": 17
+   }
+  },
+  "n_edges": {
+   "long_haul_core": {
+    "min": 7,
+    "median": 23.0,
+    "max": 43
+   },
+   "metro_ring": {
+    "min": 5,
+    "median": 10.0,
+    "max": 13
+   },
+   "metro_aggregation": {
+    "min": 14,
+    "median": 24.0,
+    "max": 36
+   },
+   "dci": {
+    "min": 3,
+    "median": 7.0,
+    "max": 12
+   },
+   "submarine": {
+    "min": 3,
+    "median": 10.0,
+    "max": 20
+   }
+  },
+  "mean_degree": {
+   "long_haul_core": {
+    "min": 1.75,
+    "median": 2.571,
+    "max": 3.895
+   },
+   "metro_ring": {
+    "min": 2.0,
+    "median": 2.0,
+    "max": 2.333
+   },
+   "metro_aggregation": {
+    "min": 2.462,
+    "median": 3.2,
+    "max": 3.692
+   },
+   "dci": {
+    "min": 2.0,
+    "median": 2.333,
+    "max": 3.0
+   },
+   "submarine": {
+    "min": 1.5,
+    "median": 2.143,
+    "max": 2.5
+   }
+  },
+  "mean_link_km": {
+   "long_haul_core": {
+    "min": 263.2,
+    "median": 787.7,
+    "max": 1353.3
+   },
+   "metro_ring": {
+    "min": 5.2,
+    "median": 10.9,
+    "max": 28.6
+   },
+   "metro_aggregation": {
+    "min": 10.5,
+    "median": 18.5,
+    "max": 30.8
+   },
+   "dci": {
+    "min": 14.7,
+    "median": 101.2,
+    "max": 528.4
+   },
+   "submarine": {
+    "min": 101.1,
+    "median": 461.6,
+    "max": 2748.8
+   }
+  },
+  "extent_km": {
+   "long_haul_core": {
+    "min": 1674.3,
+    "median": 3215.7,
+    "max": 4394.8
+   },
+   "metro_ring": {
+    "min": 14.0,
+    "median": 25.0,
+    "max": 62.7
+   },
+   "metro_aggregation": {
+    "min": 23.4,
+    "median": 40.3,
+    "max": 61.2
+   },
+   "dci": {
+    "min": 19.8,
+    "median": 179.1,
+    "max": 649.4
+   },
+   "submarine": {
+    "min": 403.9,
+    "median": 4051.0,
+    "max": 8097.2
+   }
+  },
+  "inline_amplifiers": {
+   "long_haul_core": {
+    "min": 59,
+    "median": 192.0,
+    "max": 507
+   },
+   "metro_ring": {
+    "min": 0,
+    "median": 0.0,
+    "max": 0
+   },
+   "metro_aggregation": {
+    "min": 0,
+    "median": 0.0,
+    "max": 0
+   },
+   "dci": {
+    "min": 0,
+    "median": 6.0,
+    "max": 23
+   },
+   "submarine": {
+    "min": 0,
+    "median": 84.0,
+    "max": 301
+   }
+  },
+  "label_overlaps": {
+   "long_haul_core": {
+    "min": 0,
+    "median": 0.0,
+    "max": 4
+   },
+   "metro_ring": {
+    "min": 0,
+    "median": 0.0,
+    "max": 0
+   },
+   "metro_aggregation": {
+    "min": 0,
+    "median": 0.0,
+    "max": 0
+   },
+   "dci": {
+    "min": 0,
+    "median": 0.0,
+    "max": 0
+   },
+   "submarine": {
+    "min": 0,
+    "median": 0.0,
+    "max": 2
+   }
+  }
+ },
+ "unique_structures_by_category": {
+  "long_haul_core": 25,
+  "metro_ring": 18,
+  "metro_aggregation": 25,
+  "dci": 21,
+  "submarine": 25
+ },
+ "families": {
+  "dci_regional_dci": 14,
+  "submarine_festoon": 8,
+  "metro_aggregation_ring_2hub": 6,
+  "metro_aggregation_partial_mesh_2hub": 11,
+  "dci_metro_dci": 11,
+  "submarine_point_to_point": 5,
+  "metro_ring_dual_ring": 10,
+  "metro_ring_dual_hub_ring": 8,
+  "tb_real_derived_mesh": 25,
+  "submarine_branched_trunk": 12,
+  "metro_aggregation_ring_1hub": 4,
+  "metro_ring_single_ring": 7,
+  "metro_aggregation_partial_mesh_1hub": 4
+ },
+ "style_hashes": {
+  "8aba402914e01f0c": 125
+ },
+ "automated_checks": {
+  "S1_node_ids": "node ids unique and well-formed (S\\d\\d)",
+  "S2_edge_endpoints": "every edge endpoint is a defined node",
+  "S3_dup_edges": "no duplicate edges or self-loops",
+  "S4_connected": "graph connected, no isolated nodes",
+  "S5_counts": "declared node/edge counts match lists",
+  "S6_class_structure": "class-specific structural requirements",
+  "S7_duplicates": "no isomorphic (role+medium labelled) duplicate graphs in dataset",
+  "S8_near_duplicate_images": "no near-identical images (dHash Hamming <= 4)",
+  "E1_locations": "every equipment item references a valid node or edge",
+  "E2_switching": "ROADM/OADM equipment degree equals graph degree; one per site",
+  "E3_amplifiers": "ILA only on terrestrial links, repeaters only undersea; counts/positions consistent",
+  "E4_spans": "spans x span length = link length; span length <= declared maximum",
+  "E5_class_compat": "equipment types compatible with the network class",
+  "E6_terminals": "terminal-bearing sites have terminal equipment; BUs have none",
+  "E7_dci_reach": "400ZR pluggables only where DC-to-DC path <= declared reach",
+  "E8_attributes": "every equipment item carries type, location and assumption id",
+  "G1_latlon": "latitude/longitude within valid ranges",
+  "G2_length_ge_gc": "fibre length >= great-circle distance recomputed from coordinates",
+  "G3_route_factor": "fibre/great-circle ratio within [1.0, 2.0]",
+  "G4_scope": "geographic extent and link lengths plausible for the class",
+  "G5_provenance": "coordinate/length provenance recorded and consistent with class",
+  "D1_image": "image readable, expected size, not blank",
+  "D2_complete": "every node and edge drawn; drawn labels match graph JSON",
+  "D3_in_bounds": "all labels inside the drawing area",
+  "D4_font": "label font size >= 14 px (node) / 12 px (link) at native resolution",
+  "D5_overlap": "label overlaps (area > 15% of smaller label)",
+  "D6_leakage": "no category names / hints in drawn text or PNG metadata",
+  "D7_style": "identical style hash and legend in every image",
+  "D8_symbols": "drawn equipment line matches inventory",
+  "D9_amp_markers": "amplifier markers drawn = min(count, 5)",
+  "L1_rule": "assigned class satisfies its own evidence rule",
+  "L2_ambiguity": "no other class rule satisfied (else ambiguity warning)",
+  "L3_structural_cue": "structure-only cues pointing elsewhere (informative)"
+ },
+ "requires_human_review": [
+  "Engineering realism of each architecture template and of the equipment assignment (expert judgement).",
+  "Visual legibility at the resolution a VLM actually receives (automated check uses native 1600x1200 px).",
+  "Whether a human expert can identify the class from each diagram without metadata (blind review of contact sheets).",
+  "Submarine synthetic coordinates may fall on land; not checked against coastlines (assumption A8).",
+  "Whether Topology Bench networks selected as long-haul are optical core networks rather than IP-layer PoP maps.",
+  "Overlap of link labels with amplifier markers or lines below the overlap threshold."
+ ]
+}

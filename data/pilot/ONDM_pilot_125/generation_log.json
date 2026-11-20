@@ -1,0 +1,376 @@
+{
+ "generated_utc": "2026-11-20T12:16:10+00:00",
+ "config_sha256": "e22074a3784e99e6eed681198dbfaddcaa8ddf51c4ea1880c091cac28bd7c729",
+ "git_commit": "fd37f7f65e15c8b84cef93ae96f1db6454559a90",
+ "python": "3.12.10",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "numpy": "2.5.4",
+ "networkx": "3.7",
+ "matplotlib": "3.11.2",
+ "n_scenarios": 125,
+ "long_haul_sources_eligible": 28,
+ "long_haul_sources_eligible_ids": [
+  "TB_001_ABILENE",
+  "TB_004_ARPANET",
+  "TB_005_ATMNET",
+  "TB_015_CLARANET",
+  "TB_017_CONUS30",
+  "TB_025_DARKSTRAND",
+  "TB_028_ELIBACKBONE",
+  "TB_029_EON",
+  "TB_031_ERNET",
+  "TB_034_GBLNET",
+  "TB_047_HIBERNIAUS",
+  "TB_050_INTEGRA",
+  "TB_054_JANOSUS",
+  "TB_055_JGN2PLUS",
+  "TB_056_JPN12",
+  "TB_057_JPN25",
+  "TB_060_LAMBDARAIL",
+  "TB_066_MZIMA",
+  "TB_069_NEWNET",
+  "TB_070_NEXTGEN",
+  "TB_071_NOBELEU",
+  "TB_083_PORTUGAL",
+  "TB_084_PSINET",
+  "TB_085_RAILTELINDIA",
+  "TB_087_REDIRIS",
+  "TB_095_RNPBRAZIL",
+  "TB_099_SAVVIS",
+  "TB_105_VIA"
+ ],
+ "long_haul_sources_excluded": {
+  "TB_002_ANS": [
+   "extent 8063 km outside [1500, 6000]",
+   "max link 6484 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_003_ARNES": [
+   "extent 184 km outside [1500, 6000]",
+   "mean link 52 km < 250"
+  ],
+  "TB_006_BBNPLANET": [
+   "max link 4859 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_007_BEYONDTHENETWORK": [
+   "max link 3486 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_008_BICS": [
+   "n_nodes 33 outside [8, 30] (diagram legibility)"
+  ],
+  "TB_009_BIZNET": [
+   "mean link 155 km < 250"
+  ],
+  "TB_010_BREN": [
+   "extent 378 km outside [1500, 6000]",
+   "mean link 170 km < 250",
+   "length/great-circle ratio range [1.32, 3.45] outside [0.999, 3.0] (inconsistent source data)"
+  ],
+  "TB_011_CANARIE": [
+   "max link 3486 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_012_CANARIE": [
+   "max link 3487 km > 3000 (likely logical/IP adjacency)",
+   "length/great-circle ratio range [0.79, 2.51] outside [0.999, 3.0] (inconsistent source data)"
+  ],
+  "TB_013_CERNET": [
+   "n_nodes 36 outside [8, 30] (diagram legibility)",
+   "max link 3203 km > 3000 (likely logical/IP adjacency)",
+   "length/great-circle ratio range [0.35, 9.30] outside [0.999, 3.0] (inconsistent source data)"
+  ],
+  "TB_014_CESNET": [
+   "extent 353 km outside [1500, 6000]",
+   "mean link 137 km < 250",
+   "length/great-circle ratio range [0.48, 3.69] outside [0.999, 3.0] (inconsistent source data)"
+  ],
+  "TB_016_CONUS100": [
+   "n_nodes 100 outside [8, 30] (diagram legibility)",
+   "extent 17685 km outside [1500, 6000]",
+   "max link 12977 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_018_CONUS6077": [
+   "n_nodes 60 outside [8, 30] (diagram legibility)"
+  ],
+  "TB_019_CONUS6079": [
+   "n_nodes 60 outside [8, 30] (diagram legibility)"
+  ],
+  "TB_020_CONUS75": [
+   "n_nodes 75 outside [8, 30] (diagram legibility)"
+  ],
+  "TB_021_CORONET": [
+   "n_nodes 60 outside [8, 30] (diagram legibility)"
+  ],
+  "TB_022_COST": [
+   "n_nodes 37 outside [8, 30] (diagram legibility)"
+  ],
+  "TB_023_CRLNETWORKSERVICES": [
+   "n_nodes 33 outside [8, 30] (diagram legibility)",
+   "max link 5348 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_024_CWIX": [
+   "max link 5161 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_026_DIGEX": [
+   "n_nodes 31 outside [8, 30] (diagram legibility)",
+   "max link 3305 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_027_DT17": [
+   "extent 613 km outside [1500, 6000]",
+   "mean link 186 km < 250",
+   "length/great-circle ratio range [0.51, 1.36] outside [0.999, 3.0] (inconsistent source data)"
+  ],
+  "TB_030_EPOCH": [
+   "n_nodes 6 outside [8, 30] (diagram legibility)",
+   "max link 4857 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_032_FUNET": [
+   "extent 810 km outside [1500, 6000]",
+   "mean link 158 km < 250"
+  ],
+  "TB_033_GAMBIA": [
+   "extent 270 km outside [1500, 6000]",
+   "mean link 62 km < 250"
+  ],
+  "TB_035_GEANT": [
+   "extent 9117 km outside [1500, 6000]",
+   "max link 8494 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_036_GEANT2": [
+   "n_nodes 35 outside [8, 30] (diagram legibility)"
+  ],
+  "TB_037_GERMANY50": [
+   "n_nodes 50 outside [8, 30] (diagram legibility)",
+   "extent 791 km outside [1500, 6000]",
+   "mean link 193 km < 250"
+  ],
+  "TB_038_GETNET": [
+   "n_nodes 7 outside [8, 30] (diagram legibility)",
+   "max link 4866 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_039_GRNET": [
+   "n_nodes 34 outside [8, 30] (diagram legibility)",
+   "extent 808 km outside [1500, 6000]",
+   "mean link 190 km < 250"
+  ],
+  "TB_040_GTSCZECHREPUBLIC": [
+   "extent 389 km outside [1500, 6000]",
+   "mean link 92 km < 250"
+  ],
+  "TB_041_GTSPOLAND": [
+   "extent 636 km outside [1500, 6000]",
+   "mean link 155 km < 250"
+  ],
+  "TB_042_HIBERNIACANADA": [
+   "max link 4106 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_043_HIBERNIAGLOBAL": [
+   "n_nodes 53 outside [8, 30] (diagram legibility)",
+   "extent 9453 km outside [1500, 6000]",
+   "max link 5214 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_044_HIBERNIAIRELAND": [
+   "n_nodes 6 outside [8, 30] (diagram legibility)",
+   "extent 220 km outside [1500, 6000]",
+   "mean link 142 km < 250"
+  ],
+  "TB_045_HIBERNIANIRELAND": [
+   "extent 339 km outside [1500, 6000]",
+   "mean link 64 km < 250"
+  ],
+  "TB_046_HIBERNIAUK": [
+   "extent 307 km outside [1500, 6000]",
+   "mean link 105 km < 250"
+  ],
+  "TB_048_HOSTWAYINTERNATIONAL": [
+   "extent 16994 km outside [1500, 6000]",
+   "max link 19985 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_049_IBM": [
+   "max link 3730 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_051_IRIS": [
+   "n_nodes 50 outside [8, 30] (diagram legibility)",
+   "extent 707 km outside [1500, 6000]",
+   "mean link 94 km < 250"
+  ],
+  "TB_052_ISTAR": [
+   "max link 4425 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_053_ITALY": [
+   "extent 1046 km outside [1500, 6000]"
+  ],
+  "TB_058_JPN48": [
+   "n_nodes 48 outside [8, 30] (diagram legibility)",
+   "mean link 231 km < 250",
+   "length/great-circle ratio range [1.26, 4.85] outside [0.999, 3.0] (inconsistent source data)"
+  ],
+  "TB_059_KAREN": [
+   "extent 1230 km outside [1500, 6000]",
+   "mean link 146 km < 250"
+  ],
+  "TB_061_LAYER42": [
+   "n_nodes 6 outside [8, 30] (diagram legibility)",
+   "max link 4898 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_062_LONI": [
+   "n_nodes 32 outside [8, 30] (diagram legibility)",
+   "extent 450 km outside [1500, 6000]",
+   "mean link 77 km < 250"
+  ],
+  "TB_063_MARWAN": [
+   "n_nodes 6 outside [8, 30] (diagram legibility)",
+   "extent 693 km outside [1500, 6000]"
+  ],
+  "TB_064_MEMOREX": [
+   "extent 811 km outside [1500, 6000]",
+   "mean link 206 km < 250"
+  ],
+  "TB_065_METRONA": [
+   "n_nodes 33 outside [8, 30] (diagram legibility)",
+   "extent 624 km outside [1500, 6000]",
+   "max link 7392 km > 3000 (likely logical/IP adjacency)",
+   "length/great-circle ratio range [1.50, 229.54] outside [0.999, 3.0] (inconsistent source data)"
+  ],
+  "TB_067_NETRAIL": [
+   "n_nodes 7 outside [8, 30] (diagram legibility)",
+   "max link 4882 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_068_NETWORKUSA": [
+   "n_nodes 35 outside [8, 30] (diagram legibility)",
+   "extent 912 km outside [1500, 6000]",
+   "mean link 131 km < 250"
+  ],
+  "TB_072_NOBELGERMANY": [
+   "extent 678 km outside [1500, 6000]",
+   "mean link 215 km < 250"
+  ],
+  "TB_073_NOBELUS": [
+   "max link 3541 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_074_NOEL": [
+   "extent 553 km outside [1500, 6000]",
+   "mean link 158 km < 250"
+  ],
+  "TB_075_NSFNET13": [
+   "max link 4116 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_076_OPTUNETSWEDEN": [
+   "extent 1412 km outside [1500, 6000]"
+  ],
+  "TB_077_OXFORD": [
+   "extent 430 km outside [1500, 6000]",
+   "mean link 85 km < 250"
+  ],
+  "TB_078_PACKETEXCHANGE": [
+   "extent 18490 km outside [1500, 6000]",
+   "max link 17655 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_079_PALMETTO": [
+   "n_nodes 45 outside [8, 30] (diagram legibility)",
+   "extent 524 km outside [1500, 6000]",
+   "mean link 101 km < 250"
+  ],
+  "TB_080_PIONIER": [
+   "extent 639 km outside [1500, 6000]",
+   "mean link 183 km < 250"
+  ],
+  "TB_081_PIONIERL3": [
+   "extent 666 km outside [1500, 6000]",
+   "mean link 167 km < 250"
+  ],
+  "TB_082_POLSKA": [
+   "extent 634 km outside [1500, 6000]"
+  ],
+  "TB_086_REDCLARA": [
+   "extent 7459 km outside [1500, 6000]",
+   "max link 6295 km > 3000 (likely logical/IP adjacency)"
+  ],
+  "TB_088_RENATER": [
+   "extent 859 km outside [1500, 6000]",
+   "mean link 232 km < 250"
+  ],
+  "TB_089_RENATER1999": [
+   "extent 1063 km outside [1500, 6000]"
+  ],
+  "TB_090_RENATER2001": [
+   "extent 1063 km outside [1500, 6000]"
+  ],
+  "TB_091_RENATER2004": [
+   "extent 1063 km outside [1500, 6000]"
+  ],
+  "TB_092_RENATER2006": [
+   "extent 1063 km outside [1500, 6000]",
+   "mean link 248 km < 250"
+  ],
+  "TB_093_RENATER2008": [
+   "extent 1063 km outside [1500, 6000]",
+   "mean link 248 km < 250"
+  ],
+  "TB_094_RENATER2010": [
+   "n_nodes 37 outside [8, 30] (diagram legibility)",
+   "extent 1260 km outside [1500, 6000]",
+   "mean link 215 km < 250"
+  ],
+  "TB_096_SAGO": [
+   "extent 975 km outside [1500, 6000]",
+   "mean link 109 km < 250"
+  ],
+  "TB_097_SANET": [
+   "n_nodes 46 outside [8, 30] (diagram legibility)",
+   "extent 363 km outside [1500, 6000]",
+   "mean link 33 km < 250",
+   "length/great-circle ratio range [0.95, 1.02] outside [0.999, 3.0] (inconsistent source data)"
+  ],
+  "TB_098_SANREN": [
+   "n_nodes 7 outside [8, 30] (diagram legibility)",
+   "extent 1308 km outside [1500, 6000]"
+  ],
+  "TB_100_SPIRALIGHT": [
+   "extent 511 km outside [1500, 6000]",
+   "mean link 132 km < 250"
+  ],
+  "TB_101_TATANID": [
+   "n_nodes 142 outside [8, 30] (diagram legibility)",
+   "mean link 201 km < 250"
+  ],
+  "TB_102_TELECOMSERBIA": [
+   "n_nodes 6 outside [8, 30] (diagram legibility)",
+   "extent 316 km outside [1500, 6000]",
+   "mean link 214 km < 250"
+  ],
+  "TB_103_UNIC": [
+   "extent 238 km outside [1500, 6000]",
+   "mean link 73 km < 250"
+  ],
+  "TB_104_USA100": [
+   "n_nodes 100 outside [8, 30] (diagram legibility)"
+  ]
+ },
+ "long_haul_sources_used": [
+  "TB_055_JGN2PLUS",
+  "TB_060_LAMBDARAIL",
+  "TB_099_SAVVIS",
+  "TB_071_NOBELEU",
+  "TB_056_JPN12",
+  "TB_050_INTEGRA",
+  "TB_083_PORTUGAL",
+  "TB_015_CLARANET",
+  "TB_095_RNPBRAZIL",
+  "TB_025_DARKSTRAND",
+  "TB_057_JPN25",
+  "TB_085_RAILTELINDIA",
+  "TB_070_NEXTGEN",
+  "TB_066_MZIMA",
+  "TB_087_REDIRIS",
+  "TB_028_ELIBACKBONE",
+  "TB_005_ATMNET",
+  "TB_029_EON",
+  "TB_069_NEWNET",
+  "TB_047_HIBERNIAUS",
+  "TB_034_GBLNET",
+  "TB_054_JANOSUS",
+  "TB_001_ABILENE",
+  "TB_031_ERNET",
+  "TB_105_VIA"
+ ],
+ "anchor_city_pool": 1654
+}

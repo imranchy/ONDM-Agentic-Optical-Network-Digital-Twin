@@ -1,0 +1,85 @@
+{
+ "scenario_id": "network_0009",
+ "ground_truth": {
+  "category": "metro_ring",
+  "category_display": "Metro Optical Ring"
+ },
+ "generation_family": "metro_ring_dual_ring",
+ "group_key": "SYN_metro_ring_0007",
+ "seed": 3486605832,
+ "master_seed": 20261120,
+ "generation_attempt": 0,
+ "provenance": {
+  "topology_origin": "generated_from_documented_architectural_template",
+  "source_dataset": null,
+  "source_topology_id": null,
+  "coordinates": "synthetic sites around real anchor city (A7)",
+  "fiber_connections": "synthetic",
+  "fiber_lengths": "synthetic: great-circle x route factor (A2)",
+  "equipment": "synthetic_assignment",
+  "optical_parameters": "assumed"
+ },
+ "geography": {
+  "scope": "single_metro_area",
+  "anchor_city": {
+   "name": "Lewiston",
+   "country": "United States of America (the)",
+   "lat": 44.1,
+   "lon": -70.21,
+   "source_topology": "TB_077_OXFORD"
+  },
+  "coordinate_source": "synthetic offsets from Topology Bench anchor city",
+  "countries": [
+   "United States of America (the)"
+  ],
+  "geo_extent_km": 62.7,
+  "coordinate_provenance": "synthetic sites around real anchor city (A7)",
+  "length_note": "Fibre length is NOT straight-line distance; see route factor per edge and assumptions A1/A2. Routes do not follow surveyed rights-of-way or real cables."
+ },
+ "equipment_assumptions": {
+  "terrestrial_max_span_km": 82.9,
+  "submarine_repeater_spacing_km": 56.3,
+  "unrepeatered_max_km": 350,
+  "dci_pluggable_reach_km": 120
+ },
+ "assumption_ids": [
+  "A2_synthetic_route_factor",
+  "A3_terrestrial_span",
+  "A6_terminals",
+  "A9_roadm_degree"
+ ],
+ "network_size": {
+  "n_nodes": 10,
+  "n_edges": 11,
+  "total_fiber_km": 265.3,
+  "link_km_min": 13.61,
+  "link_km_max": 47.86,
+  "n_inline_amplifiers": 0,
+  "roles": {
+   "HUB_ROADM": 2,
+   "OADM": 8
+  }
+ },
+ "params": null,
+ "structural_signature_wl": "2ba0c18e3cc1816fb13c900f75507902",
+ "generation": {
+  "config_file": "configs/pilot_125.json",
+  "config_sha256": "e22074a3784e99e6eed681198dbfaddcaa8ddf51c4ea1880c091cac28bd7c729",
+  "generator_version": "0.1.0",
+  "git_commit": "fd37f7f65e15c8b84cef93ae96f1db6454559a90",
+  "render_style_hash": "8aba402914e01f0c"
+ },
+ "validation": {
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "rules_satisfied": [
+   "metro_ring"
+  ],
+  "ambiguous": false,
+  "structural_cues": [],
+  "issues": [],
+  "validator": "src/validation/validate_dataset.py",
+  "human_review": "pending"
+ }
+}

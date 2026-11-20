@@ -1,0 +1,552 @@
+{
+ "image_px": [
+  1600,
+  1200
+ ],
+ "style_hash": "8aba402914e01f0c",
+ "font_px": {
+  "node": 17.77777777777778,
+  "edge": 15.555555555555555,
+  "legend": 16.666666666666668
+ },
+ "plot_area_px": [
+  8.0,
+  12.0,
+  1264.0,
+  1188.0
+ ],
+ "legend_area_px": [
+  1280.0,
+  24.0,
+  1584.0,
+  1176.0
+ ],
+ "nodes": [
+  {
+   "node_id": "S01",
+   "role": "ROADM",
+   "xy_axes": [
+    0.08,
+    0.92
+   ],
+   "text": "S01\nROADM-2D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    58.1,
+    44.3,
+    158.8,
+    81.6
+   ]
+  },
+  {
+   "node_id": "S02",
+   "role": "ROADM",
+   "xy_axes": [
+    0.5455,
+    0.08
+   ],
+   "text": "S02\nROADM-3D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    642.8,
+    1118.4,
+    743.4,
+    1155.7
+   ]
+  },
+  {
+   "node_id": "S03",
+   "role": "ROADM",
+   "xy_axes": [
+    0.8668,
+    0.51
+   ],
+   "text": "S03\nROADM-2D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    1121.2,
+    569.6,
+    1221.9,
+    606.9
+   ]
+  },
+  {
+   "node_id": "S04",
+   "role": "ROADM",
+   "xy_axes": [
+    0.7081,
+    0.5516
+   ],
+   "text": "S04\nROADM-3D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    921.8,
+    520.6,
+    1022.5,
+    558.0
+   ]
+  },
+  {
+   "node_id": "S05",
+   "role": "ROADM",
+   "xy_axes": [
+    0.3807,
+    0.5973
+   ],
+   "text": "S05\nROADM-3D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    510.6,
+    423.8,
+    611.2,
+    461.1
+   ]
+  },
+  {
+   "node_id": "S06",
+   "role": "ROADM",
+   "xy_axes": [
+    0.6828,
+    0.6483
+   ],
+   "text": "S06\nROADM-2D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    815.2,
+    363.8,
+    915.9,
+    401.1
+   ]
+  },
+  {
+   "node_id": "S07",
+   "role": "ROADM",
+   "xy_axes": [
+    0.0848,
+    0.4388
+   ],
+   "text": "S07\nROADM-3D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    158.9,
+    653.3,
+    259.6,
+    690.7
+   ]
+  },
+  {
+   "node_id": "S08",
+   "role": "ROADM",
+   "xy_axes": [
+    0.92,
+    0.5989
+   ],
+   "text": "S08\nROADM-2D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    1113.2,
+    422.0,
+    1213.9,
+    459.3
+   ]
+  },
+  {
+   "node_id": "S09",
+   "role": "ROADM",
+   "xy_axes": [
+    0.1504,
+    0.2816
+   ],
+   "text": "S09\nROADM-2D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    146.5,
+    881.2,
+    247.2,
+    918.6
+   ]
+  },
+  {
+   "node_id": "S10",
+   "role": "ROADM",
+   "xy_axes": [
+    0.5267,
+    0.513
+   ],
+   "text": "S10\nROADM-3D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    694.0,
+    609.1,
+    794.7,
+    646.4
+   ]
+  },
+  {
+   "node_id": "S11",
+   "role": "ROADM",
+   "xy_axes": [
+    0.739,
+    0.2675
+   ],
+   "text": "S11\nROADM-3D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    960.6,
+    854.7,
+    1061.3,
+    892.1
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "L01",
+   "u": "S01",
+   "v": "S05",
+   "text": "1964 km \u00b7 24 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    229.6,
+    288.0,
+    365.0,
+    303.7
+   ]
+  },
+  {
+   "edge_id": "L02",
+   "u": "S01",
+   "v": "S07",
+   "text": "1500 km \u00b7 18 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    43.8,
+    381.2,
+    179.2,
+    396.9
+   ]
+  },
+  {
+   "edge_id": "L03",
+   "u": "S02",
+   "v": "S09",
+   "text": "2741 km \u00b7 34 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    377.3,
+    967.5,
+    512.7,
+    983.2
+   ]
+  },
+  {
+   "edge_id": "L04",
+   "u": "S02",
+   "v": "S10",
+   "text": "1500 km \u00b7 18 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    613.6,
+    831.4,
+    749.0,
+    847.2
+   ]
+  },
+  {
+   "edge_id": "L05",
+   "u": "S02",
+   "v": "S11",
+   "text": "1500 km \u00b7 18 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    746.9,
+    975.8,
+    882.3,
+    991.5
+   ]
+  },
+  {
+   "edge_id": "L06",
+   "u": "S03",
+   "v": "S08",
+   "text": "502 km \u00b7 6 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    1072.4,
+    528.1,
+    1187.8,
+    543.9
+   ]
+  },
+  {
+   "edge_id": "L07",
+   "u": "S03",
+   "v": "S11",
+   "text": "1349 km \u00b7 16 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    948.8,
+    723.0,
+    1084.1,
+    738.7
+   ]
+  },
+  {
+   "edge_id": "L08",
+   "u": "S04",
+   "v": "S06",
+   "text": "389 km \u00b7 4 ILA",
+   "amp_markers_drawn": 4,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    823.8,
+    474.6,
+    939.1,
+    490.3
+   ]
+  },
+  {
+   "edge_id": "L09",
+   "u": "S04",
+   "v": "S10",
+   "text": "1352 km \u00b7 16 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    715.8,
+    554.1,
+    851.1,
+    569.9
+   ]
+  },
+  {
+   "edge_id": "L10",
+   "u": "S04",
+   "v": "S11",
+   "text": "885 km \u00b7 11 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    854.1,
+    698.5,
+    979.4,
+    714.2
+   ]
+  },
+  {
+   "edge_id": "L11",
+   "u": "S05",
+   "v": "S07",
+   "text": "1892 km \u00b7 23 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    232.6,
+    570.9,
+    368.0,
+    586.7
+   ]
+  },
+  {
+   "edge_id": "L12",
+   "u": "S05",
+   "v": "S10",
+   "text": "1116 km \u00b7 14 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    510.1,
+    527.3,
+    645.5,
+    543.0
+   ]
+  },
+  {
+   "edge_id": "L13",
+   "u": "S06",
+   "v": "S08",
+   "text": "1500 km \u00b7 18 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    946.9,
+    446.8,
+    1082.2,
+    462.5
+   ]
+  },
+  {
+   "edge_id": "L14",
+   "u": "S07",
+   "v": "S09",
+   "text": "755 km \u00b7 9 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    98.0,
+    756.5,
+    213.4,
+    772.3
+   ]
+  }
+ ],
+ "legend": [
+  {
+   "text": "Legend",
+   "bbox_px": [
+    1298.2,
+    52.8,
+    1378.2,
+    71.7
+   ]
+  },
+  {
+   "text": "ROADM (n-degree)",
+   "bbox_px": [
+    1362.1,
+    113.4,
+    1521.4,
+    130.4
+   ]
+  },
+  {
+   "text": "OADM add/drop",
+   "bbox_px": [
+    1362.1,
+    187.1,
+    1496.4,
+    204.1
+   ]
+  },
+  {
+   "text": "Central office (CO)",
+   "bbox_px": [
+    1362.1,
+    260.9,
+    1518.1,
+    277.9
+   ]
+  },
+  {
+   "text": "Data centre (DC)",
+   "bbox_px": [
+    1362.1,
+    334.6,
+    1504.7,
+    351.6
+   ]
+  },
+  {
+   "text": "Cable landing (CLS)",
+   "bbox_px": [
+    1362.1,
+    408.3,
+    1530.1,
+    425.3
+   ]
+  },
+  {
+   "text": "Branching unit (BU)",
+   "bbox_px": [
+    1362.1,
+    482.1,
+    1531.1,
+    499.1
+   ]
+  },
+  {
+   "text": "Terrestrial fibre",
+   "bbox_px": [
+    1362.1,
+    555.8,
+    1489.2,
+    572.8
+   ]
+  },
+  {
+   "text": "Undersea cable",
+   "bbox_px": [
+    1362.1,
+    629.5,
+    1492.1,
+    646.5
+   ]
+  },
+  {
+   "text": "Amplifier ILA / RPT",
+   "bbox_px": [
+    1362.1,
+    703.2,
+    1519.5,
+    720.2
+   ]
+  },
+  {
+   "text": "TRM: transponder",
+   "bbox_px": [
+    1298.2,
+    777.0,
+    1450.2,
+    794.0
+   ]
+  },
+  {
+   "text": "ZR: 400ZR pluggable",
+   "bbox_px": [
+    1298.2,
+    850.7,
+    1479.7,
+    867.7
+   ]
+  },
+  {
+   "text": "TRP: ZR+ transponder",
+   "bbox_px": [
+    1298.2,
+    924.4,
+    1488.2,
+    941.4
+   ]
+  },
+  {
+   "text": "SLTE: line terminal",
+   "bbox_px": [
+    1298.2,
+    998.2,
+    1455.6,
+    1015.2
+   ]
+  },
+  {
+   "text": "Link: km \u00b7 amplifiers",
+   "bbox_px": [
+    1298.2,
+    1071.9,
+    1471.2,
+    1088.9
+   ]
+  }
+ ],
+ "scenario_id": "network_0054"
+}

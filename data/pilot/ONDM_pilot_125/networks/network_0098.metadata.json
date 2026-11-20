@@ -1,0 +1,97 @@
+{
+ "scenario_id": "network_0098",
+ "ground_truth": {
+  "category": "metro_aggregation",
+  "category_display": "Metro Aggregation"
+ },
+ "generation_family": "metro_aggregation_ring_2hub",
+ "group_key": "SYN_metro_aggregation_0024",
+ "seed": 1910660425,
+ "master_seed": 20261120,
+ "generation_attempt": 0,
+ "provenance": {
+  "topology_origin": "generated_from_documented_architectural_template",
+  "source_dataset": null,
+  "source_topology_id": null,
+  "coordinates": "synthetic sites around real anchor city (A7)",
+  "fiber_connections": "synthetic",
+  "fiber_lengths": "synthetic: great-circle x route factor (A2)",
+  "equipment": "synthetic_assignment",
+  "optical_parameters": "assumed"
+ },
+ "geography": {
+  "scope": "metro_or_regional",
+  "anchor_city": {
+   "name": "Bareilly",
+   "country": "India",
+   "lat": 28.35,
+   "lon": 79.42,
+   "source_topology": "TB_101_TATANID"
+  },
+  "coordinate_source": "synthetic offsets from Topology Bench anchor city",
+  "countries": [
+   "India"
+  ],
+  "geo_extent_km": 46.6,
+  "coordinate_provenance": "synthetic sites around real anchor city (A7)",
+  "length_note": "Fibre length is NOT straight-line distance; see route factor per edge and assumptions A1/A2. Routes do not follow surveyed rights-of-way or real cables."
+ },
+ "equipment_assumptions": {
+  "terrestrial_max_span_km": 86.6,
+  "submarine_repeater_spacing_km": 60.0,
+  "unrepeatered_max_km": 350,
+  "dci_pluggable_reach_km": 120
+ },
+ "assumption_ids": [
+  "A2_synthetic_route_factor",
+  "A3_terrestrial_span",
+  "A6_terminals",
+  "A9_roadm_degree"
+ ],
+ "network_size": {
+  "n_nodes": 9,
+  "n_edges": 15,
+  "total_fiber_km": 461.8,
+  "link_km_min": 5.19,
+  "link_km_max": 59.95,
+  "n_inline_amplifiers": 0,
+  "roles": {
+   "CO": 4,
+   "HUB_ROADM": 2,
+   "ROADM": 3
+  }
+ },
+ "params": {
+  "dual_homing_prob": 0.737,
+  "agg_tier": "ring"
+ },
+ "structural_signature_wl": "193c299a0ee29f462771ee995417dafc",
+ "generation": {
+  "config_file": "configs/pilot_125.json",
+  "config_sha256": "e22074a3784e99e6eed681198dbfaddcaa8ddf51c4ea1880c091cac28bd7c729",
+  "generator_version": "0.1.0",
+  "git_commit": "fd37f7f65e15c8b84cef93ae96f1db6454559a90",
+  "render_style_hash": "8aba402914e01f0c"
+ },
+ "validation": {
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "rules_satisfied": [
+   "metro_aggregation"
+  ],
+  "ambiguous": false,
+  "structural_cues": [
+   "distribution_tier_is_ring"
+  ],
+  "issues": [
+   {
+    "check": "L3_structural_cue",
+    "severity": "INFO",
+    "message": "distribution_tier_is_ring"
+   }
+  ],
+  "validator": "src/validation/validate_dataset.py",
+  "human_review": "pending"
+ }
+}

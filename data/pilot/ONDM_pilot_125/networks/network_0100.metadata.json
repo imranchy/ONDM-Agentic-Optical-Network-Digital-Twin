@@ -1,0 +1,117 @@
+{
+ "scenario_id": "network_0100",
+ "ground_truth": {
+  "category": "dci",
+  "category_display": "Data Center Interconnect"
+ },
+ "generation_family": "dci_regional_dci",
+ "group_key": "SYN_dci_0011",
+ "seed": 1902883374,
+ "master_seed": 20261120,
+ "generation_attempt": 1,
+ "provenance": {
+  "topology_origin": "generated_from_documented_architectural_template",
+  "source_dataset": null,
+  "source_topology_id": null,
+  "coordinates": "synthetic sites around real anchor city (A7)",
+  "fiber_connections": "synthetic",
+  "fiber_lengths": "synthetic: great-circle x route factor (A2)",
+  "equipment": "synthetic_assignment",
+  "optical_parameters": "assumed"
+ },
+ "geography": {
+  "scope": "regional",
+  "anchor_city": {
+   "name": "Vancouver",
+   "country": "United States of America (the)",
+   "lat": 45.64,
+   "lon": -122.66,
+   "source_topology": "TB_049_IBM"
+  },
+  "coordinate_source": "synthetic offsets from Topology Bench anchor city",
+  "countries": [
+   "United States of America (the)"
+  ],
+  "anchor_cities": [
+   {
+    "name": "Vancouver",
+    "country": "United States of America (the)",
+    "lat": 45.64,
+    "lon": -122.66,
+    "source_topology": "TB_049_IBM"
+   },
+   {
+    "name": "Othello",
+    "country": "United States of America (the)",
+    "lat": 46.83,
+    "lon": -119.18,
+    "source_topology": "TB_074_NOEL"
+   },
+   {
+    "name": "Bend",
+    "country": "United States of America (the)",
+    "lat": 44.06,
+    "lon": -121.32,
+    "source_topology": "TB_050_INTEGRA"
+   }
+  ],
+  "geo_extent_km": 366.6,
+  "coordinate_provenance": "synthetic sites around real anchor city (A7)",
+  "length_note": "Fibre length is NOT straight-line distance; see route factor per edge and assumptions A1/A2. Routes do not follow surveyed rights-of-way or real cables."
+ },
+ "equipment_assumptions": {
+  "terrestrial_max_span_km": 99.3,
+  "submarine_repeater_spacing_km": 89.1,
+  "unrepeatered_max_km": 350,
+  "dci_pluggable_reach_km": 120
+ },
+ "assumption_ids": [
+  "A2_synthetic_route_factor",
+  "A3_terrestrial_span",
+  "A5_dci_reach",
+  "A6_terminals",
+  "A9_roadm_degree"
+ ],
+ "network_size": {
+  "n_nodes": 5,
+  "n_edges": 6,
+  "total_fiber_km": 1189.2,
+  "link_km_min": 9.3,
+  "link_km_max": 429.67,
+  "n_inline_amplifiers": 10,
+  "roles": {
+   "DC": 4,
+   "ROADM": 1
+  }
+ },
+ "params": null,
+ "structural_signature_wl": "c6fc5749f86a2ce6dba1e6cfaf31ee2a",
+ "generation": {
+  "config_file": "configs/pilot_125.json",
+  "config_sha256": "e22074a3784e99e6eed681198dbfaddcaa8ddf51c4ea1880c091cac28bd7c729",
+  "generator_version": "0.1.0",
+  "git_commit": "fd37f7f65e15c8b84cef93ae96f1db6454559a90",
+  "render_style_hash": "8aba402914e01f0c"
+ },
+ "validation": {
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "rules_satisfied": [
+   "dci"
+  ],
+  "ambiguous": false,
+  "structural_cues": [
+   "structure_ring_like"
+  ],
+  "issues": [
+   {
+    "check": "L3_structural_cue",
+    "severity": "INFO",
+    "message": "structure_ring_like"
+   }
+  ],
+  "validator": "src/validation/validate_dataset.py",
+  "human_review": "pending"
+ }
+}

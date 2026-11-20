@@ -1,0 +1,429 @@
+{
+ "image_px": [
+  1600,
+  1200
+ ],
+ "style_hash": "8aba402914e01f0c",
+ "font_px": {
+  "node": 17.77777777777778,
+  "edge": 15.555555555555555,
+  "legend": 16.666666666666668
+ },
+ "plot_area_px": [
+  8.0,
+  12.0,
+  1264.0,
+  1188.0
+ ],
+ "legend_area_px": [
+  1280.0,
+  24.0,
+  1584.0,
+  1176.0
+ ],
+ "nodes": [
+  {
+   "node_id": "S01",
+   "role": "CLS",
+   "xy_axes": [
+    0.5046,
+    0.7721
+   ],
+   "text": "S01\nCLS SLTE",
+   "placement_score": 0.0,
+   "bbox_px": [
+    601.5,
+    218.3,
+    682.0,
+    255.6
+   ]
+  },
+  {
+   "node_id": "S02",
+   "role": "POP_ROADM",
+   "xy_axes": [
+    0.92,
+    0.08
+   ],
+   "text": "S02\nPOP ROADM-1D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    1092.2,
+    1118.4,
+    1234.9,
+    1155.7
+   ]
+  },
+  {
+   "node_id": "S03",
+   "role": "POP_ROADM",
+   "xy_axes": [
+    0.1174,
+    0.6818
+   ],
+   "text": "S03\nPOP ROADM-2D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    84.1,
+    410.7,
+    226.8,
+    448.0
+   ]
+  },
+  {
+   "node_id": "S04",
+   "role": "CLS",
+   "xy_axes": [
+    0.153,
+    0.92
+   ],
+   "text": "S04\nCLS SLTE",
+   "placement_score": 0.0,
+   "bbox_px": [
+    159.8,
+    44.3,
+    240.4,
+    81.6
+   ]
+  },
+  {
+   "node_id": "S05",
+   "role": "CLS",
+   "xy_axes": [
+    0.8252,
+    0.5449
+   ],
+   "text": "S05\nCLS SLTE",
+   "placement_score": 0.0,
+   "bbox_px": [
+    1068.9,
+    528.5,
+    1149.5,
+    565.9
+   ]
+  },
+  {
+   "node_id": "S06",
+   "role": "POP_ROADM",
+   "xy_axes": [
+    0.0742,
+    0.755
+   ],
+   "text": "S06\nPOP ROADM-2D",
+   "placement_score": 400.0,
+   "bbox_px": [
+    29.9,
+    238.3,
+    172.6,
+    275.6
+   ]
+  },
+  {
+   "node_id": "S07",
+   "role": "POP_ROADM",
+   "xy_axes": [
+    0.5093,
+    0.4431
+   ],
+   "text": "S07\nPOP ROADM-2D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    576.3,
+    691.4,
+    719.0,
+    728.7
+   ]
+  },
+  {
+   "node_id": "S08",
+   "role": "POP_ROADM",
+   "xy_axes": [
+    0.3458,
+    0.5358
+   ],
+   "text": "S08\nPOP ROADM-2D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    275.2,
+    539.2,
+    417.9,
+    576.5
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "L01",
+   "u": "S01",
+   "v": "S04",
+   "text": "162 km",
+   "amp_markers_drawn": 0,
+   "dashed": true,
+   "placement_score": 0.0,
+   "bbox_px": [
+    390.9,
+    185.2,
+    450.9,
+    200.9
+   ]
+  },
+  {
+   "edge_id": "L02",
+   "u": "S01",
+   "v": "S05",
+   "text": "170 km",
+   "amp_markers_drawn": 0,
+   "dashed": true,
+   "placement_score": 0.0,
+   "bbox_px": [
+    813.1,
+    405.8,
+    873.1,
+    421.5
+   ]
+  },
+  {
+   "edge_id": "L03",
+   "u": "S01",
+   "v": "S07",
+   "text": "123 km \u00b7 1 ILA",
+   "amp_markers_drawn": 1,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    587.0,
+    465.6,
+    702.4,
+    481.4
+   ]
+  },
+  {
+   "edge_id": "L04",
+   "u": "S01",
+   "v": "S08",
+   "text": "116 km \u00b7 1 ILA",
+   "amp_markers_drawn": 1,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    484.3,
+    411.1,
+    599.7,
+    426.8
+   ]
+  },
+  {
+   "edge_id": "L05",
+   "u": "S02",
+   "v": "S05",
+   "text": "189 km \u00b7 1 ILA",
+   "amp_markers_drawn": 1,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    1046.3,
+    812.7,
+    1161.7,
+    828.4
+   ]
+  },
+  {
+   "edge_id": "L06",
+   "u": "S03",
+   "v": "S04",
+   "text": "88 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    172.6,
+    241.1,
+    222.6,
+    256.8
+   ]
+  },
+  {
+   "edge_id": "L07",
+   "u": "S03",
+   "v": "S06",
+   "text": "25 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    103.3,
+    335.3,
+    153.3,
+    351.0
+   ]
+  },
+  {
+   "edge_id": "L08",
+   "u": "S04",
+   "v": "S06",
+   "text": "72 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    125.7,
+    195.2,
+    175.7,
+    211.0
+   ]
+  },
+  {
+   "edge_id": "L09",
+   "u": "S07",
+   "v": "S08",
+   "text": "116 km \u00b7 1 ILA",
+   "amp_markers_drawn": 1,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    487.3,
+    604.6,
+    602.7,
+    620.3
+   ]
+  }
+ ],
+ "legend": [
+  {
+   "text": "Legend",
+   "bbox_px": [
+    1298.2,
+    52.8,
+    1378.2,
+    71.7
+   ]
+  },
+  {
+   "text": "ROADM (n-degree)",
+   "bbox_px": [
+    1362.1,
+    113.4,
+    1521.4,
+    130.4
+   ]
+  },
+  {
+   "text": "OADM add/drop",
+   "bbox_px": [
+    1362.1,
+    187.1,
+    1496.4,
+    204.1
+   ]
+  },
+  {
+   "text": "Central office (CO)",
+   "bbox_px": [
+    1362.1,
+    260.9,
+    1518.1,
+    277.9
+   ]
+  },
+  {
+   "text": "Data centre (DC)",
+   "bbox_px": [
+    1362.1,
+    334.6,
+    1504.7,
+    351.6
+   ]
+  },
+  {
+   "text": "Cable landing (CLS)",
+   "bbox_px": [
+    1362.1,
+    408.3,
+    1530.1,
+    425.3
+   ]
+  },
+  {
+   "text": "Branching unit (BU)",
+   "bbox_px": [
+    1362.1,
+    482.1,
+    1531.1,
+    499.1
+   ]
+  },
+  {
+   "text": "Terrestrial fibre",
+   "bbox_px": [
+    1362.1,
+    555.8,
+    1489.2,
+    572.8
+   ]
+  },
+  {
+   "text": "Undersea cable",
+   "bbox_px": [
+    1362.1,
+    629.5,
+    1492.1,
+    646.5
+   ]
+  },
+  {
+   "text": "Amplifier ILA / RPT",
+   "bbox_px": [
+    1362.1,
+    703.2,
+    1519.5,
+    720.2
+   ]
+  },
+  {
+   "text": "TRM: transponder",
+   "bbox_px": [
+    1298.2,
+    777.0,
+    1450.2,
+    794.0
+   ]
+  },
+  {
+   "text": "ZR: 400ZR pluggable",
+   "bbox_px": [
+    1298.2,
+    850.7,
+    1479.7,
+    867.7
+   ]
+  },
+  {
+   "text": "TRP: ZR+ transponder",
+   "bbox_px": [
+    1298.2,
+    924.4,
+    1488.2,
+    941.4
+   ]
+  },
+  {
+   "text": "SLTE: line terminal",
+   "bbox_px": [
+    1298.2,
+    998.2,
+    1455.6,
+    1015.2
+   ]
+  },
+  {
+   "text": "Link: km \u00b7 amplifiers",
+   "bbox_px": [
+    1298.2,
+    1071.9,
+    1471.2,
+    1088.9
+   ]
+  }
+ ],
+ "scenario_id": "network_0117"
+}

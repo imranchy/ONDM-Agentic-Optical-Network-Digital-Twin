@@ -1,0 +1,205 @@
+{
+ "scenario_id": "network_0125",
+ "directed": false,
+ "node_count": 7,
+ "edge_count": 9,
+ "nodes": [
+  {
+   "id": "S01",
+   "role": "DC",
+   "lat": 30.45687,
+   "lon": -9.69048,
+   "degree": 4,
+   "tier": null,
+   "diagram_label": "S01\nDC ZR\u00d711"
+  },
+  {
+   "id": "S02",
+   "role": "DC",
+   "lat": 30.43239,
+   "lon": -9.51644,
+   "degree": 3,
+   "tier": null,
+   "diagram_label": "S02\nDC ZR\u00d76"
+  },
+  {
+   "id": "S03",
+   "role": "DC",
+   "lat": 30.46429,
+   "lon": -9.63708,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S03\nDC ZR\u00d79"
+  },
+  {
+   "id": "S04",
+   "role": "DC",
+   "lat": 30.46965,
+   "lon": -9.57677,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S04\nDC ZR\u00d75"
+  },
+  {
+   "id": "S05",
+   "role": "DC",
+   "lat": 30.36389,
+   "lon": -9.69279,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S05\nDC ZR\u00d710"
+  },
+  {
+   "id": "S06",
+   "role": "DC",
+   "lat": 30.35725,
+   "lon": -9.51963,
+   "degree": 3,
+   "tier": null,
+   "diagram_label": "S06\nDC ZR\u00d77"
+  },
+  {
+   "id": "S07",
+   "role": "DC",
+   "lat": 30.36131,
+   "lon": -9.62121,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S07\nDC ZR\u00d715"
+  }
+ ],
+ "edges": [
+  {
+   "id": "L01",
+   "u": "S01",
+   "v": "S02",
+   "medium": "terrestrial",
+   "length_km": 23.11,
+   "great_circle_km": 16.905,
+   "route_factor": 1.3672,
+   "n_spans": 1,
+   "span_length_km": 23.11,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "23 km"
+  },
+  {
+   "id": "L02",
+   "u": "S01",
+   "v": "S03",
+   "medium": "terrestrial",
+   "length_km": 8.15,
+   "great_circle_km": 5.184,
+   "route_factor": 1.5714,
+   "n_spans": 1,
+   "span_length_km": 8.15,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "8.2 km"
+  },
+  {
+   "id": "L03",
+   "u": "S01",
+   "v": "S05",
+   "medium": "terrestrial",
+   "length_km": 15.52,
+   "great_circle_km": 10.341,
+   "route_factor": 1.5008,
+   "n_spans": 1,
+   "span_length_km": 15.52,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "16 km"
+  },
+  {
+   "id": "L04",
+   "u": "S01",
+   "v": "S06",
+   "medium": "terrestrial",
+   "length_km": 31.12,
+   "great_circle_km": 19.778,
+   "route_factor": 1.5736,
+   "n_spans": 1,
+   "span_length_km": 31.12,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "31 km"
+  },
+  {
+   "id": "L05",
+   "u": "S02",
+   "v": "S04",
+   "medium": "terrestrial",
+   "length_km": 10.33,
+   "great_circle_km": 7.114,
+   "route_factor": 1.4517,
+   "n_spans": 1,
+   "span_length_km": 10.33,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "10 km"
+  },
+  {
+   "id": "L06",
+   "u": "S02",
+   "v": "S06",
+   "medium": "terrestrial",
+   "length_km": 10.54,
+   "great_circle_km": 8.361,
+   "route_factor": 1.2605,
+   "n_spans": 1,
+   "span_length_km": 10.54,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "11 km"
+  },
+  {
+   "id": "L07",
+   "u": "S03",
+   "v": "S04",
+   "medium": "terrestrial",
+   "length_km": 7.59,
+   "great_circle_km": 5.811,
+   "route_factor": 1.3059,
+   "n_spans": 1,
+   "span_length_km": 7.59,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "7.6 km"
+  },
+  {
+   "id": "L08",
+   "u": "S05",
+   "v": "S07",
+   "medium": "terrestrial",
+   "length_km": 10.4,
+   "great_circle_km": 6.874,
+   "route_factor": 1.5124,
+   "n_spans": 1,
+   "span_length_km": 10.4,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "10 km"
+  },
+  {
+   "id": "L09",
+   "u": "S06",
+   "v": "S07",
+   "medium": "terrestrial",
+   "length_km": 15.5,
+   "great_circle_km": 9.757,
+   "route_factor": 1.5887,
+   "n_spans": 1,
+   "span_length_km": 15.5,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "16 km"
+  }
+ ],
+ "connectivity": {
+  "connected": true,
+  "components": 1,
+  "min_degree": 2,
+  "max_degree": 4
+ }
+}

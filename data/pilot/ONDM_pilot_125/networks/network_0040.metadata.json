@@ -1,0 +1,79 @@
+{
+ "scenario_id": "network_0040",
+ "ground_truth": {
+  "category": "long_haul_core",
+  "category_display": "Long-haul / Core"
+ },
+ "generation_family": "tb_real_derived_mesh",
+ "group_key": "TB_028",
+ "seed": 3935215776,
+ "master_seed": 20261120,
+ "generation_attempt": 0,
+ "provenance": {
+  "topology_origin": "derived_from_published_real_world_topology",
+  "source_dataset": "Topology Bench real_topologies (doi:10.5281/zenodo.13921775, CC-BY-4.0)",
+  "source_topology_id": "TB_028_ELIBACKBONE",
+  "source_file": "TOP_28_ELIBACKBONE.xlsx",
+  "modification": "none to graph/coordinates/lengths; duplicate edges/self-loops removed if present",
+  "coordinates": "real_derived (Topology Bench node lat/lon)",
+  "fiber_connections": "real_derived (Topology Bench edges)",
+  "fiber_lengths": "real_derived_with_route_factor (Topology Bench computed length, A1)",
+  "equipment": "synthetic_assignment",
+  "optical_parameters": "assumed"
+ },
+ "geography": {
+  "scope": "national_or_continental",
+  "countries": [
+   "United States of America (the)"
+  ],
+  "coordinate_source": "Topology Bench",
+  "geo_extent_km": 4104.8,
+  "coordinate_provenance": "real_derived (Topology Bench node lat/lon)",
+  "length_note": "Fibre length is NOT straight-line distance; see route factor per edge and assumptions A1/A2. Routes do not follow surveyed rights-of-way or real cables."
+ },
+ "equipment_assumptions": {
+  "terrestrial_max_span_km": 86.2,
+  "submarine_repeater_spacing_km": 67.1,
+  "unrepeatered_max_km": 350,
+  "dci_pluggable_reach_km": 120
+ },
+ "assumption_ids": [
+  "A1_tb_lengths",
+  "A3_terrestrial_span",
+  "A6_terminals",
+  "A9_roadm_degree"
+ ],
+ "network_size": {
+  "n_nodes": 20,
+  "n_edges": 30,
+  "total_fiber_km": 31697.9,
+  "link_km_min": 28.18,
+  "link_km_max": 2798.9,
+  "n_inline_amplifiers": 353,
+  "roles": {
+   "ROADM": 20
+  }
+ },
+ "params": null,
+ "structural_signature_wl": "57b411f7599338f2c61b42a129217e28",
+ "generation": {
+  "config_file": "configs/pilot_125.json",
+  "config_sha256": "e22074a3784e99e6eed681198dbfaddcaa8ddf51c4ea1880c091cac28bd7c729",
+  "generator_version": "0.1.0",
+  "git_commit": "fd37f7f65e15c8b84cef93ae96f1db6454559a90",
+  "render_style_hash": "8aba402914e01f0c"
+ },
+ "validation": {
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "rules_satisfied": [
+   "long_haul_core"
+  ],
+  "ambiguous": false,
+  "structural_cues": [],
+  "issues": [],
+  "validator": "src/validation/validate_dataset.py",
+  "human_review": "pending"
+ }
+}

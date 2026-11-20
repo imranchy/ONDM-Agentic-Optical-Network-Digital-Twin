@@ -1,0 +1,367 @@
+{
+ "image_px": [
+  1600,
+  1200
+ ],
+ "style_hash": "8aba402914e01f0c",
+ "font_px": {
+  "node": 17.77777777777778,
+  "edge": 15.555555555555555,
+  "legend": 16.666666666666668
+ },
+ "plot_area_px": [
+  8.0,
+  12.0,
+  1264.0,
+  1188.0
+ ],
+ "legend_area_px": [
+  1280.0,
+  24.0,
+  1584.0,
+  1176.0
+ ],
+ "nodes": [
+  {
+   "node_id": "S01",
+   "role": "DC",
+   "xy_axes": [
+    0.4822,
+    0.8519
+   ],
+   "text": "S01\nDC TRP\u00d77",
+   "placement_score": 0.0,
+   "bbox_px": [
+    566.6,
+    210.6,
+    660.6,
+    247.9
+   ]
+  },
+  {
+   "node_id": "S02",
+   "role": "DC",
+   "xy_axes": [
+    0.92,
+    0.92
+   ],
+   "text": "S02\nDC TRP\u00d76",
+   "placement_score": 0.0,
+   "bbox_px": [
+    1116.5,
+    44.3,
+    1210.5,
+    81.6
+   ]
+  },
+  {
+   "node_id": "S03",
+   "role": "DC",
+   "xy_axes": [
+    0.4915,
+    0.9364
+   ],
+   "text": "S03\nDC TRP\u00d74",
+   "placement_score": 0.0,
+   "bbox_px": [
+    578.3,
+    25.0,
+    672.3,
+    62.4
+   ]
+  },
+  {
+   "node_id": "S04",
+   "role": "DC",
+   "xy_axes": [
+    0.6818,
+    0.08
+   ],
+   "text": "S04\nDC TRP\u00d74",
+   "placement_score": 0.0,
+   "bbox_px": [
+    817.4,
+    1118.4,
+    911.4,
+    1155.7
+   ]
+  },
+  {
+   "node_id": "S05",
+   "role": "DC",
+   "xy_axes": [
+    0.08,
+    0.1181
+   ],
+   "text": "S05\nDC TRP\u00d79",
+   "placement_score": 0.0,
+   "bbox_px": [
+    61.5,
+    1073.5,
+    155.5,
+    1110.9
+   ]
+  },
+  {
+   "node_id": "S06",
+   "role": "ROADM",
+   "xy_axes": [
+    0.5635,
+    0.8273
+   ],
+   "text": "S06\nROADM-4D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    740.2,
+    196.5,
+    840.9,
+    233.8
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "L01",
+   "u": "S01",
+   "v": "S03",
+   "text": "12 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    594.5,
+    128.6,
+    644.5,
+    144.3
+   ]
+  },
+  {
+   "edge_id": "L02",
+   "u": "S01",
+   "v": "S06",
+   "text": "6.5 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    637.2,
+    192.8,
+    692.2,
+    208.5
+   ]
+  },
+  {
+   "edge_id": "L03",
+   "u": "S02",
+   "v": "S04",
+   "text": "428 km \u00b7 5 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    956.3,
+    592.1,
+    1071.6,
+    607.9
+   ]
+  },
+  {
+   "edge_id": "L04",
+   "u": "S02",
+   "v": "S05",
+   "text": "664 km \u00b7 8 ILA",
+   "amp_markers_drawn": 5,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    578.3,
+    569.7,
+    693.7,
+    585.5
+   ]
+  },
+  {
+   "edge_id": "L05",
+   "u": "S03",
+   "v": "S06",
+   "text": "20 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    645.6,
+    143.1,
+    695.6,
+    158.8
+   ]
+  },
+  {
+   "edge_id": "L06",
+   "u": "S04",
+   "v": "S06",
+   "text": "355 km \u00b7 4 ILA",
+   "amp_markers_drawn": 4,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    732.4,
+    646.7,
+    847.8,
+    662.4
+   ]
+  },
+  {
+   "edge_id": "L07",
+   "u": "S05",
+   "v": "S06",
+   "text": "369 km \u00b7 4 ILA",
+   "amp_markers_drawn": 4,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    354.5,
+    624.2,
+    469.8,
+    640.0
+   ]
+  }
+ ],
+ "legend": [
+  {
+   "text": "Legend",
+   "bbox_px": [
+    1298.2,
+    52.8,
+    1378.2,
+    71.7
+   ]
+  },
+  {
+   "text": "ROADM (n-degree)",
+   "bbox_px": [
+    1362.1,
+    113.4,
+    1521.4,
+    130.4
+   ]
+  },
+  {
+   "text": "OADM add/drop",
+   "bbox_px": [
+    1362.1,
+    187.1,
+    1496.4,
+    204.1
+   ]
+  },
+  {
+   "text": "Central office (CO)",
+   "bbox_px": [
+    1362.1,
+    260.9,
+    1518.1,
+    277.9
+   ]
+  },
+  {
+   "text": "Data centre (DC)",
+   "bbox_px": [
+    1362.1,
+    334.6,
+    1504.7,
+    351.6
+   ]
+  },
+  {
+   "text": "Cable landing (CLS)",
+   "bbox_px": [
+    1362.1,
+    408.3,
+    1530.1,
+    425.3
+   ]
+  },
+  {
+   "text": "Branching unit (BU)",
+   "bbox_px": [
+    1362.1,
+    482.1,
+    1531.1,
+    499.1
+   ]
+  },
+  {
+   "text": "Terrestrial fibre",
+   "bbox_px": [
+    1362.1,
+    555.8,
+    1489.2,
+    572.8
+   ]
+  },
+  {
+   "text": "Undersea cable",
+   "bbox_px": [
+    1362.1,
+    629.5,
+    1492.1,
+    646.5
+   ]
+  },
+  {
+   "text": "Amplifier ILA / RPT",
+   "bbox_px": [
+    1362.1,
+    703.2,
+    1519.5,
+    720.2
+   ]
+  },
+  {
+   "text": "TRM: transponder",
+   "bbox_px": [
+    1298.2,
+    777.0,
+    1450.2,
+    794.0
+   ]
+  },
+  {
+   "text": "ZR: 400ZR pluggable",
+   "bbox_px": [
+    1298.2,
+    850.7,
+    1479.7,
+    867.7
+   ]
+  },
+  {
+   "text": "TRP: ZR+ transponder",
+   "bbox_px": [
+    1298.2,
+    924.4,
+    1488.2,
+    941.4
+   ]
+  },
+  {
+   "text": "SLTE: line terminal",
+   "bbox_px": [
+    1298.2,
+    998.2,
+    1455.6,
+    1015.2
+   ]
+  },
+  {
+   "text": "Link: km \u00b7 amplifiers",
+   "bbox_px": [
+    1298.2,
+    1071.9,
+    1471.2,
+    1088.9
+   ]
+  }
+ ],
+ "scenario_id": "network_0021"
+}

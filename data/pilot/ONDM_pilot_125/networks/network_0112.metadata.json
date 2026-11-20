@@ -1,0 +1,101 @@
+{
+ "scenario_id": "network_0112",
+ "ground_truth": {
+  "category": "dci",
+  "category_display": "Data Center Interconnect"
+ },
+ "generation_family": "dci_metro_dci",
+ "group_key": "SYN_dci_0002",
+ "seed": 2721722261,
+ "master_seed": 20261120,
+ "generation_attempt": 0,
+ "provenance": {
+  "topology_origin": "generated_from_documented_architectural_template",
+  "source_dataset": null,
+  "source_topology_id": null,
+  "coordinates": "synthetic sites around real anchor city (A7)",
+  "fiber_connections": "synthetic",
+  "fiber_lengths": "synthetic: great-circle x route factor (A2)",
+  "equipment": "synthetic_assignment",
+  "optical_parameters": "assumed"
+ },
+ "geography": {
+  "scope": "metro",
+  "anchor_city": {
+   "name": "Skalica",
+   "country": "Slovakia",
+   "lat": 48.8461007,
+   "lon": 17.2287837,
+   "source_topology": "TB_097_SANET"
+  },
+  "coordinate_source": "synthetic offsets from Topology Bench anchor city",
+  "countries": [
+   "Slovakia"
+  ],
+  "anchor_cities": [
+   {
+    "name": "Skalica",
+    "country": "Slovakia",
+    "lat": 48.8461007,
+    "lon": 17.2287837,
+    "source_topology": "TB_097_SANET"
+   }
+  ],
+  "geo_extent_km": 40.4,
+  "coordinate_provenance": "synthetic sites around real anchor city (A7)",
+  "length_note": "Fibre length is NOT straight-line distance; see route factor per edge and assumptions A1/A2. Routes do not follow surveyed rights-of-way or real cables."
+ },
+ "equipment_assumptions": {
+  "terrestrial_max_span_km": 90.3,
+  "submarine_repeater_spacing_km": 57.5,
+  "unrepeatered_max_km": 350,
+  "dci_pluggable_reach_km": 120
+ },
+ "assumption_ids": [
+  "A2_synthetic_route_factor",
+  "A3_terrestrial_span",
+  "A5_dci_reach",
+  "A6_terminals"
+ ],
+ "network_size": {
+  "n_nodes": 7,
+  "n_edges": 8,
+  "total_fiber_km": 199.4,
+  "link_km_min": 15.1,
+  "link_km_max": 49.62,
+  "n_inline_amplifiers": 0,
+  "roles": {
+   "DC": 7
+  }
+ },
+ "params": null,
+ "structural_signature_wl": "5789266925a8739139311f13c7597cc1",
+ "generation": {
+  "config_file": "configs/pilot_125.json",
+  "config_sha256": "e22074a3784e99e6eed681198dbfaddcaa8ddf51c4ea1880c091cac28bd7c729",
+  "generator_version": "0.1.0",
+  "git_commit": "fd37f7f65e15c8b84cef93ae96f1db6454559a90",
+  "render_style_hash": "8aba402914e01f0c"
+ },
+ "validation": {
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "rules_satisfied": [
+   "dci"
+  ],
+  "ambiguous": false,
+  "structural_cues": [
+   "structure_ring_like"
+  ],
+  "issues": [
+   {
+    "check": "L3_structural_cue",
+    "severity": "INFO",
+    "message": "structure_ring_like"
+   }
+  ],
+  "validator": "src/validation/validate_dataset.py",
+  "human_review": "pending"
+ }
+}

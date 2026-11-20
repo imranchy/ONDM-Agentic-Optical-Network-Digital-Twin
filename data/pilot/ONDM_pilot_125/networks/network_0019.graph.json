@@ -1,0 +1,205 @@
+{
+ "scenario_id": "network_0019",
+ "directed": false,
+ "node_count": 7,
+ "edge_count": 9,
+ "nodes": [
+  {
+   "id": "S01",
+   "role": "DC",
+   "lat": 43.73698,
+   "lon": 21.38565,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S01\nDC ZR\u00d79"
+  },
+  {
+   "id": "S02",
+   "role": "DC",
+   "lat": 43.63291,
+   "lon": 21.00264,
+   "degree": 3,
+   "tier": null,
+   "diagram_label": "S02\nDC ZR\u00d710"
+  },
+  {
+   "id": "S03",
+   "role": "DC",
+   "lat": 43.34546,
+   "lon": 21.43676,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S03\nDC ZR\u00d716"
+  },
+  {
+   "id": "S04",
+   "role": "DC",
+   "lat": 43.7199,
+   "lon": 21.22028,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S04\nDC ZR\u00d78"
+  },
+  {
+   "id": "S05",
+   "role": "DC",
+   "lat": 43.39143,
+   "lon": 21.16926,
+   "degree": 3,
+   "tier": null,
+   "diagram_label": "S05\nDC ZR\u00d715"
+  },
+  {
+   "id": "S06",
+   "role": "DC",
+   "lat": 43.62716,
+   "lon": 21.49551,
+   "degree": 3,
+   "tier": null,
+   "diagram_label": "S06\nDC ZR\u00d716"
+  },
+  {
+   "id": "S07",
+   "role": "DC",
+   "lat": 43.49017,
+   "lon": 21.49112,
+   "degree": 3,
+   "tier": null,
+   "diagram_label": "S07\nDC ZR\u00d712"
+  }
+ ],
+ "edges": [
+  {
+   "id": "L01",
+   "u": "S01",
+   "v": "S04",
+   "medium": "terrestrial",
+   "length_km": 19.43,
+   "great_circle_km": 13.423,
+   "route_factor": 1.4479,
+   "n_spans": 1,
+   "span_length_km": 19.43,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "19 km"
+  },
+  {
+   "id": "L02",
+   "u": "S01",
+   "v": "S06",
+   "medium": "terrestrial",
+   "length_km": 23.25,
+   "great_circle_km": 15.072,
+   "route_factor": 1.5427,
+   "n_spans": 1,
+   "span_length_km": 23.25,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "23 km"
+  },
+  {
+   "id": "L03",
+   "u": "S02",
+   "v": "S04",
+   "medium": "terrestrial",
+   "length_km": 29.31,
+   "great_circle_km": 19.998,
+   "route_factor": 1.4656,
+   "n_spans": 1,
+   "span_length_km": 29.31,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "29 km"
+  },
+  {
+   "id": "L04",
+   "u": "S02",
+   "v": "S05",
+   "medium": "terrestrial",
+   "length_km": 36.67,
+   "great_circle_km": 30.026,
+   "route_factor": 1.2213,
+   "n_spans": 1,
+   "span_length_km": 36.67,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "37 km"
+  },
+  {
+   "id": "L05",
+   "u": "S02",
+   "v": "S06",
+   "medium": "terrestrial",
+   "length_km": 62.76,
+   "great_circle_km": 39.673,
+   "route_factor": 1.5819,
+   "n_spans": 1,
+   "span_length_km": 62.76,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "63 km"
+  },
+  {
+   "id": "L06",
+   "u": "S03",
+   "v": "S05",
+   "medium": "terrestrial",
+   "length_km": 31.12,
+   "great_circle_km": 22.219,
+   "route_factor": 1.4005,
+   "n_spans": 1,
+   "span_length_km": 31.12,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "31 km"
+  },
+  {
+   "id": "L07",
+   "u": "S03",
+   "v": "S07",
+   "medium": "terrestrial",
+   "length_km": 21.77,
+   "great_circle_km": 16.679,
+   "route_factor": 1.3052,
+   "n_spans": 1,
+   "span_length_km": 21.77,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "22 km"
+  },
+  {
+   "id": "L08",
+   "u": "S05",
+   "v": "S07",
+   "medium": "terrestrial",
+   "length_km": 35.98,
+   "great_circle_km": 28.21,
+   "route_factor": 1.2755,
+   "n_spans": 1,
+   "span_length_km": 35.98,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "36 km"
+  },
+  {
+   "id": "L09",
+   "u": "S06",
+   "v": "S07",
+   "medium": "terrestrial",
+   "length_km": 21.61,
+   "great_circle_km": 15.237,
+   "route_factor": 1.4186,
+   "n_spans": 1,
+   "span_length_km": 21.61,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "22 km"
+  }
+ ],
+ "connectivity": {
+  "connected": true,
+  "components": 1,
+  "min_degree": 2,
+  "max_degree": 3
+ }
+}

@@ -1,0 +1,522 @@
+{
+ "image_px": [
+  1600,
+  1200
+ ],
+ "style_hash": "8aba402914e01f0c",
+ "font_px": {
+  "node": 17.77777777777778,
+  "edge": 15.555555555555555,
+  "legend": 16.666666666666668
+ },
+ "plot_area_px": [
+  8.0,
+  12.0,
+  1264.0,
+  1188.0
+ ],
+ "legend_area_px": [
+  1280.0,
+  24.0,
+  1584.0,
+  1176.0
+ ],
+ "nodes": [
+  {
+   "node_id": "S01",
+   "role": "OADM",
+   "xy_axes": [
+    0.6513,
+    0.243
+   ],
+   "text": "S01\nOADM",
+   "placement_score": 0.0,
+   "bbox_px": [
+    850.5,
+    883.5,
+    906.2,
+    920.9
+   ]
+  },
+  {
+   "node_id": "S02",
+   "role": "HUB_ROADM",
+   "xy_axes": [
+    0.6819,
+    0.4519
+   ],
+   "text": "S02\nHUB ROADM-3D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    888.9,
+    681.0,
+    1034.6,
+    718.3
+   ]
+  },
+  {
+   "node_id": "S03",
+   "role": "OADM",
+   "xy_axes": [
+    0.2592,
+    0.08
+   ],
+   "text": "S03\nOADM",
+   "placement_score": 0.0,
+   "bbox_px": [
+    305.7,
+    1118.4,
+    361.3,
+    1155.7
+   ]
+  },
+  {
+   "node_id": "S04",
+   "role": "OADM",
+   "xy_axes": [
+    0.3213,
+    0.7815
+   ],
+   "text": "S04\nOADM",
+   "placement_score": 0.0,
+   "bbox_px": [
+    383.7,
+    207.2,
+    439.3,
+    244.5
+   ]
+  },
+  {
+   "node_id": "S05",
+   "role": "OADM",
+   "xy_axes": [
+    0.8991,
+    0.8503
+   ],
+   "text": "S05\nOADM",
+   "placement_score": 0.0,
+   "bbox_px": [
+    1109.4,
+    126.3,
+    1165.1,
+    163.7
+   ]
+  },
+  {
+   "node_id": "S06",
+   "role": "OADM",
+   "xy_axes": [
+    0.509,
+    0.097
+   ],
+   "text": "S06\nOADM",
+   "placement_score": 0.0,
+   "bbox_px": [
+    619.5,
+    1098.4,
+    675.2,
+    1135.7
+   ]
+  },
+  {
+   "node_id": "S07",
+   "role": "OADM",
+   "xy_axes": [
+    0.08,
+    0.2042
+   ],
+   "text": "S07\nOADM",
+   "placement_score": 0.0,
+   "bbox_px": [
+    80.6,
+    972.3,
+    136.3,
+    1009.7
+   ]
+  },
+  {
+   "node_id": "S08",
+   "role": "OADM",
+   "xy_axes": [
+    0.7064,
+    0.92
+   ],
+   "text": "S08\nOADM",
+   "placement_score": 0.0,
+   "bbox_px": [
+    867.4,
+    130.5,
+    923.1,
+    167.9
+   ]
+  },
+  {
+   "node_id": "S09",
+   "role": "OADM",
+   "xy_axes": [
+    0.92,
+    0.5683
+   ],
+   "text": "S09\nOADM",
+   "placement_score": 0.0,
+   "bbox_px": [
+    1135.7,
+    544.1,
+    1191.4,
+    581.4
+   ]
+  },
+  {
+   "node_id": "S10",
+   "role": "HUB_ROADM",
+   "xy_axes": [
+    0.3546,
+    0.5743
+   ],
+   "text": "S10\nHUB ROADM-3D",
+   "placement_score": 0.0,
+   "bbox_px": [
+    283.3,
+    493.9,
+    429.0,
+    531.3
+   ]
+  },
+  {
+   "node_id": "S11",
+   "role": "OADM",
+   "xy_axes": [
+    0.5843,
+    0.4138
+   ],
+   "text": "S11\nOADM",
+   "placement_score": 0.0,
+   "bbox_px": [
+    714.1,
+    639.6,
+    769.8,
+    676.9
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "L01",
+   "u": "S01",
+   "v": "S06",
+   "text": "8.3 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    709.2,
+    980.2,
+    764.2,
+    995.9
+   ]
+  },
+  {
+   "edge_id": "L02",
+   "u": "S01",
+   "v": "S11",
+   "text": "8.6 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    756.5,
+    793.9,
+    811.5,
+    809.6
+   ]
+  },
+  {
+   "edge_id": "L03",
+   "u": "S02",
+   "v": "S07",
+   "text": "20 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    461.5,
+    794.3,
+    511.5,
+    810.1
+   ]
+  },
+  {
+   "edge_id": "L04",
+   "u": "S02",
+   "v": "S09",
+   "text": "9.8 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    986.5,
+    580.2,
+    1041.5,
+    596.0
+   ]
+  },
+  {
+   "edge_id": "L05",
+   "u": "S02",
+   "v": "S10",
+   "text": "13 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    633.9,
+    576.7,
+    683.9,
+    592.4
+   ]
+  },
+  {
+   "edge_id": "L06",
+   "u": "S03",
+   "v": "S06",
+   "text": "7.9 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    462.9,
+    1076.1,
+    517.9,
+    1091.8
+   ]
+  },
+  {
+   "edge_id": "L07",
+   "u": "S03",
+   "v": "S07",
+   "text": "7.8 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    193.5,
+    1013.0,
+    248.5,
+    1028.8
+   ]
+  },
+  {
+   "edge_id": "L08",
+   "u": "S04",
+   "v": "S08",
+   "text": "14 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    628.4,
+    179.7,
+    678.4,
+    195.4
+   ]
+  },
+  {
+   "edge_id": "L09",
+   "u": "S04",
+   "v": "S10",
+   "text": "9.6 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    405.0,
+    382.9,
+    460.0,
+    398.7
+   ]
+  },
+  {
+   "edge_id": "L10",
+   "u": "S05",
+   "v": "S08",
+   "text": "7.2 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    988.8,
+    139.2,
+    1043.8,
+    155.0
+   ]
+  },
+  {
+   "edge_id": "L11",
+   "u": "S05",
+   "v": "S09",
+   "text": "13 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    1125.4,
+    346.0,
+    1175.4,
+    361.7
+   ]
+  },
+  {
+   "edge_id": "L12",
+   "u": "S10",
+   "v": "S11",
+   "text": "11 km",
+   "amp_markers_drawn": 0,
+   "dashed": false,
+   "placement_score": 0.0,
+   "bbox_px": [
+    572.7,
+    599.1,
+    622.7,
+    614.8
+   ]
+  }
+ ],
+ "legend": [
+  {
+   "text": "Legend",
+   "bbox_px": [
+    1298.2,
+    52.8,
+    1378.2,
+    71.7
+   ]
+  },
+  {
+   "text": "ROADM (n-degree)",
+   "bbox_px": [
+    1362.1,
+    113.4,
+    1521.4,
+    130.4
+   ]
+  },
+  {
+   "text": "OADM add/drop",
+   "bbox_px": [
+    1362.1,
+    187.1,
+    1496.4,
+    204.1
+   ]
+  },
+  {
+   "text": "Central office (CO)",
+   "bbox_px": [
+    1362.1,
+    260.9,
+    1518.1,
+    277.9
+   ]
+  },
+  {
+   "text": "Data centre (DC)",
+   "bbox_px": [
+    1362.1,
+    334.6,
+    1504.7,
+    351.6
+   ]
+  },
+  {
+   "text": "Cable landing (CLS)",
+   "bbox_px": [
+    1362.1,
+    408.3,
+    1530.1,
+    425.3
+   ]
+  },
+  {
+   "text": "Branching unit (BU)",
+   "bbox_px": [
+    1362.1,
+    482.1,
+    1531.1,
+    499.1
+   ]
+  },
+  {
+   "text": "Terrestrial fibre",
+   "bbox_px": [
+    1362.1,
+    555.8,
+    1489.2,
+    572.8
+   ]
+  },
+  {
+   "text": "Undersea cable",
+   "bbox_px": [
+    1362.1,
+    629.5,
+    1492.1,
+    646.5
+   ]
+  },
+  {
+   "text": "Amplifier ILA / RPT",
+   "bbox_px": [
+    1362.1,
+    703.2,
+    1519.5,
+    720.2
+   ]
+  },
+  {
+   "text": "TRM: transponder",
+   "bbox_px": [
+    1298.2,
+    777.0,
+    1450.2,
+    794.0
+   ]
+  },
+  {
+   "text": "ZR: 400ZR pluggable",
+   "bbox_px": [
+    1298.2,
+    850.7,
+    1479.7,
+    867.7
+   ]
+  },
+  {
+   "text": "TRP: ZR+ transponder",
+   "bbox_px": [
+    1298.2,
+    924.4,
+    1488.2,
+    941.4
+   ]
+  },
+  {
+   "text": "SLTE: line terminal",
+   "bbox_px": [
+    1298.2,
+    998.2,
+    1455.6,
+    1015.2
+   ]
+  },
+  {
+   "text": "Link: km \u00b7 amplifiers",
+   "bbox_px": [
+    1298.2,
+    1071.9,
+    1471.2,
+    1088.9
+   ]
+  }
+ ],
+ "scenario_id": "network_0056"
+}

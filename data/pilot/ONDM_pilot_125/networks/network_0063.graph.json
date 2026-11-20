@@ -1,0 +1,108 @@
+{
+ "scenario_id": "network_0063",
+ "directed": false,
+ "node_count": 4,
+ "edge_count": 4,
+ "nodes": [
+  {
+   "id": "S01",
+   "role": "ROADM",
+   "lat": 41.64413,
+   "lon": -71.32758,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S01\nROADM-2D"
+  },
+  {
+   "id": "S02",
+   "role": "DC",
+   "lat": 43.65791,
+   "lon": -70.34892,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S02\nDC TRP\u00d715"
+  },
+  {
+   "id": "S03",
+   "role": "DC",
+   "lat": 40.88129,
+   "lon": -74.04346,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S03\nDC TRP\u00d79"
+  },
+  {
+   "id": "S04",
+   "role": "DC",
+   "lat": 40.6637,
+   "lon": -73.89708,
+   "degree": 2,
+   "tier": null,
+   "diagram_label": "S04\nDC TRP\u00d76"
+  }
+ ],
+ "edges": [
+  {
+   "id": "L01",
+   "u": "S01",
+   "v": "S02",
+   "medium": "terrestrial",
+   "length_km": 295.46,
+   "great_circle_km": 237.792,
+   "route_factor": 1.2425,
+   "n_spans": 4,
+   "span_length_km": 73.86,
+   "n_inline_amplifiers": 3,
+   "inline_amplifier_type": "ILA_EDFA",
+   "diagram_label": "295 km \u00b7 3 ILA"
+  },
+  {
+   "id": "L02",
+   "u": "S01",
+   "v": "S04",
+   "medium": "terrestrial",
+   "length_km": 330.02,
+   "great_circle_km": 241.16,
+   "route_factor": 1.3685,
+   "n_spans": 4,
+   "span_length_km": 82.5,
+   "n_inline_amplifiers": 3,
+   "inline_amplifier_type": "ILA_EDFA",
+   "diagram_label": "330 km \u00b7 3 ILA"
+  },
+  {
+   "id": "L03",
+   "u": "S02",
+   "v": "S03",
+   "medium": "terrestrial",
+   "length_km": 652.14,
+   "great_circle_km": 433.199,
+   "route_factor": 1.5054,
+   "n_spans": 8,
+   "span_length_km": 81.52,
+   "n_inline_amplifiers": 7,
+   "inline_amplifier_type": "ILA_EDFA",
+   "diagram_label": "652 km \u00b7 7 ILA"
+  },
+  {
+   "id": "L04",
+   "u": "S03",
+   "v": "S04",
+   "medium": "terrestrial",
+   "length_km": 42.29,
+   "great_circle_km": 27.154,
+   "route_factor": 1.5575,
+   "n_spans": 1,
+   "span_length_km": 42.29,
+   "n_inline_amplifiers": 0,
+   "inline_amplifier_type": null,
+   "diagram_label": "42 km"
+  }
+ ],
+ "connectivity": {
+  "connected": true,
+  "components": 1,
+  "min_degree": 2,
+  "max_degree": 2
+ }
+}
