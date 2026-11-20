@@ -1,0 +1,24 @@
+{
+  "output_dir": "optical_topology_semantics_pilot",
+  "num_samples": 30,
+  "min_nodes": 6,
+  "max_nodes": 12,
+  "image_size": 1280,
+  "seed": 2027,
+  "topologies": [
+    "ring",
+    "star",
+    "mesh",
+    "tree",
+    "hybrid",
+    "random"
+  ],
+  "difficulty": "mixed",
+  "distance_min_km": 40,
+  "distance_max_km": 400,
+  "distance_step_km": 10,
+  "train_ratio": 0.7,
+  "val_ratio": 0.15,
+  "no_splits": false,
+  "clear_existing": false
+}

@@ -1,0 +1,578 @@
+{
+  "status": "PHYSICALLY STRUCTURED, NOT FIELD-VALIDATED",
+  "source_graph": "C:\\Users\\dipto\\Downloads\\Projects\\Imran ONDM 27\\data\\semantic_pilot\\graphs\\topo_0023.json",
+  "equipment_reference": "C:\\Users\\dipto\\Downloads\\Projects\\Imran ONDM 27\\.venv\\Lib\\site-packages\\gnpy\\example-data\\edfa_example_network.json",
+  "site_semantics": "Every graph vertex is a ROADM; no ILA or transceiver is a switching vertex",
+  "transceivers": "One simulated endpoint transceiver attached to each ROADM",
+  "inline_amplifiers": "Separate unidirectional EDFAs between fiber spans; type and parameters from GNPy reference",
+  "fiber": "SSMF reference fiber; loss/PMD/connector values from example, not measurements",
+  "span_limit_km": 80.0,
+  "roadm": "GNPy default ROADM equipment library variety; not measured hardware",
+  "topology_directionality": "Each undirected edge becomes two independent directed line systems",
+  "limits": "No real inventory, site coordinates, spectral occupancy, measured losses, ROADM degree constraints, or validated transceiver mode",
+  "reference_routes": [
+    {
+      "sites": [
+        "A",
+        "K"
+      ],
+      "length_km": 130.0
+    }
+  ],
+  "directed_chains": [
+    {
+      "source": "A",
+      "target": "G",
+      "length_km": 130.0,
+      "spans": 2,
+      "inline_amplifiers": 1,
+      "elements": [
+        "Roadm_A",
+        "Fiber_A__G_1",
+        "Edfa_ILA_A__G_1",
+        "Fiber_A__G_2",
+        "Roadm_G"
+      ]
+    },
+    {
+      "source": "G",
+      "target": "A",
+      "length_km": 130.0,
+      "spans": 2,
+      "inline_amplifiers": 1,
+      "elements": [
+        "Roadm_G",
+        "Fiber_G__A_1",
+        "Edfa_ILA_G__A_1",
+        "Fiber_G__A_2",
+        "Roadm_A"
+      ]
+    },
+    {
+      "source": "A",
+      "target": "H",
+      "length_km": 160.0,
+      "spans": 2,
+      "inline_amplifiers": 1,
+      "elements": [
+        "Roadm_A",
+        "Fiber_A__H_1",
+        "Edfa_ILA_A__H_1",
+        "Fiber_A__H_2",
+        "Roadm_H"
+      ]
+    },
+    {
+      "source": "H",
+      "target": "A",
+      "length_km": 160.0,
+      "spans": 2,
+      "inline_amplifiers": 1,
+      "elements": [
+        "Roadm_H",
+        "Fiber_H__A_1",
+        "Edfa_ILA_H__A_1",
+        "Fiber_H__A_2",
+        "Roadm_A"
+      ]
+    },
+    {
+      "source": "A",
+      "target": "J",
+      "length_km": 350.0,
+      "spans": 5,
+      "inline_amplifiers": 4,
+      "elements": [
+        "Roadm_A",
+        "Fiber_A__J_1",
+        "Edfa_ILA_A__J_1",
+        "Fiber_A__J_2",
+        "Edfa_ILA_A__J_2",
+        "Fiber_A__J_3",
+        "Edfa_ILA_A__J_3",
+        "Fiber_A__J_4",
+        "Edfa_ILA_A__J_4",
+        "Fiber_A__J_5",
+        "Roadm_J"
+      ]
+    },
+    {
+      "source": "J",
+      "target": "A",
+      "length_km": 350.0,
+      "spans": 5,
+      "inline_amplifiers": 4,
+      "elements": [
+        "Roadm_J",
+        "Fiber_J__A_1",
+        "Edfa_ILA_J__A_1",
+        "Fiber_J__A_2",
+        "Edfa_ILA_J__A_2",
+        "Fiber_J__A_3",
+        "Edfa_ILA_J__A_3",
+        "Fiber_J__A_4",
+        "Edfa_ILA_J__A_4",
+        "Fiber_J__A_5",
+        "Roadm_A"
+      ]
+    },
+    {
+      "source": "A",
+      "target": "K",
+      "length_km": 130.0,
+      "spans": 2,
+      "inline_amplifiers": 1,
+      "elements": [
+        "Roadm_A",
+        "Fiber_A__K_1",
+        "Edfa_ILA_A__K_1",
+        "Fiber_A__K_2",
+        "Roadm_K"
+      ]
+    },
+    {
+      "source": "K",
+      "target": "A",
+      "length_km": 130.0,
+      "spans": 2,
+      "inline_amplifiers": 1,
+      "elements": [
+        "Roadm_K",
+        "Fiber_K__A_1",
+        "Edfa_ILA_K__A_1",
+        "Fiber_K__A_2",
+        "Roadm_A"
+      ]
+    },
+    {
+      "source": "B",
+      "target": "H",
+      "length_km": 50.0,
+      "spans": 1,
+      "inline_amplifiers": 0,
+      "elements": [
+        "Roadm_B",
+        "Fiber_B__H_1",
+        "Roadm_H"
+      ]
+    },
+    {
+      "source": "H",
+      "target": "B",
+      "length_km": 50.0,
+      "spans": 1,
+      "inline_amplifiers": 0,
+      "elements": [
+        "Roadm_H",
+        "Fiber_H__B_1",
+        "Roadm_B"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "F",
+      "length_km": 390.0,
+      "spans": 5,
+      "inline_amplifiers": 4,
+      "elements": [
+        "Roadm_C",
+        "Fiber_C__F_1",
+        "Edfa_ILA_C__F_1",
+        "Fiber_C__F_2",
+        "Edfa_ILA_C__F_2",
+        "Fiber_C__F_3",
+        "Edfa_ILA_C__F_3",
+        "Fiber_C__F_4",
+        "Edfa_ILA_C__F_4",
+        "Fiber_C__F_5",
+        "Roadm_F"
+      ]
+    },
+    {
+      "source": "F",
+      "target": "C",
+      "length_km": 390.0,
+      "spans": 5,
+      "inline_amplifiers": 4,
+      "elements": [
+        "Roadm_F",
+        "Fiber_F__C_1",
+        "Edfa_ILA_F__C_1",
+        "Fiber_F__C_2",
+        "Edfa_ILA_F__C_2",
+        "Fiber_F__C_3",
+        "Edfa_ILA_F__C_3",
+        "Fiber_F__C_4",
+        "Edfa_ILA_F__C_4",
+        "Fiber_F__C_5",
+        "Roadm_C"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "I",
+      "length_km": 170.0,
+      "spans": 3,
+      "inline_amplifiers": 2,
+      "elements": [
+        "Roadm_C",
+        "Fiber_C__I_1",
+        "Edfa_ILA_C__I_1",
+        "Fiber_C__I_2",
+        "Edfa_ILA_C__I_2",
+        "Fiber_C__I_3",
+        "Roadm_I"
+      ]
+    },
+    {
+      "source": "I",
+      "target": "C",
+      "length_km": 170.0,
+      "spans": 3,
+      "inline_amplifiers": 2,
+      "elements": [
+        "Roadm_I",
+        "Fiber_I__C_1",
+        "Edfa_ILA_I__C_1",
+        "Fiber_I__C_2",
+        "Edfa_ILA_I__C_2",
+        "Fiber_I__C_3",
+        "Roadm_C"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "J",
+      "length_km": 40.0,
+      "spans": 1,
+      "inline_amplifiers": 0,
+      "elements": [
+        "Roadm_C",
+        "Fiber_C__J_1",
+        "Roadm_J"
+      ]
+    },
+    {
+      "source": "J",
+      "target": "C",
+      "length_km": 40.0,
+      "spans": 1,
+      "inline_amplifiers": 0,
+      "elements": [
+        "Roadm_J",
+        "Fiber_J__C_1",
+        "Roadm_C"
+      ]
+    },
+    {
+      "source": "D",
+      "target": "F",
+      "length_km": 40.0,
+      "spans": 1,
+      "inline_amplifiers": 0,
+      "elements": [
+        "Roadm_D",
+        "Fiber_D__F_1",
+        "Roadm_F"
+      ]
+    },
+    {
+      "source": "F",
+      "target": "D",
+      "length_km": 40.0,
+      "spans": 1,
+      "inline_amplifiers": 0,
+      "elements": [
+        "Roadm_F",
+        "Fiber_F__D_1",
+        "Roadm_D"
+      ]
+    },
+    {
+      "source": "D",
+      "target": "G",
+      "length_km": 280.0,
+      "spans": 4,
+      "inline_amplifiers": 3,
+      "elements": [
+        "Roadm_D",
+        "Fiber_D__G_1",
+        "Edfa_ILA_D__G_1",
+        "Fiber_D__G_2",
+        "Edfa_ILA_D__G_2",
+        "Fiber_D__G_3",
+        "Edfa_ILA_D__G_3",
+        "Fiber_D__G_4",
+        "Roadm_G"
+      ]
+    },
+    {
+      "source": "G",
+      "target": "D",
+      "length_km": 280.0,
+      "spans": 4,
+      "inline_amplifiers": 3,
+      "elements": [
+        "Roadm_G",
+        "Fiber_G__D_1",
+        "Edfa_ILA_G__D_1",
+        "Fiber_G__D_2",
+        "Edfa_ILA_G__D_2",
+        "Fiber_G__D_3",
+        "Edfa_ILA_G__D_3",
+        "Fiber_G__D_4",
+        "Roadm_D"
+      ]
+    },
+    {
+      "source": "D",
+      "target": "K",
+      "length_km": 240.0,
+      "spans": 3,
+      "inline_amplifiers": 2,
+      "elements": [
+        "Roadm_D",
+        "Fiber_D__K_1",
+        "Edfa_ILA_D__K_1",
+        "Fiber_D__K_2",
+        "Edfa_ILA_D__K_2",
+        "Fiber_D__K_3",
+        "Roadm_K"
+      ]
+    },
+    {
+      "source": "K",
+      "target": "D",
+      "length_km": 240.0,
+      "spans": 3,
+      "inline_amplifiers": 2,
+      "elements": [
+        "Roadm_K",
+        "Fiber_K__D_1",
+        "Edfa_ILA_K__D_1",
+        "Fiber_K__D_2",
+        "Edfa_ILA_K__D_2",
+        "Fiber_K__D_3",
+        "Roadm_D"
+      ]
+    },
+    {
+      "source": "E",
+      "target": "H",
+      "length_km": 330.0,
+      "spans": 5,
+      "inline_amplifiers": 4,
+      "elements": [
+        "Roadm_E",
+        "Fiber_E__H_1",
+        "Edfa_ILA_E__H_1",
+        "Fiber_E__H_2",
+        "Edfa_ILA_E__H_2",
+        "Fiber_E__H_3",
+        "Edfa_ILA_E__H_3",
+        "Fiber_E__H_4",
+        "Edfa_ILA_E__H_4",
+        "Fiber_E__H_5",
+        "Roadm_H"
+      ]
+    },
+    {
+      "source": "H",
+      "target": "E",
+      "length_km": 330.0,
+      "spans": 5,
+      "inline_amplifiers": 4,
+      "elements": [
+        "Roadm_H",
+        "Fiber_H__E_1",
+        "Edfa_ILA_H__E_1",
+        "Fiber_H__E_2",
+        "Edfa_ILA_H__E_2",
+        "Fiber_H__E_3",
+        "Edfa_ILA_H__E_3",
+        "Fiber_H__E_4",
+        "Edfa_ILA_H__E_4",
+        "Fiber_H__E_5",
+        "Roadm_E"
+      ]
+    },
+    {
+      "source": "E",
+      "target": "J",
+      "length_km": 270.0,
+      "spans": 4,
+      "inline_amplifiers": 3,
+      "elements": [
+        "Roadm_E",
+        "Fiber_E__J_1",
+        "Edfa_ILA_E__J_1",
+        "Fiber_E__J_2",
+        "Edfa_ILA_E__J_2",
+        "Fiber_E__J_3",
+        "Edfa_ILA_E__J_3",
+        "Fiber_E__J_4",
+        "Roadm_J"
+      ]
+    },
+    {
+      "source": "J",
+      "target": "E",
+      "length_km": 270.0,
+      "spans": 4,
+      "inline_amplifiers": 3,
+      "elements": [
+        "Roadm_J",
+        "Fiber_J__E_1",
+        "Edfa_ILA_J__E_1",
+        "Fiber_J__E_2",
+        "Edfa_ILA_J__E_2",
+        "Fiber_J__E_3",
+        "Edfa_ILA_J__E_3",
+        "Fiber_J__E_4",
+        "Roadm_E"
+      ]
+    },
+    {
+      "source": "H",
+      "target": "I",
+      "length_km": 320.0,
+      "spans": 4,
+      "inline_amplifiers": 3,
+      "elements": [
+        "Roadm_H",
+        "Fiber_H__I_1",
+        "Edfa_ILA_H__I_1",
+        "Fiber_H__I_2",
+        "Edfa_ILA_H__I_2",
+        "Fiber_H__I_3",
+        "Edfa_ILA_H__I_3",
+        "Fiber_H__I_4",
+        "Roadm_I"
+      ]
+    },
+    {
+      "source": "I",
+      "target": "H",
+      "length_km": 320.0,
+      "spans": 4,
+      "inline_amplifiers": 3,
+      "elements": [
+        "Roadm_I",
+        "Fiber_I__H_1",
+        "Edfa_ILA_I__H_1",
+        "Fiber_I__H_2",
+        "Edfa_ILA_I__H_2",
+        "Fiber_I__H_3",
+        "Edfa_ILA_I__H_3",
+        "Fiber_I__H_4",
+        "Roadm_H"
+      ]
+    },
+    {
+      "source": "H",
+      "target": "J",
+      "length_km": 150.0,
+      "spans": 2,
+      "inline_amplifiers": 1,
+      "elements": [
+        "Roadm_H",
+        "Fiber_H__J_1",
+        "Edfa_ILA_H__J_1",
+        "Fiber_H__J_2",
+        "Roadm_J"
+      ]
+    },
+    {
+      "source": "J",
+      "target": "H",
+      "length_km": 150.0,
+      "spans": 2,
+      "inline_amplifiers": 1,
+      "elements": [
+        "Roadm_J",
+        "Fiber_J__H_1",
+        "Edfa_ILA_J__H_1",
+        "Fiber_J__H_2",
+        "Roadm_H"
+      ]
+    },
+    {
+      "source": "I",
+      "target": "J",
+      "length_km": 310.0,
+      "spans": 4,
+      "inline_amplifiers": 3,
+      "elements": [
+        "Roadm_I",
+        "Fiber_I__J_1",
+        "Edfa_ILA_I__J_1",
+        "Fiber_I__J_2",
+        "Edfa_ILA_I__J_2",
+        "Fiber_I__J_3",
+        "Edfa_ILA_I__J_3",
+        "Fiber_I__J_4",
+        "Roadm_J"
+      ]
+    },
+    {
+      "source": "J",
+      "target": "I",
+      "length_km": 310.0,
+      "spans": 4,
+      "inline_amplifiers": 3,
+      "elements": [
+        "Roadm_J",
+        "Fiber_J__I_1",
+        "Edfa_ILA_J__I_1",
+        "Fiber_J__I_2",
+        "Edfa_ILA_J__I_2",
+        "Fiber_J__I_3",
+        "Edfa_ILA_J__I_3",
+        "Fiber_J__I_4",
+        "Roadm_I"
+      ]
+    },
+    {
+      "source": "I",
+      "target": "K",
+      "length_km": 320.0,
+      "spans": 4,
+      "inline_amplifiers": 3,
+      "elements": [
+        "Roadm_I",
+        "Fiber_I__K_1",
+        "Edfa_ILA_I__K_1",
+        "Fiber_I__K_2",
+        "Edfa_ILA_I__K_2",
+        "Fiber_I__K_3",
+        "Edfa_ILA_I__K_3",
+        "Fiber_I__K_4",
+        "Roadm_K"
+      ]
+    },
+    {
+      "source": "K",
+      "target": "I",
+      "length_km": 320.0,
+      "spans": 4,
+      "inline_amplifiers": 3,
+      "elements": [
+        "Roadm_K",
+        "Fiber_K__I_1",
+        "Edfa_ILA_K__I_1",
+        "Fiber_K__I_2",
+        "Edfa_ILA_K__I_2",
+        "Fiber_K__I_3",
+        "Edfa_ILA_K__I_3",
+        "Fiber_K__I_4",
+        "Roadm_I"
+      ]
+    }
+  ],
+  "counts": {
+    "sites": 11,
+    "links": 17,
+    "elements": 196,
+    "connections": 230
+  }
+}

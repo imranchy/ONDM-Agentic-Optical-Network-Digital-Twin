@@ -1,0 +1,25 @@
+{
+  "num_samples": 30,
+  "min_nodes": 6,
+  "max_nodes": 12,
+  "image_size": 1024,
+  "seed": 2027,
+  "topologies": [
+    "mesh",
+    "random",
+    "ring",
+    "star"
+  ],
+  "optical_classes": false,
+  "distance_min_km": 40,
+  "distance_max_km": 400,
+  "distance_step_km": 10,
+  "topology_histogram": {
+    "mesh": 6,
+    "random_erdos_renyi": 4,
+    "star": 4,
+    "random_watts_strogatz": 7,
+    "ring": 7,
+    "random_barabasi_albert": 2
+  }
+}

@@ -1,0 +1,5800 @@
+{
+ "netbox_url": "http://localhost:8000",
+ "objects": [
+  {
+   "endpoint": "extras.tags",
+   "id": 3,
+   "display": "ondm-synthetic"
+  },
+  {
+   "endpoint": "extras.tags",
+   "id": 4,
+   "display": "ondm-scenario"
+  },
+  {
+   "endpoint": "dcim.manufacturers",
+   "id": 2,
+   "display": "ONDM Synthetic"
+  },
+  {
+   "endpoint": "dcim.device_roles",
+   "id": 3,
+   "display": "ROADM"
+  },
+  {
+   "endpoint": "dcim.device_roles",
+   "id": 4,
+   "display": "Optical Transponder"
+  },
+  {
+   "endpoint": "dcim.device_types",
+   "id": 3,
+   "display": "SYN-ROADM-CDC-12D"
+  },
+  {
+   "endpoint": "dcim.device_types",
+   "id": 4,
+   "display": "SYN-TRX-400G"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 18,
+   "display": "DEG-1"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 19,
+   "display": "DEG-2"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 20,
+   "display": "DEG-3"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 21,
+   "display": "DEG-4"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 22,
+   "display": "DEG-5"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 23,
+   "display": "DEG-6"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 24,
+   "display": "DEG-7"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 25,
+   "display": "DEG-8"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 26,
+   "display": "DEG-9"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 27,
+   "display": "DEG-10"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 28,
+   "display": "DEG-11"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 29,
+   "display": "DEG-12"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 30,
+   "display": "AD-1"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 31,
+   "display": "AD-2"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 32,
+   "display": "AD-3"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 33,
+   "display": "AD-4"
+  },
+  {
+   "endpoint": "dcim.interface_templates",
+   "id": 34,
+   "display": "LINE-1"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 3,
+   "display": "ONDM Synthetic"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 4,
+   "display": "topo_0001"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 7,
+   "display": "topo_0001-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 7,
+   "display": "topo_0001-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 8,
+   "display": "topo_0001-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 8,
+   "display": "topo_0001-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 9,
+   "display": "topo_0001-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 9,
+   "display": "topo_0001-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 10,
+   "display": "topo_0001-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 10,
+   "display": "topo_0001-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 11,
+   "display": "topo_0001-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 11,
+   "display": "topo_0001-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 12,
+   "display": "topo_0001-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 12,
+   "display": "topo_0001-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 13,
+   "display": "topo_0001-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 13,
+   "display": "topo_0001-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 14,
+   "display": "topo_0001-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 14,
+   "display": "topo_0001-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 15,
+   "display": "topo_0001-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 15,
+   "display": "topo_0001-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 7,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 8,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 9,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 10,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 11,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 12,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 13,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 14,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 15,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 5,
+   "display": "topo_0002"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 16,
+   "display": "topo_0002-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 16,
+   "display": "topo_0002-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 17,
+   "display": "topo_0002-TRX-A"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 16,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 17,
+   "display": "topo_0002-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 18,
+   "display": "topo_0002-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 19,
+   "display": "topo_0002-TRX-B"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 17,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 18,
+   "display": "topo_0002-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 20,
+   "display": "topo_0002-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 21,
+   "display": "topo_0002-TRX-C"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 18,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 19,
+   "display": "topo_0002-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 22,
+   "display": "topo_0002-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 20,
+   "display": "topo_0002-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 23,
+   "display": "topo_0002-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 21,
+   "display": "topo_0002-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 24,
+   "display": "topo_0002-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 22,
+   "display": "topo_0002-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 25,
+   "display": "topo_0002-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 26,
+   "display": "topo_0002-TRX-G"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 19,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 23,
+   "display": "topo_0002-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 27,
+   "display": "topo_0002-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 28,
+   "display": "topo_0002-TRX-H"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 20,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 21,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 22,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 23,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 24,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 25,
+   "display": "DEG-3 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 26,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 27,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 6,
+   "display": "topo_0003"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 24,
+   "display": "topo_0003-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 29,
+   "display": "topo_0003-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 25,
+   "display": "topo_0003-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 30,
+   "display": "topo_0003-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 26,
+   "display": "topo_0003-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 31,
+   "display": "topo_0003-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 27,
+   "display": "topo_0003-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 32,
+   "display": "topo_0003-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 28,
+   "display": "topo_0003-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 33,
+   "display": "topo_0003-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 29,
+   "display": "topo_0003-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 34,
+   "display": "topo_0003-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 28,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 29,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 30,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 31,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 32,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 33,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 7,
+   "display": "topo_0004"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 30,
+   "display": "topo_0004-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 35,
+   "display": "topo_0004-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 31,
+   "display": "topo_0004-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 36,
+   "display": "topo_0004-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 37,
+   "display": "topo_0004-TRX-B"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 34,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 32,
+   "display": "topo_0004-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 38,
+   "display": "topo_0004-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 39,
+   "display": "topo_0004-TRX-C"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 35,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 33,
+   "display": "topo_0004-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 40,
+   "display": "topo_0004-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 34,
+   "display": "topo_0004-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 41,
+   "display": "topo_0004-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 35,
+   "display": "topo_0004-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 42,
+   "display": "topo_0004-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 36,
+   "display": "topo_0004-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 43,
+   "display": "topo_0004-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 37,
+   "display": "topo_0004-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 44,
+   "display": "topo_0004-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 45,
+   "display": "topo_0004-TRX-H"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 36,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 38,
+   "display": "topo_0004-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 46,
+   "display": "topo_0004-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 37,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 38,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 39,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 40,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 41,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 42,
+   "display": "DEG-3 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 43,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 44,
+   "display": "DEG-1 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 8,
+   "display": "topo_0005"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 39,
+   "display": "topo_0005-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 47,
+   "display": "topo_0005-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 40,
+   "display": "topo_0005-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 48,
+   "display": "topo_0005-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 49,
+   "display": "topo_0005-TRX-B"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 45,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 41,
+   "display": "topo_0005-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 50,
+   "display": "topo_0005-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 51,
+   "display": "topo_0005-TRX-C"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 46,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 42,
+   "display": "topo_0005-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 52,
+   "display": "topo_0005-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 53,
+   "display": "topo_0005-TRX-D"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 47,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 43,
+   "display": "topo_0005-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 54,
+   "display": "topo_0005-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 55,
+   "display": "topo_0005-TRX-E"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 48,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 44,
+   "display": "topo_0005-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 56,
+   "display": "topo_0005-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 57,
+   "display": "topo_0005-TRX-F"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 49,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 45,
+   "display": "topo_0005-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 58,
+   "display": "topo_0005-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 59,
+   "display": "topo_0005-TRX-G"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 50,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 46,
+   "display": "topo_0005-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 60,
+   "display": "topo_0005-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 61,
+   "display": "topo_0005-TRX-H"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 51,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 47,
+   "display": "topo_0005-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 62,
+   "display": "topo_0005-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 63,
+   "display": "topo_0005-TRX-I"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 52,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 48,
+   "display": "topo_0005-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 64,
+   "display": "topo_0005-ROADM-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 65,
+   "display": "topo_0005-TRX-J"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 53,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 54,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 55,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 56,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 57,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 58,
+   "display": "DEG-5 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 59,
+   "display": "DEG-6 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 60,
+   "display": "DEG-7 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 61,
+   "display": "DEG-8 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 62,
+   "display": "DEG-9 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 9,
+   "display": "topo_0006"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 49,
+   "display": "topo_0006-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 66,
+   "display": "topo_0006-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 50,
+   "display": "topo_0006-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 67,
+   "display": "topo_0006-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 51,
+   "display": "topo_0006-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 68,
+   "display": "topo_0006-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 52,
+   "display": "topo_0006-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 69,
+   "display": "topo_0006-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 53,
+   "display": "topo_0006-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 70,
+   "display": "topo_0006-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 54,
+   "display": "topo_0006-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 71,
+   "display": "topo_0006-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 55,
+   "display": "topo_0006-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 72,
+   "display": "topo_0006-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 56,
+   "display": "topo_0006-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 73,
+   "display": "topo_0006-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 57,
+   "display": "topo_0006-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 74,
+   "display": "topo_0006-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 63,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 64,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 65,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 66,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 67,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 68,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 69,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 70,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 71,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 10,
+   "display": "topo_0007"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 58,
+   "display": "topo_0007-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 75,
+   "display": "topo_0007-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 76,
+   "display": "topo_0007-TRX-A"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 72,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 59,
+   "display": "topo_0007-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 77,
+   "display": "topo_0007-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 60,
+   "display": "topo_0007-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 78,
+   "display": "topo_0007-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 61,
+   "display": "topo_0007-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 79,
+   "display": "topo_0007-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 80,
+   "display": "topo_0007-TRX-D"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 73,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 62,
+   "display": "topo_0007-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 81,
+   "display": "topo_0007-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 63,
+   "display": "topo_0007-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 82,
+   "display": "topo_0007-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 83,
+   "display": "topo_0007-TRX-F"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 74,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 75,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 76,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 77,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 78,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 79,
+   "display": "DEG-1 <> DEG-3"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 11,
+   "display": "topo_0008"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 64,
+   "display": "topo_0008-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 84,
+   "display": "topo_0008-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 65,
+   "display": "topo_0008-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 85,
+   "display": "topo_0008-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 86,
+   "display": "topo_0008-TRX-B"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 80,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 66,
+   "display": "topo_0008-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 87,
+   "display": "topo_0008-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 88,
+   "display": "topo_0008-TRX-C"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 81,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 67,
+   "display": "topo_0008-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 89,
+   "display": "topo_0008-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 90,
+   "display": "topo_0008-TRX-D"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 82,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 68,
+   "display": "topo_0008-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 91,
+   "display": "topo_0008-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 92,
+   "display": "topo_0008-TRX-E"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 83,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 69,
+   "display": "topo_0008-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 93,
+   "display": "topo_0008-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 94,
+   "display": "topo_0008-TRX-F"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 84,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 70,
+   "display": "topo_0008-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 95,
+   "display": "topo_0008-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 96,
+   "display": "topo_0008-TRX-G"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 85,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 71,
+   "display": "topo_0008-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 97,
+   "display": "topo_0008-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 98,
+   "display": "topo_0008-TRX-H"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 86,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 72,
+   "display": "topo_0008-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 99,
+   "display": "topo_0008-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 100,
+   "display": "topo_0008-TRX-I"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 87,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 73,
+   "display": "topo_0008-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 101,
+   "display": "topo_0008-ROADM-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 102,
+   "display": "topo_0008-TRX-J"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 88,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 74,
+   "display": "topo_0008-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 103,
+   "display": "topo_0008-ROADM-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 104,
+   "display": "topo_0008-TRX-K"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 89,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 75,
+   "display": "topo_0008-L"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 105,
+   "display": "topo_0008-ROADM-L"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 106,
+   "display": "topo_0008-TRX-L"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 90,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 91,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 92,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 93,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 94,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 95,
+   "display": "DEG-5 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 96,
+   "display": "DEG-6 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 97,
+   "display": "DEG-7 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 98,
+   "display": "DEG-8 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 99,
+   "display": "DEG-9 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 100,
+   "display": "DEG-10 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 101,
+   "display": "DEG-11 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 12,
+   "display": "topo_0009"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 76,
+   "display": "topo_0009-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 107,
+   "display": "topo_0009-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 77,
+   "display": "topo_0009-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 108,
+   "display": "topo_0009-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 109,
+   "display": "topo_0009-TRX-B"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 102,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 78,
+   "display": "topo_0009-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 110,
+   "display": "topo_0009-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 111,
+   "display": "topo_0009-TRX-C"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 103,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 79,
+   "display": "topo_0009-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 112,
+   "display": "topo_0009-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 113,
+   "display": "topo_0009-TRX-D"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 104,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 80,
+   "display": "topo_0009-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 114,
+   "display": "topo_0009-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 115,
+   "display": "topo_0009-TRX-E"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 105,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 81,
+   "display": "topo_0009-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 116,
+   "display": "topo_0009-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 117,
+   "display": "topo_0009-TRX-F"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 106,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 82,
+   "display": "topo_0009-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 118,
+   "display": "topo_0009-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 119,
+   "display": "topo_0009-TRX-G"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 107,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 83,
+   "display": "topo_0009-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 120,
+   "display": "topo_0009-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 121,
+   "display": "topo_0009-TRX-H"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 108,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 84,
+   "display": "topo_0009-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 122,
+   "display": "topo_0009-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 123,
+   "display": "topo_0009-TRX-I"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 109,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 85,
+   "display": "topo_0009-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 124,
+   "display": "topo_0009-ROADM-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 125,
+   "display": "topo_0009-TRX-J"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 110,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 86,
+   "display": "topo_0009-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 126,
+   "display": "topo_0009-ROADM-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 127,
+   "display": "topo_0009-TRX-K"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 111,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 87,
+   "display": "topo_0009-L"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 128,
+   "display": "topo_0009-ROADM-L"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 129,
+   "display": "topo_0009-TRX-L"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 112,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 113,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 114,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 115,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 116,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 117,
+   "display": "DEG-5 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 118,
+   "display": "DEG-6 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 119,
+   "display": "DEG-7 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 120,
+   "display": "DEG-8 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 121,
+   "display": "DEG-9 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 122,
+   "display": "DEG-10 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 123,
+   "display": "DEG-11 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 13,
+   "display": "topo_0010"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 88,
+   "display": "topo_0010-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 130,
+   "display": "topo_0010-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 131,
+   "display": "topo_0010-TRX-A"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 124,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 89,
+   "display": "topo_0010-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 132,
+   "display": "topo_0010-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 90,
+   "display": "topo_0010-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 133,
+   "display": "topo_0010-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 91,
+   "display": "topo_0010-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 134,
+   "display": "topo_0010-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 135,
+   "display": "topo_0010-TRX-D"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 125,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 92,
+   "display": "topo_0010-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 136,
+   "display": "topo_0010-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 93,
+   "display": "topo_0010-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 137,
+   "display": "topo_0010-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 94,
+   "display": "topo_0010-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 138,
+   "display": "topo_0010-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 139,
+   "display": "topo_0010-TRX-G"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 126,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 95,
+   "display": "topo_0010-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 140,
+   "display": "topo_0010-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 96,
+   "display": "topo_0010-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 141,
+   "display": "topo_0010-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 127,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 128,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 129,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 130,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 131,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 132,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 133,
+   "display": "DEG-1 <> DEG-3"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 134,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 14,
+   "display": "topo_0011"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 97,
+   "display": "topo_0011-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 142,
+   "display": "topo_0011-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 98,
+   "display": "topo_0011-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 143,
+   "display": "topo_0011-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 144,
+   "display": "topo_0011-TRX-B"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 135,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 99,
+   "display": "topo_0011-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 145,
+   "display": "topo_0011-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 100,
+   "display": "topo_0011-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 146,
+   "display": "topo_0011-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 101,
+   "display": "topo_0011-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 147,
+   "display": "topo_0011-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 102,
+   "display": "topo_0011-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 148,
+   "display": "topo_0011-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 136,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 137,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 138,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 139,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 140,
+   "display": "DEG-5 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 141,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 142,
+   "display": "DEG-3 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 143,
+   "display": "DEG-4 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 15,
+   "display": "topo_0012"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 103,
+   "display": "topo_0012-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 149,
+   "display": "topo_0012-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 104,
+   "display": "topo_0012-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 150,
+   "display": "topo_0012-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 105,
+   "display": "topo_0012-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 151,
+   "display": "topo_0012-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 106,
+   "display": "topo_0012-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 152,
+   "display": "topo_0012-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 107,
+   "display": "topo_0012-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 153,
+   "display": "topo_0012-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 108,
+   "display": "topo_0012-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 154,
+   "display": "topo_0012-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 109,
+   "display": "topo_0012-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 155,
+   "display": "topo_0012-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 110,
+   "display": "topo_0012-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 156,
+   "display": "topo_0012-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 111,
+   "display": "topo_0012-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 157,
+   "display": "topo_0012-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 112,
+   "display": "topo_0012-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 158,
+   "display": "topo_0012-ROADM-J"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 113,
+   "display": "topo_0012-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 159,
+   "display": "topo_0012-ROADM-K"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 144,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 145,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 146,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 147,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 148,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 149,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 150,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 151,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 152,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 153,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 154,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 16,
+   "display": "topo_0013"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 114,
+   "display": "topo_0013-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 160,
+   "display": "topo_0013-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 115,
+   "display": "topo_0013-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 161,
+   "display": "topo_0013-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 116,
+   "display": "topo_0013-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 162,
+   "display": "topo_0013-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 117,
+   "display": "topo_0013-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 163,
+   "display": "topo_0013-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 118,
+   "display": "topo_0013-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 164,
+   "display": "topo_0013-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 119,
+   "display": "topo_0013-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 165,
+   "display": "topo_0013-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 120,
+   "display": "topo_0013-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 166,
+   "display": "topo_0013-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 121,
+   "display": "topo_0013-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 167,
+   "display": "topo_0013-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 122,
+   "display": "topo_0013-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 168,
+   "display": "topo_0013-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 169,
+   "display": "topo_0013-TRX-I"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 155,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 123,
+   "display": "topo_0013-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 170,
+   "display": "topo_0013-ROADM-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 171,
+   "display": "topo_0013-TRX-J"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 156,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 124,
+   "display": "topo_0013-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 172,
+   "display": "topo_0013-ROADM-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 173,
+   "display": "topo_0013-TRX-K"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 157,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 125,
+   "display": "topo_0013-L"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 174,
+   "display": "topo_0013-ROADM-L"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 158,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 159,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 160,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 161,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 162,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 163,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 164,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 165,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 166,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 167,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 168,
+   "display": "DEG-4 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 169,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 170,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 17,
+   "display": "topo_0014"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 126,
+   "display": "topo_0014-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 175,
+   "display": "topo_0014-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 127,
+   "display": "topo_0014-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 176,
+   "display": "topo_0014-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 177,
+   "display": "topo_0014-TRX-B"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 171,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 128,
+   "display": "topo_0014-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 178,
+   "display": "topo_0014-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 179,
+   "display": "topo_0014-TRX-C"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 172,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 129,
+   "display": "topo_0014-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 180,
+   "display": "topo_0014-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 181,
+   "display": "topo_0014-TRX-D"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 173,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 130,
+   "display": "topo_0014-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 182,
+   "display": "topo_0014-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 183,
+   "display": "topo_0014-TRX-E"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 174,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 131,
+   "display": "topo_0014-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 184,
+   "display": "topo_0014-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 185,
+   "display": "topo_0014-TRX-F"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 175,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 132,
+   "display": "topo_0014-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 186,
+   "display": "topo_0014-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 187,
+   "display": "topo_0014-TRX-G"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 176,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 133,
+   "display": "topo_0014-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 188,
+   "display": "topo_0014-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 189,
+   "display": "topo_0014-TRX-H"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 177,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 134,
+   "display": "topo_0014-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 190,
+   "display": "topo_0014-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 191,
+   "display": "topo_0014-TRX-I"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 178,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 135,
+   "display": "topo_0014-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 192,
+   "display": "topo_0014-ROADM-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 193,
+   "display": "topo_0014-TRX-J"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 179,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 136,
+   "display": "topo_0014-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 194,
+   "display": "topo_0014-ROADM-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 195,
+   "display": "topo_0014-TRX-K"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 180,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 137,
+   "display": "topo_0014-L"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 196,
+   "display": "topo_0014-ROADM-L"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 197,
+   "display": "topo_0014-TRX-L"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 181,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 182,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 183,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 184,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 185,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 186,
+   "display": "DEG-5 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 187,
+   "display": "DEG-6 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 188,
+   "display": "DEG-7 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 189,
+   "display": "DEG-8 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 190,
+   "display": "DEG-9 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 191,
+   "display": "DEG-10 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 192,
+   "display": "DEG-11 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 18,
+   "display": "topo_0015"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 138,
+   "display": "topo_0015-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 198,
+   "display": "topo_0015-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 139,
+   "display": "topo_0015-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 199,
+   "display": "topo_0015-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 140,
+   "display": "topo_0015-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 200,
+   "display": "topo_0015-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 141,
+   "display": "topo_0015-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 201,
+   "display": "topo_0015-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 142,
+   "display": "topo_0015-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 202,
+   "display": "topo_0015-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 143,
+   "display": "topo_0015-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 203,
+   "display": "topo_0015-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 204,
+   "display": "topo_0015-TRX-F"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 193,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 144,
+   "display": "topo_0015-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 205,
+   "display": "topo_0015-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 206,
+   "display": "topo_0015-TRX-G"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 194,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 145,
+   "display": "topo_0015-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 207,
+   "display": "topo_0015-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 195,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 196,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 197,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 198,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 199,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 200,
+   "display": "DEG-3 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 201,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 202,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 203,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 19,
+   "display": "topo_0016"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 146,
+   "display": "topo_0016-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 208,
+   "display": "topo_0016-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 147,
+   "display": "topo_0016-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 209,
+   "display": "topo_0016-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 148,
+   "display": "topo_0016-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 210,
+   "display": "topo_0016-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 149,
+   "display": "topo_0016-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 211,
+   "display": "topo_0016-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 150,
+   "display": "topo_0016-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 212,
+   "display": "topo_0016-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 151,
+   "display": "topo_0016-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 213,
+   "display": "topo_0016-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 152,
+   "display": "topo_0016-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 214,
+   "display": "topo_0016-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 153,
+   "display": "topo_0016-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 215,
+   "display": "topo_0016-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 154,
+   "display": "topo_0016-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 216,
+   "display": "topo_0016-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 204,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 205,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 206,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 207,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 208,
+   "display": "DEG-5 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 209,
+   "display": "DEG-6 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 210,
+   "display": "DEG-1 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 211,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 212,
+   "display": "DEG-3 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 213,
+   "display": "DEG-2 <> DEG-3"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 214,
+   "display": "DEG-3 <> DEG-3"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 215,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 216,
+   "display": "DEG-4 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 217,
+   "display": "DEG-3 <> DEG-4"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 218,
+   "display": "DEG-4 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 219,
+   "display": "DEG-3 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 220,
+   "display": "DEG-4 <> DEG-3"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 221,
+   "display": "DEG-3 <> DEG-4"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 20,
+   "display": "topo_0017"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 155,
+   "display": "topo_0017-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 217,
+   "display": "topo_0017-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 156,
+   "display": "topo_0017-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 218,
+   "display": "topo_0017-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 157,
+   "display": "topo_0017-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 219,
+   "display": "topo_0017-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 158,
+   "display": "topo_0017-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 220,
+   "display": "topo_0017-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 159,
+   "display": "topo_0017-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 221,
+   "display": "topo_0017-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 222,
+   "display": "topo_0017-TRX-E"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 222,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 160,
+   "display": "topo_0017-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 223,
+   "display": "topo_0017-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 161,
+   "display": "topo_0017-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 224,
+   "display": "topo_0017-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 225,
+   "display": "topo_0017-TRX-G"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 223,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 162,
+   "display": "topo_0017-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 226,
+   "display": "topo_0017-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 163,
+   "display": "topo_0017-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 227,
+   "display": "topo_0017-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 164,
+   "display": "topo_0017-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 228,
+   "display": "topo_0017-ROADM-J"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 165,
+   "display": "topo_0017-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 229,
+   "display": "topo_0017-ROADM-K"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 224,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 225,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 226,
+   "display": "DEG-1 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 227,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 228,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 229,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 230,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 231,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 232,
+   "display": "DEG-1 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 233,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 21,
+   "display": "topo_0018"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 166,
+   "display": "topo_0018-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 230,
+   "display": "topo_0018-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 167,
+   "display": "topo_0018-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 231,
+   "display": "topo_0018-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 168,
+   "display": "topo_0018-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 232,
+   "display": "topo_0018-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 169,
+   "display": "topo_0018-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 233,
+   "display": "topo_0018-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 170,
+   "display": "topo_0018-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 234,
+   "display": "topo_0018-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 171,
+   "display": "topo_0018-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 235,
+   "display": "topo_0018-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 172,
+   "display": "topo_0018-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 236,
+   "display": "topo_0018-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 173,
+   "display": "topo_0018-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 237,
+   "display": "topo_0018-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 174,
+   "display": "topo_0018-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 238,
+   "display": "topo_0018-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 175,
+   "display": "topo_0018-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 239,
+   "display": "topo_0018-ROADM-J"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 176,
+   "display": "topo_0018-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 240,
+   "display": "topo_0018-ROADM-K"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 234,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 235,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 236,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 237,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 238,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 239,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 240,
+   "display": "DEG-4 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 241,
+   "display": "DEG-1 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 242,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 243,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 244,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 245,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 246,
+   "display": "DEG-3 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 247,
+   "display": "DEG-2 <> DEG-3"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 248,
+   "display": "DEG-3 <> DEG-3"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 249,
+   "display": "DEG-4 <> DEG-4"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 250,
+   "display": "DEG-5 <> DEG-3"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 251,
+   "display": "DEG-6 <> DEG-3"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 252,
+   "display": "DEG-5 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 253,
+   "display": "DEG-6 <> DEG-4"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 254,
+   "display": "DEG-2 <> DEG-5"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 255,
+   "display": "DEG-3 <> DEG-4"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 22,
+   "display": "topo_0019"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 177,
+   "display": "topo_0019-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 241,
+   "display": "topo_0019-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 178,
+   "display": "topo_0019-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 242,
+   "display": "topo_0019-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 243,
+   "display": "topo_0019-TRX-B"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 256,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 179,
+   "display": "topo_0019-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 244,
+   "display": "topo_0019-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 245,
+   "display": "topo_0019-TRX-C"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 257,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 180,
+   "display": "topo_0019-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 246,
+   "display": "topo_0019-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 247,
+   "display": "topo_0019-TRX-D"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 258,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 181,
+   "display": "topo_0019-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 248,
+   "display": "topo_0019-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 249,
+   "display": "topo_0019-TRX-E"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 259,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 182,
+   "display": "topo_0019-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 250,
+   "display": "topo_0019-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 251,
+   "display": "topo_0019-TRX-F"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 260,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 261,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 262,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 263,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 264,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 265,
+   "display": "DEG-5 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 23,
+   "display": "topo_0020"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 183,
+   "display": "topo_0020-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 252,
+   "display": "topo_0020-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 184,
+   "display": "topo_0020-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 253,
+   "display": "topo_0020-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 254,
+   "display": "topo_0020-TRX-B"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 266,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 185,
+   "display": "topo_0020-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 255,
+   "display": "topo_0020-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 256,
+   "display": "topo_0020-TRX-C"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 267,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 186,
+   "display": "topo_0020-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 257,
+   "display": "topo_0020-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 258,
+   "display": "topo_0020-TRX-D"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 268,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 187,
+   "display": "topo_0020-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 259,
+   "display": "topo_0020-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 260,
+   "display": "topo_0020-TRX-E"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 269,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 188,
+   "display": "topo_0020-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 261,
+   "display": "topo_0020-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 262,
+   "display": "topo_0020-TRX-F"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 270,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 189,
+   "display": "topo_0020-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 263,
+   "display": "topo_0020-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 264,
+   "display": "topo_0020-TRX-G"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 271,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 190,
+   "display": "topo_0020-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 265,
+   "display": "topo_0020-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 266,
+   "display": "topo_0020-TRX-H"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 272,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 191,
+   "display": "topo_0020-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 267,
+   "display": "topo_0020-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 268,
+   "display": "topo_0020-TRX-I"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 273,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 192,
+   "display": "topo_0020-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 269,
+   "display": "topo_0020-ROADM-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 270,
+   "display": "topo_0020-TRX-J"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 274,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 193,
+   "display": "topo_0020-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 271,
+   "display": "topo_0020-ROADM-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 272,
+   "display": "topo_0020-TRX-K"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 275,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 194,
+   "display": "topo_0020-L"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 273,
+   "display": "topo_0020-ROADM-L"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 274,
+   "display": "topo_0020-TRX-L"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 276,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 277,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 278,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 279,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 280,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 281,
+   "display": "DEG-5 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 282,
+   "display": "DEG-6 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 283,
+   "display": "DEG-7 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 284,
+   "display": "DEG-8 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 285,
+   "display": "DEG-9 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 286,
+   "display": "DEG-10 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 287,
+   "display": "DEG-11 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 24,
+   "display": "topo_0021"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 195,
+   "display": "topo_0021-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 275,
+   "display": "topo_0021-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 196,
+   "display": "topo_0021-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 276,
+   "display": "topo_0021-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 197,
+   "display": "topo_0021-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 277,
+   "display": "topo_0021-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 198,
+   "display": "topo_0021-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 278,
+   "display": "topo_0021-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 199,
+   "display": "topo_0021-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 279,
+   "display": "topo_0021-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 200,
+   "display": "topo_0021-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 280,
+   "display": "topo_0021-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 288,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 289,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 290,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 291,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 292,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 293,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 25,
+   "display": "topo_0022"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 201,
+   "display": "topo_0022-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 281,
+   "display": "topo_0022-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 202,
+   "display": "topo_0022-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 282,
+   "display": "topo_0022-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 283,
+   "display": "topo_0022-TRX-B"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 294,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 203,
+   "display": "topo_0022-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 284,
+   "display": "topo_0022-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 285,
+   "display": "topo_0022-TRX-C"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 295,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 204,
+   "display": "topo_0022-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 286,
+   "display": "topo_0022-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 287,
+   "display": "topo_0022-TRX-D"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 296,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 205,
+   "display": "topo_0022-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 288,
+   "display": "topo_0022-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 289,
+   "display": "topo_0022-TRX-E"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 297,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 206,
+   "display": "topo_0022-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 290,
+   "display": "topo_0022-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 291,
+   "display": "topo_0022-TRX-F"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 298,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 207,
+   "display": "topo_0022-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 292,
+   "display": "topo_0022-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 293,
+   "display": "topo_0022-TRX-G"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 299,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 208,
+   "display": "topo_0022-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 294,
+   "display": "topo_0022-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 295,
+   "display": "topo_0022-TRX-H"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 300,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 209,
+   "display": "topo_0022-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 296,
+   "display": "topo_0022-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 297,
+   "display": "topo_0022-TRX-I"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 301,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 302,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 303,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 304,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 305,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 306,
+   "display": "DEG-5 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 307,
+   "display": "DEG-6 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 308,
+   "display": "DEG-7 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 309,
+   "display": "DEG-8 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 26,
+   "display": "topo_0023"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 210,
+   "display": "topo_0023-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 298,
+   "display": "topo_0023-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 211,
+   "display": "topo_0023-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 299,
+   "display": "topo_0023-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 300,
+   "display": "topo_0023-TRX-B"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 310,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 212,
+   "display": "topo_0023-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 301,
+   "display": "topo_0023-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 213,
+   "display": "topo_0023-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 302,
+   "display": "topo_0023-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 214,
+   "display": "topo_0023-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 303,
+   "display": "topo_0023-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 215,
+   "display": "topo_0023-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 304,
+   "display": "topo_0023-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 216,
+   "display": "topo_0023-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 305,
+   "display": "topo_0023-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 217,
+   "display": "topo_0023-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 306,
+   "display": "topo_0023-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 218,
+   "display": "topo_0023-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 307,
+   "display": "topo_0023-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 219,
+   "display": "topo_0023-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 308,
+   "display": "topo_0023-ROADM-J"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 220,
+   "display": "topo_0023-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 309,
+   "display": "topo_0023-ROADM-K"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 311,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 312,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 313,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 314,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 315,
+   "display": "DEG-1 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 316,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 317,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 318,
+   "display": "DEG-3 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 319,
+   "display": "DEG-1 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 320,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 321,
+   "display": "DEG-3 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 322,
+   "display": "DEG-1 <> DEG-3"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 323,
+   "display": "DEG-2 <> DEG-3"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 324,
+   "display": "DEG-4 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 325,
+   "display": "DEG-5 <> DEG-4"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 326,
+   "display": "DEG-3 <> DEG-5"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 327,
+   "display": "DEG-4 <> DEG-3"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 27,
+   "display": "topo_0024"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 221,
+   "display": "topo_0024-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 310,
+   "display": "topo_0024-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 222,
+   "display": "topo_0024-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 311,
+   "display": "topo_0024-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 223,
+   "display": "topo_0024-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 312,
+   "display": "topo_0024-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 224,
+   "display": "topo_0024-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 313,
+   "display": "topo_0024-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 314,
+   "display": "topo_0024-TRX-D"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 328,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 225,
+   "display": "topo_0024-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 315,
+   "display": "topo_0024-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 226,
+   "display": "topo_0024-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 316,
+   "display": "topo_0024-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 227,
+   "display": "topo_0024-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 317,
+   "display": "topo_0024-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 228,
+   "display": "topo_0024-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 318,
+   "display": "topo_0024-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 229,
+   "display": "topo_0024-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 319,
+   "display": "topo_0024-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 230,
+   "display": "topo_0024-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 320,
+   "display": "topo_0024-ROADM-J"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 231,
+   "display": "topo_0024-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 321,
+   "display": "topo_0024-ROADM-K"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 232,
+   "display": "topo_0024-L"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 322,
+   "display": "topo_0024-ROADM-L"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 329,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 330,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 331,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 332,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 333,
+   "display": "DEG-1 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 334,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 335,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 336,
+   "display": "DEG-1 <> DEG-3"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 337,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 338,
+   "display": "DEG-3 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 339,
+   "display": "DEG-2 <> DEG-3"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 340,
+   "display": "DEG-4 <> DEG-3"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 341,
+   "display": "DEG-5 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 342,
+   "display": "DEG-2 <> DEG-4"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 343,
+   "display": "DEG-2 <> DEG-4"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 344,
+   "display": "DEG-2 <> DEG-5"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 28,
+   "display": "topo_0025"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 233,
+   "display": "topo_0025-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 323,
+   "display": "topo_0025-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 234,
+   "display": "topo_0025-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 324,
+   "display": "topo_0025-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 235,
+   "display": "topo_0025-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 325,
+   "display": "topo_0025-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 236,
+   "display": "topo_0025-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 326,
+   "display": "topo_0025-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 237,
+   "display": "topo_0025-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 327,
+   "display": "topo_0025-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 238,
+   "display": "topo_0025-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 328,
+   "display": "topo_0025-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 345,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 346,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 347,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 348,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 349,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 350,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 29,
+   "display": "topo_0026"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 239,
+   "display": "topo_0026-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 329,
+   "display": "topo_0026-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 240,
+   "display": "topo_0026-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 330,
+   "display": "topo_0026-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 241,
+   "display": "topo_0026-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 331,
+   "display": "topo_0026-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 242,
+   "display": "topo_0026-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 332,
+   "display": "topo_0026-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 243,
+   "display": "topo_0026-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 333,
+   "display": "topo_0026-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 244,
+   "display": "topo_0026-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 334,
+   "display": "topo_0026-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 245,
+   "display": "topo_0026-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 335,
+   "display": "topo_0026-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 336,
+   "display": "topo_0026-TRX-G"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 351,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 246,
+   "display": "topo_0026-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 337,
+   "display": "topo_0026-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 338,
+   "display": "topo_0026-TRX-H"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 352,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 247,
+   "display": "topo_0026-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 339,
+   "display": "topo_0026-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 248,
+   "display": "topo_0026-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 340,
+   "display": "topo_0026-ROADM-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 341,
+   "display": "topo_0026-TRX-J"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 353,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 249,
+   "display": "topo_0026-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 342,
+   "display": "topo_0026-ROADM-K"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 354,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 355,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 356,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 357,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 358,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 359,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 360,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 361,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 362,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 363,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 364,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 365,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 30,
+   "display": "topo_0027"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 250,
+   "display": "topo_0027-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 343,
+   "display": "topo_0027-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 251,
+   "display": "topo_0027-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 344,
+   "display": "topo_0027-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 252,
+   "display": "topo_0027-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 345,
+   "display": "topo_0027-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 253,
+   "display": "topo_0027-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 346,
+   "display": "topo_0027-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 254,
+   "display": "topo_0027-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 347,
+   "display": "topo_0027-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 255,
+   "display": "topo_0027-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 348,
+   "display": "topo_0027-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 256,
+   "display": "topo_0027-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 349,
+   "display": "topo_0027-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 257,
+   "display": "topo_0027-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 350,
+   "display": "topo_0027-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 258,
+   "display": "topo_0027-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 351,
+   "display": "topo_0027-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 366,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 367,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 368,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 369,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 370,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 371,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 372,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 373,
+   "display": "DEG-5 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 374,
+   "display": "DEG-6 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 375,
+   "display": "DEG-3 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 376,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 377,
+   "display": "DEG-3 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 378,
+   "display": "DEG-3 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 379,
+   "display": "DEG-4 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 31,
+   "display": "topo_0028"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 259,
+   "display": "topo_0028-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 352,
+   "display": "topo_0028-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 260,
+   "display": "topo_0028-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 353,
+   "display": "topo_0028-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 354,
+   "display": "topo_0028-TRX-B"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 380,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 261,
+   "display": "topo_0028-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 355,
+   "display": "topo_0028-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 356,
+   "display": "topo_0028-TRX-C"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 381,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 262,
+   "display": "topo_0028-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 357,
+   "display": "topo_0028-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 358,
+   "display": "topo_0028-TRX-D"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 382,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 263,
+   "display": "topo_0028-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 359,
+   "display": "topo_0028-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 360,
+   "display": "topo_0028-TRX-E"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 383,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 264,
+   "display": "topo_0028-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 361,
+   "display": "topo_0028-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 362,
+   "display": "topo_0028-TRX-F"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 384,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 265,
+   "display": "topo_0028-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 363,
+   "display": "topo_0028-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 364,
+   "display": "topo_0028-TRX-G"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 385,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 266,
+   "display": "topo_0028-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 365,
+   "display": "topo_0028-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 366,
+   "display": "topo_0028-TRX-H"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 386,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 267,
+   "display": "topo_0028-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 367,
+   "display": "topo_0028-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 368,
+   "display": "topo_0028-TRX-I"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 387,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 268,
+   "display": "topo_0028-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 369,
+   "display": "topo_0028-ROADM-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 370,
+   "display": "topo_0028-TRX-J"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 388,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 269,
+   "display": "topo_0028-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 371,
+   "display": "topo_0028-ROADM-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 372,
+   "display": "topo_0028-TRX-K"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 389,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 390,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 391,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 392,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 393,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 394,
+   "display": "DEG-5 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 395,
+   "display": "DEG-6 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 396,
+   "display": "DEG-7 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 397,
+   "display": "DEG-8 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 398,
+   "display": "DEG-9 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 399,
+   "display": "DEG-10 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 32,
+   "display": "topo_0029"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 270,
+   "display": "topo_0029-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 373,
+   "display": "topo_0029-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 271,
+   "display": "topo_0029-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 374,
+   "display": "topo_0029-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 272,
+   "display": "topo_0029-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 375,
+   "display": "topo_0029-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 273,
+   "display": "topo_0029-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 376,
+   "display": "topo_0029-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 274,
+   "display": "topo_0029-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 377,
+   "display": "topo_0029-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 275,
+   "display": "topo_0029-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 378,
+   "display": "topo_0029-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 276,
+   "display": "topo_0029-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 379,
+   "display": "topo_0029-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 380,
+   "display": "topo_0029-TRX-G"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 400,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 277,
+   "display": "topo_0029-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 381,
+   "display": "topo_0029-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 278,
+   "display": "topo_0029-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 382,
+   "display": "topo_0029-ROADM-I"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 383,
+   "display": "topo_0029-TRX-I"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 401,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 279,
+   "display": "topo_0029-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 384,
+   "display": "topo_0029-ROADM-J"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 385,
+   "display": "topo_0029-TRX-J"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 402,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 280,
+   "display": "topo_0029-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 386,
+   "display": "topo_0029-ROADM-K"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 387,
+   "display": "topo_0029-TRX-K"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 403,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 281,
+   "display": "topo_0029-L"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 388,
+   "display": "topo_0029-ROADM-L"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 404,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 405,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 406,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 407,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 408,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 409,
+   "display": "DEG-3 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 410,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 411,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 412,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 413,
+   "display": "DEG-2 <> DEG-2"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 414,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 415,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 416,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.site_groups",
+   "id": 33,
+   "display": "topo_0030"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 282,
+   "display": "topo_0030-A"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 389,
+   "display": "topo_0030-ROADM-A"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 283,
+   "display": "topo_0030-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 390,
+   "display": "topo_0030-ROADM-B"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 391,
+   "display": "topo_0030-TRX-B"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 417,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 284,
+   "display": "topo_0030-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 392,
+   "display": "topo_0030-ROADM-C"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 393,
+   "display": "topo_0030-TRX-C"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 418,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 285,
+   "display": "topo_0030-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 394,
+   "display": "topo_0030-ROADM-D"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 395,
+   "display": "topo_0030-TRX-D"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 419,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 286,
+   "display": "topo_0030-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 396,
+   "display": "topo_0030-ROADM-E"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 397,
+   "display": "topo_0030-TRX-E"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 420,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 287,
+   "display": "topo_0030-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 398,
+   "display": "topo_0030-ROADM-F"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 399,
+   "display": "topo_0030-TRX-F"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 421,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 288,
+   "display": "topo_0030-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 400,
+   "display": "topo_0030-ROADM-G"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 401,
+   "display": "topo_0030-TRX-G"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 422,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.sites",
+   "id": 289,
+   "display": "topo_0030-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 402,
+   "display": "topo_0030-ROADM-H"
+  },
+  {
+   "endpoint": "dcim.devices",
+   "id": 403,
+   "display": "topo_0030-TRX-H"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 423,
+   "display": "LINE-1 <> AD-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 424,
+   "display": "DEG-1 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 425,
+   "display": "DEG-2 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 426,
+   "display": "DEG-3 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 427,
+   "display": "DEG-4 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 428,
+   "display": "DEG-5 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 429,
+   "display": "DEG-6 <> DEG-1"
+  },
+  {
+   "endpoint": "dcim.cables",
+   "id": 430,
+   "display": "DEG-7 <> DEG-1"
+  }
+ ]
+}

@@ -1,0 +1,248 @@
+{
+  "sample_id": "topo_0008",
+  "image": "topo_0008.png",
+  "topology_type": "hybrid",
+  "nodes": [
+    {
+      "id": "A",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 878,
+        "y": 940
+      },
+      "bbox_xyxy_px": [
+        847,
+        909,
+        909,
+        971
+      ]
+    },
+    {
+      "id": "B",
+      "equipment_type": "ILA",
+      "position_px": {
+        "x": 700,
+        "y": 1140
+      },
+      "bbox_xyxy_px": [
+        669,
+        1109,
+        731,
+        1171
+      ]
+    },
+    {
+      "id": "C",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 609,
+        "y": 744
+      },
+      "bbox_xyxy_px": [
+        578,
+        713,
+        640,
+        775
+      ]
+    },
+    {
+      "id": "D",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 353,
+        "y": 412
+      },
+      "bbox_xyxy_px": [
+        322,
+        381,
+        384,
+        443
+      ]
+    },
+    {
+      "id": "E",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 1140,
+        "y": 1023
+      },
+      "bbox_xyxy_px": [
+        1109,
+        992,
+        1171,
+        1054
+      ]
+    },
+    {
+      "id": "F",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 140,
+        "y": 140
+      },
+      "bbox_xyxy_px": [
+        109,
+        109,
+        171,
+        171
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "B",
+      "distance_km": 260,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        695,
+        935,
+        883,
+        1145
+      ]
+    },
+    {
+      "source": "A",
+      "target": "C",
+      "distance_km": 320,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        604,
+        739,
+        883,
+        945
+      ]
+    },
+    {
+      "source": "A",
+      "target": "E",
+      "distance_km": 270,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        873,
+        935,
+        1145,
+        1028
+      ]
+    },
+    {
+      "source": "B",
+      "target": "C",
+      "distance_km": 120,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        604,
+        739,
+        705,
+        1145
+      ]
+    },
+    {
+      "source": "C",
+      "target": "D",
+      "distance_km": 340,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        348,
+        407,
+        614,
+        749
+      ]
+    },
+    {
+      "source": "D",
+      "target": "F",
+      "distance_km": 360,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        135,
+        135,
+        358,
+        417
+      ]
+    }
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "difficulty": "easy",
+    "image_size": 1280,
+    "node_separation_min_px": 267.7,
+    "label_placement_conflicts": 0,
+    "distance_label_boxes": [
+      {
+        "source": "A",
+        "target": "B",
+        "text": "260 km",
+        "bbox_xyxy_px": [
+          732,
+          1012,
+          810,
+          1037
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "C",
+        "text": "320 km",
+        "bbox_xyxy_px": [
+          718,
+          810,
+          796,
+          835
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "E",
+        "text": "270 km",
+        "bbox_xyxy_px": [
+          963,
+          990,
+          1041,
+          1015
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "B",
+        "target": "C",
+        "text": "120 km",
+        "bbox_xyxy_px": [
+          637,
+          924,
+          715,
+          949
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "C",
+        "target": "D",
+        "text": "340 km",
+        "bbox_xyxy_px": [
+          460,
+          551,
+          538,
+          576
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "D",
+        "target": "F",
+        "text": "360 km",
+        "bbox_xyxy_px": [
+          225,
+          249,
+          303,
+          274
+        ],
+        "placement_conflicts": 0
+      }
+    ],
+    "equipment_semantics": "synthetic illustrative",
+    "simulation_parameters": "not provided; must be supplied by a documented equipment library"
+  }
+}

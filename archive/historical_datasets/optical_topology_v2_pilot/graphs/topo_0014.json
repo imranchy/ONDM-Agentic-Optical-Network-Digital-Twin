@@ -1,0 +1,414 @@
+{
+  "sample_id": "topo_0014",
+  "image": "topo_0014.png",
+  "topology_type": "star",
+  "nodes": [
+    {
+      "id": "A",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 638,
+        "y": 639
+      },
+      "bbox_xyxy_px": [
+        607,
+        608,
+        669,
+        670
+      ]
+    },
+    {
+      "id": "B",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 1140,
+        "y": 708
+      },
+      "bbox_xyxy_px": [
+        1109,
+        677,
+        1171,
+        739
+      ]
+    },
+    {
+      "id": "C",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 190,
+        "y": 881
+      },
+      "bbox_xyxy_px": [
+        159,
+        850,
+        221,
+        912
+      ]
+    },
+    {
+      "id": "D",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 418,
+        "y": 1097
+      },
+      "bbox_xyxy_px": [
+        387,
+        1066,
+        449,
+        1128
+      ]
+    },
+    {
+      "id": "E",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 1006,
+        "y": 993
+      },
+      "bbox_xyxy_px": [
+        975,
+        962,
+        1037,
+        1024
+      ]
+    },
+    {
+      "id": "F",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 728,
+        "y": 1140
+      },
+      "bbox_xyxy_px": [
+        697,
+        1109,
+        759,
+        1171
+      ]
+    },
+    {
+      "id": "G",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 859,
+        "y": 182
+      },
+      "bbox_xyxy_px": [
+        828,
+        151,
+        890,
+        213
+      ]
+    },
+    {
+      "id": "H",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 549,
+        "y": 140
+      },
+      "bbox_xyxy_px": [
+        518,
+        109,
+        580,
+        171
+      ]
+    },
+    {
+      "id": "I",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 1086,
+        "y": 398
+      },
+      "bbox_xyxy_px": [
+        1055,
+        367,
+        1117,
+        429
+      ]
+    },
+    {
+      "id": "J",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 140,
+        "y": 571
+      },
+      "bbox_xyxy_px": [
+        109,
+        540,
+        171,
+        602
+      ]
+    },
+    {
+      "id": "K",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 271,
+        "y": 286
+      },
+      "bbox_xyxy_px": [
+        240,
+        255,
+        302,
+        317
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "B",
+      "distance_km": 300,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        633,
+        634,
+        1145,
+        713
+      ]
+    },
+    {
+      "source": "A",
+      "target": "C",
+      "distance_km": 250,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        185,
+        634,
+        643,
+        886
+      ]
+    },
+    {
+      "source": "A",
+      "target": "D",
+      "distance_km": 180,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        413,
+        634,
+        643,
+        1102
+      ]
+    },
+    {
+      "source": "A",
+      "target": "E",
+      "distance_km": 370,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        633,
+        634,
+        1011,
+        998
+      ]
+    },
+    {
+      "source": "A",
+      "target": "F",
+      "distance_km": 250,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        633,
+        634,
+        733,
+        1145
+      ]
+    },
+    {
+      "source": "A",
+      "target": "G",
+      "distance_km": 120,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        633,
+        177,
+        864,
+        644
+      ]
+    },
+    {
+      "source": "A",
+      "target": "H",
+      "distance_km": 150,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        544,
+        135,
+        643,
+        644
+      ]
+    },
+    {
+      "source": "A",
+      "target": "I",
+      "distance_km": 230,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        633,
+        393,
+        1091,
+        644
+      ]
+    },
+    {
+      "source": "A",
+      "target": "J",
+      "distance_km": 160,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        135,
+        566,
+        643,
+        644
+      ]
+    },
+    {
+      "source": "A",
+      "target": "K",
+      "distance_km": 330,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        266,
+        281,
+        643,
+        644
+      ]
+    }
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "difficulty": "hard",
+    "image_size": 1280,
+    "node_separation_min_px": 312.8,
+    "label_placement_conflicts": 0,
+    "distance_label_boxes": [
+      {
+        "source": "A",
+        "target": "B",
+        "text": "300 km",
+        "bbox_xyxy_px": [
+          846,
+          683,
+          924,
+          708
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "C",
+        "text": "250 km",
+        "bbox_xyxy_px": [
+          364,
+          727,
+          442,
+          752
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "D",
+        "text": "180 km",
+        "bbox_xyxy_px": [
+          468,
+          845,
+          546,
+          870
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "E",
+        "text": "370 km",
+        "bbox_xyxy_px": [
+          767,
+          820,
+          845,
+          845
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "F",
+        "text": "250 km",
+        "bbox_xyxy_px": [
+          621,
+          881,
+          699,
+          906
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "G",
+        "text": "120 km",
+        "bbox_xyxy_px": [
+          730,
+          408,
+          808,
+          433
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "H",
+        "text": "150 km",
+        "bbox_xyxy_px": [
+          577,
+          372,
+          655,
+          397
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "I",
+        "text": "230 km",
+        "bbox_xyxy_px": [
+          833,
+          526,
+          911,
+          551
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "J",
+        "text": "160 km",
+        "bbox_xyxy_px": [
+          353,
+          569,
+          431,
+          594
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "K",
+        "text": "330 km",
+        "bbox_xyxy_px": [
+          431,
+          433,
+          509,
+          458
+        ],
+        "placement_conflicts": 0
+      }
+    ],
+    "equipment_semantics": "synthetic illustrative",
+    "simulation_parameters": "not provided; must be supplied by a documented equipment library"
+  }
+}

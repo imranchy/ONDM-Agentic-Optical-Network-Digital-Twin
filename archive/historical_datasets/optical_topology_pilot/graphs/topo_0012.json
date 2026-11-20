@@ -1,0 +1,52 @@
+{
+  "sample_id": "topo_0012",
+  "image": "topo_0012.png",
+  "topology_type": "star",
+  "nodes": [
+    {
+      "id": "A"
+    },
+    {
+      "id": "B"
+    },
+    {
+      "id": "C"
+    },
+    {
+      "id": "D"
+    },
+    {
+      "id": "E"
+    },
+    {
+      "id": "F"
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "B",
+      "distance_km": 180
+    },
+    {
+      "source": "A",
+      "target": "C",
+      "distance_km": 280
+    },
+    {
+      "source": "A",
+      "target": "D",
+      "distance_km": 360
+    },
+    {
+      "source": "A",
+      "target": "E",
+      "distance_km": 110
+    },
+    {
+      "source": "A",
+      "target": "F",
+      "distance_km": 390
+    }
+  ]
+}

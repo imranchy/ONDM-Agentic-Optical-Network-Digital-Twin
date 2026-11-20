@@ -1,0 +1,84 @@
+{
+  "sample_id": "topo_0030",
+  "image": "topo_0030.png",
+  "topology_type": "random_erdos_renyi",
+  "nodes": [
+    {
+      "id": "A"
+    },
+    {
+      "id": "B"
+    },
+    {
+      "id": "C"
+    },
+    {
+      "id": "D"
+    },
+    {
+      "id": "E"
+    },
+    {
+      "id": "F"
+    },
+    {
+      "id": "G"
+    },
+    {
+      "id": "H"
+    },
+    {
+      "id": "I"
+    },
+    {
+      "id": "J"
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "J",
+      "distance_km": 380
+    },
+    {
+      "source": "B",
+      "target": "I",
+      "distance_km": 150
+    },
+    {
+      "source": "C",
+      "target": "H",
+      "distance_km": 230
+    },
+    {
+      "source": "C",
+      "target": "J",
+      "distance_km": 120
+    },
+    {
+      "source": "D",
+      "target": "F",
+      "distance_km": 170
+    },
+    {
+      "source": "D",
+      "target": "G",
+      "distance_km": 380
+    },
+    {
+      "source": "D",
+      "target": "I",
+      "distance_km": 340
+    },
+    {
+      "source": "E",
+      "target": "I",
+      "distance_km": 300
+    },
+    {
+      "source": "G",
+      "target": "H",
+      "distance_km": 60
+    }
+  ]
+}

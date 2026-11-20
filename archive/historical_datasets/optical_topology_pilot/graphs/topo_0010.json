@@ -1,0 +1,124 @@
+{
+  "sample_id": "topo_0010",
+  "image": "topo_0010.png",
+  "topology_type": "mesh",
+  "nodes": [
+    {
+      "id": "A"
+    },
+    {
+      "id": "B"
+    },
+    {
+      "id": "C"
+    },
+    {
+      "id": "D"
+    },
+    {
+      "id": "E"
+    },
+    {
+      "id": "F"
+    },
+    {
+      "id": "G"
+    },
+    {
+      "id": "H"
+    },
+    {
+      "id": "I"
+    },
+    {
+      "id": "J"
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "C",
+      "distance_km": 60
+    },
+    {
+      "source": "A",
+      "target": "E",
+      "distance_km": 300
+    },
+    {
+      "source": "A",
+      "target": "H",
+      "distance_km": 70
+    },
+    {
+      "source": "A",
+      "target": "I",
+      "distance_km": 220
+    },
+    {
+      "source": "B",
+      "target": "D",
+      "distance_km": 400
+    },
+    {
+      "source": "B",
+      "target": "E",
+      "distance_km": 220
+    },
+    {
+      "source": "B",
+      "target": "G",
+      "distance_km": 190
+    },
+    {
+      "source": "C",
+      "target": "I",
+      "distance_km": 370
+    },
+    {
+      "source": "D",
+      "target": "E",
+      "distance_km": 350
+    },
+    {
+      "source": "D",
+      "target": "F",
+      "distance_km": 370
+    },
+    {
+      "source": "D",
+      "target": "G",
+      "distance_km": 390
+    },
+    {
+      "source": "D",
+      "target": "H",
+      "distance_km": 160
+    },
+    {
+      "source": "D",
+      "target": "I",
+      "distance_km": 380
+    },
+    {
+      "source": "D",
+      "target": "J",
+      "distance_km": 380
+    },
+    {
+      "source": "F",
+      "target": "G",
+      "distance_km": 40
+    },
+    {
+      "source": "G",
+      "target": "J",
+      "distance_km": 260
+    },
+    {
+      "source": "I",
+      "target": "J",
+      "distance_km": 300
+    }
+  ]
+}

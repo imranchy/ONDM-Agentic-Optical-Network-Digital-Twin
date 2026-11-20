@@ -1,0 +1,97 @@
+{
+  "sample_id": "topo_0029",
+  "image": "topo_0029.png",
+  "topology_type": "ring",
+  "nodes": [
+    {
+      "id": "A"
+    },
+    {
+      "id": "B"
+    },
+    {
+      "id": "C"
+    },
+    {
+      "id": "D"
+    },
+    {
+      "id": "E"
+    },
+    {
+      "id": "F"
+    },
+    {
+      "id": "G"
+    },
+    {
+      "id": "H"
+    },
+    {
+      "id": "I"
+    },
+    {
+      "id": "J"
+    },
+    {
+      "id": "K"
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "B",
+      "distance_km": 170
+    },
+    {
+      "source": "A",
+      "target": "K",
+      "distance_km": 300
+    },
+    {
+      "source": "B",
+      "target": "C",
+      "distance_km": 80
+    },
+    {
+      "source": "C",
+      "target": "D",
+      "distance_km": 400
+    },
+    {
+      "source": "D",
+      "target": "E",
+      "distance_km": 330
+    },
+    {
+      "source": "E",
+      "target": "F",
+      "distance_km": 380
+    },
+    {
+      "source": "F",
+      "target": "G",
+      "distance_km": 150
+    },
+    {
+      "source": "G",
+      "target": "H",
+      "distance_km": 360
+    },
+    {
+      "source": "H",
+      "target": "I",
+      "distance_km": 190
+    },
+    {
+      "source": "I",
+      "target": "J",
+      "distance_km": 360
+    },
+    {
+      "source": "J",
+      "target": "K",
+      "distance_km": 70
+    }
+  ]
+}

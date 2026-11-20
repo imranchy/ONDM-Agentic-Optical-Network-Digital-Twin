@@ -1,0 +1,135 @@
+{
+  "sample_id": "topo_0002",
+  "image": "topo_0002.png",
+  "topology_type": "random_erdos_renyi",
+  "nodes": [
+    {
+      "id": "A"
+    },
+    {
+      "id": "B"
+    },
+    {
+      "id": "C"
+    },
+    {
+      "id": "D"
+    },
+    {
+      "id": "E"
+    },
+    {
+      "id": "F"
+    },
+    {
+      "id": "G"
+    },
+    {
+      "id": "H"
+    },
+    {
+      "id": "I"
+    },
+    {
+      "id": "J"
+    },
+    {
+      "id": "K"
+    },
+    {
+      "id": "L"
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "C",
+      "distance_km": 240
+    },
+    {
+      "source": "B",
+      "target": "D",
+      "distance_km": 250
+    },
+    {
+      "source": "B",
+      "target": "F",
+      "distance_km": 120
+    },
+    {
+      "source": "B",
+      "target": "G",
+      "distance_km": 360
+    },
+    {
+      "source": "B",
+      "target": "H",
+      "distance_km": 220
+    },
+    {
+      "source": "B",
+      "target": "I",
+      "distance_km": 190
+    },
+    {
+      "source": "B",
+      "target": "J",
+      "distance_km": 150
+    },
+    {
+      "source": "B",
+      "target": "L",
+      "distance_km": 370
+    },
+    {
+      "source": "C",
+      "target": "F",
+      "distance_km": 190
+    },
+    {
+      "source": "D",
+      "target": "E",
+      "distance_km": 380
+    },
+    {
+      "source": "D",
+      "target": "J",
+      "distance_km": 330
+    },
+    {
+      "source": "F",
+      "target": "G",
+      "distance_km": 340
+    },
+    {
+      "source": "F",
+      "target": "K",
+      "distance_km": 170
+    },
+    {
+      "source": "F",
+      "target": "L",
+      "distance_km": 180
+    },
+    {
+      "source": "H",
+      "target": "I",
+      "distance_km": 330
+    },
+    {
+      "source": "H",
+      "target": "L",
+      "distance_km": 280
+    },
+    {
+      "source": "I",
+      "target": "J",
+      "distance_km": 70
+    },
+    {
+      "source": "I",
+      "target": "L",
+      "distance_km": 160
+    }
+  ]
+}

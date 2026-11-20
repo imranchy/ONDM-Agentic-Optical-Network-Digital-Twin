@@ -1,0 +1,1761 @@
+{
+  "network_name": "ONDM_topo_0002",
+  "elements": [
+    {
+      "uid": "Roadm_A",
+      "type": "Roadm",
+      "type_variety": "default"
+    },
+    {
+      "uid": "Trx_A",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "city": "Site B",
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Roadm_B",
+      "type": "Roadm",
+      "type_variety": "default"
+    },
+    {
+      "uid": "Trx_B",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "city": "Site B",
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Roadm_C",
+      "type": "Roadm",
+      "type_variety": "default"
+    },
+    {
+      "uid": "Trx_C",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "city": "Site B",
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Roadm_D",
+      "type": "Roadm",
+      "type_variety": "default"
+    },
+    {
+      "uid": "Trx_D",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "city": "Site B",
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Roadm_E",
+      "type": "Roadm",
+      "type_variety": "default"
+    },
+    {
+      "uid": "Trx_E",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "city": "Site B",
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Roadm_F",
+      "type": "Roadm",
+      "type_variety": "default"
+    },
+    {
+      "uid": "Trx_F",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "city": "Site B",
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Roadm_G",
+      "type": "Roadm",
+      "type_variety": "default"
+    },
+    {
+      "uid": "Trx_G",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "city": "Site B",
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Roadm_H",
+      "type": "Roadm",
+      "type_variety": "default"
+    },
+    {
+      "uid": "Trx_H",
+      "type": "Transceiver",
+      "metadata": {
+        "location": {
+          "city": "Site B",
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_A__D_1",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 55.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_A__D_1",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_A__D_2",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 55.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_D__A_1",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 55.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_D__A_1",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_D__A_2",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 55.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_B__E_1",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 80.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_B__E_1",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_B__E_2",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 80.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_E__B_1",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 80.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_E__B_1",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_E__B_2",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 80.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_C__F_1",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 70.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_F__C_1",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 70.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_D__E_1",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 80.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_D__E_1",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_D__E_2",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 80.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_D__E_2",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_D__E_3",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 80.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_E__D_1",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 80.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_E__D_1",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_E__D_2",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 80.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_E__D_2",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_E__D_3",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 80.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_E__F_1",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 66.66666667,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_E__F_1",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_E__F_2",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 66.66666667,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_E__F_2",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_E__F_3",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 66.66666667,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_F__E_1",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 66.66666667,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_F__E_1",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_F__E_2",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 66.66666667,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_F__E_2",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_F__E_3",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 66.66666667,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_E__G_1",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 68.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_E__G_1",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_E__G_2",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 68.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_E__G_2",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_E__G_3",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 68.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_E__G_3",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_E__G_4",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 68.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_E__G_4",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_E__G_5",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 68.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_G__E_1",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 68.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_G__E_1",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_G__E_2",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 68.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_G__E_2",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_G__E_3",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 68.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_G__E_3",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_G__E_4",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 68.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_G__E_4",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_G__E_5",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 68.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_F__H_1",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 74.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_F__H_1",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_F__H_2",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 74.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_F__H_2",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_F__H_3",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 74.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_F__H_3",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_F__H_4",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 74.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_F__H_4",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_F__H_5",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 74.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_H__F_1",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 74.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_H__F_1",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_H__F_2",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 74.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_H__F_2",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_H__F_3",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 74.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_H__F_3",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_H__F_4",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 74.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Edfa_ILA_H__F_4",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 2,
+          "longitude": 0
+        }
+      }
+    },
+    {
+      "uid": "Fiber_H__F_5",
+      "type": "Fiber",
+      "type_variety": "SSMF",
+      "params": {
+        "length": 74.0,
+        "loss_coef": 0.2,
+        "length_units": "km",
+        "att_in": 0,
+        "con_in": 0.5,
+        "con_out": 0.5,
+        "pmd_coef": 3e-15
+      },
+      "metadata": {
+        "location": {
+          "region": "",
+          "latitude": 1,
+          "longitude": 0
+        }
+      }
+    }
+  ],
+  "connections": [
+    {
+      "from_node": "Trx_A",
+      "to_node": "Roadm_A"
+    },
+    {
+      "from_node": "Roadm_A",
+      "to_node": "Trx_A"
+    },
+    {
+      "from_node": "Trx_B",
+      "to_node": "Roadm_B"
+    },
+    {
+      "from_node": "Roadm_B",
+      "to_node": "Trx_B"
+    },
+    {
+      "from_node": "Trx_C",
+      "to_node": "Roadm_C"
+    },
+    {
+      "from_node": "Roadm_C",
+      "to_node": "Trx_C"
+    },
+    {
+      "from_node": "Trx_D",
+      "to_node": "Roadm_D"
+    },
+    {
+      "from_node": "Roadm_D",
+      "to_node": "Trx_D"
+    },
+    {
+      "from_node": "Trx_E",
+      "to_node": "Roadm_E"
+    },
+    {
+      "from_node": "Roadm_E",
+      "to_node": "Trx_E"
+    },
+    {
+      "from_node": "Trx_F",
+      "to_node": "Roadm_F"
+    },
+    {
+      "from_node": "Roadm_F",
+      "to_node": "Trx_F"
+    },
+    {
+      "from_node": "Trx_G",
+      "to_node": "Roadm_G"
+    },
+    {
+      "from_node": "Roadm_G",
+      "to_node": "Trx_G"
+    },
+    {
+      "from_node": "Trx_H",
+      "to_node": "Roadm_H"
+    },
+    {
+      "from_node": "Roadm_H",
+      "to_node": "Trx_H"
+    },
+    {
+      "from_node": "Roadm_A",
+      "to_node": "Fiber_A__D_1"
+    },
+    {
+      "from_node": "Fiber_A__D_1",
+      "to_node": "Edfa_ILA_A__D_1"
+    },
+    {
+      "from_node": "Edfa_ILA_A__D_1",
+      "to_node": "Fiber_A__D_2"
+    },
+    {
+      "from_node": "Fiber_A__D_2",
+      "to_node": "Roadm_D"
+    },
+    {
+      "from_node": "Roadm_D",
+      "to_node": "Fiber_D__A_1"
+    },
+    {
+      "from_node": "Fiber_D__A_1",
+      "to_node": "Edfa_ILA_D__A_1"
+    },
+    {
+      "from_node": "Edfa_ILA_D__A_1",
+      "to_node": "Fiber_D__A_2"
+    },
+    {
+      "from_node": "Fiber_D__A_2",
+      "to_node": "Roadm_A"
+    },
+    {
+      "from_node": "Roadm_B",
+      "to_node": "Fiber_B__E_1"
+    },
+    {
+      "from_node": "Fiber_B__E_1",
+      "to_node": "Edfa_ILA_B__E_1"
+    },
+    {
+      "from_node": "Edfa_ILA_B__E_1",
+      "to_node": "Fiber_B__E_2"
+    },
+    {
+      "from_node": "Fiber_B__E_2",
+      "to_node": "Roadm_E"
+    },
+    {
+      "from_node": "Roadm_E",
+      "to_node": "Fiber_E__B_1"
+    },
+    {
+      "from_node": "Fiber_E__B_1",
+      "to_node": "Edfa_ILA_E__B_1"
+    },
+    {
+      "from_node": "Edfa_ILA_E__B_1",
+      "to_node": "Fiber_E__B_2"
+    },
+    {
+      "from_node": "Fiber_E__B_2",
+      "to_node": "Roadm_B"
+    },
+    {
+      "from_node": "Roadm_C",
+      "to_node": "Fiber_C__F_1"
+    },
+    {
+      "from_node": "Fiber_C__F_1",
+      "to_node": "Roadm_F"
+    },
+    {
+      "from_node": "Roadm_F",
+      "to_node": "Fiber_F__C_1"
+    },
+    {
+      "from_node": "Fiber_F__C_1",
+      "to_node": "Roadm_C"
+    },
+    {
+      "from_node": "Roadm_D",
+      "to_node": "Fiber_D__E_1"
+    },
+    {
+      "from_node": "Fiber_D__E_1",
+      "to_node": "Edfa_ILA_D__E_1"
+    },
+    {
+      "from_node": "Edfa_ILA_D__E_1",
+      "to_node": "Fiber_D__E_2"
+    },
+    {
+      "from_node": "Fiber_D__E_2",
+      "to_node": "Edfa_ILA_D__E_2"
+    },
+    {
+      "from_node": "Edfa_ILA_D__E_2",
+      "to_node": "Fiber_D__E_3"
+    },
+    {
+      "from_node": "Fiber_D__E_3",
+      "to_node": "Roadm_E"
+    },
+    {
+      "from_node": "Roadm_E",
+      "to_node": "Fiber_E__D_1"
+    },
+    {
+      "from_node": "Fiber_E__D_1",
+      "to_node": "Edfa_ILA_E__D_1"
+    },
+    {
+      "from_node": "Edfa_ILA_E__D_1",
+      "to_node": "Fiber_E__D_2"
+    },
+    {
+      "from_node": "Fiber_E__D_2",
+      "to_node": "Edfa_ILA_E__D_2"
+    },
+    {
+      "from_node": "Edfa_ILA_E__D_2",
+      "to_node": "Fiber_E__D_3"
+    },
+    {
+      "from_node": "Fiber_E__D_3",
+      "to_node": "Roadm_D"
+    },
+    {
+      "from_node": "Roadm_E",
+      "to_node": "Fiber_E__F_1"
+    },
+    {
+      "from_node": "Fiber_E__F_1",
+      "to_node": "Edfa_ILA_E__F_1"
+    },
+    {
+      "from_node": "Edfa_ILA_E__F_1",
+      "to_node": "Fiber_E__F_2"
+    },
+    {
+      "from_node": "Fiber_E__F_2",
+      "to_node": "Edfa_ILA_E__F_2"
+    },
+    {
+      "from_node": "Edfa_ILA_E__F_2",
+      "to_node": "Fiber_E__F_3"
+    },
+    {
+      "from_node": "Fiber_E__F_3",
+      "to_node": "Roadm_F"
+    },
+    {
+      "from_node": "Roadm_F",
+      "to_node": "Fiber_F__E_1"
+    },
+    {
+      "from_node": "Fiber_F__E_1",
+      "to_node": "Edfa_ILA_F__E_1"
+    },
+    {
+      "from_node": "Edfa_ILA_F__E_1",
+      "to_node": "Fiber_F__E_2"
+    },
+    {
+      "from_node": "Fiber_F__E_2",
+      "to_node": "Edfa_ILA_F__E_2"
+    },
+    {
+      "from_node": "Edfa_ILA_F__E_2",
+      "to_node": "Fiber_F__E_3"
+    },
+    {
+      "from_node": "Fiber_F__E_3",
+      "to_node": "Roadm_E"
+    },
+    {
+      "from_node": "Roadm_E",
+      "to_node": "Fiber_E__G_1"
+    },
+    {
+      "from_node": "Fiber_E__G_1",
+      "to_node": "Edfa_ILA_E__G_1"
+    },
+    {
+      "from_node": "Edfa_ILA_E__G_1",
+      "to_node": "Fiber_E__G_2"
+    },
+    {
+      "from_node": "Fiber_E__G_2",
+      "to_node": "Edfa_ILA_E__G_2"
+    },
+    {
+      "from_node": "Edfa_ILA_E__G_2",
+      "to_node": "Fiber_E__G_3"
+    },
+    {
+      "from_node": "Fiber_E__G_3",
+      "to_node": "Edfa_ILA_E__G_3"
+    },
+    {
+      "from_node": "Edfa_ILA_E__G_3",
+      "to_node": "Fiber_E__G_4"
+    },
+    {
+      "from_node": "Fiber_E__G_4",
+      "to_node": "Edfa_ILA_E__G_4"
+    },
+    {
+      "from_node": "Edfa_ILA_E__G_4",
+      "to_node": "Fiber_E__G_5"
+    },
+    {
+      "from_node": "Fiber_E__G_5",
+      "to_node": "Roadm_G"
+    },
+    {
+      "from_node": "Roadm_G",
+      "to_node": "Fiber_G__E_1"
+    },
+    {
+      "from_node": "Fiber_G__E_1",
+      "to_node": "Edfa_ILA_G__E_1"
+    },
+    {
+      "from_node": "Edfa_ILA_G__E_1",
+      "to_node": "Fiber_G__E_2"
+    },
+    {
+      "from_node": "Fiber_G__E_2",
+      "to_node": "Edfa_ILA_G__E_2"
+    },
+    {
+      "from_node": "Edfa_ILA_G__E_2",
+      "to_node": "Fiber_G__E_3"
+    },
+    {
+      "from_node": "Fiber_G__E_3",
+      "to_node": "Edfa_ILA_G__E_3"
+    },
+    {
+      "from_node": "Edfa_ILA_G__E_3",
+      "to_node": "Fiber_G__E_4"
+    },
+    {
+      "from_node": "Fiber_G__E_4",
+      "to_node": "Edfa_ILA_G__E_4"
+    },
+    {
+      "from_node": "Edfa_ILA_G__E_4",
+      "to_node": "Fiber_G__E_5"
+    },
+    {
+      "from_node": "Fiber_G__E_5",
+      "to_node": "Roadm_E"
+    },
+    {
+      "from_node": "Roadm_F",
+      "to_node": "Fiber_F__H_1"
+    },
+    {
+      "from_node": "Fiber_F__H_1",
+      "to_node": "Edfa_ILA_F__H_1"
+    },
+    {
+      "from_node": "Edfa_ILA_F__H_1",
+      "to_node": "Fiber_F__H_2"
+    },
+    {
+      "from_node": "Fiber_F__H_2",
+      "to_node": "Edfa_ILA_F__H_2"
+    },
+    {
+      "from_node": "Edfa_ILA_F__H_2",
+      "to_node": "Fiber_F__H_3"
+    },
+    {
+      "from_node": "Fiber_F__H_3",
+      "to_node": "Edfa_ILA_F__H_3"
+    },
+    {
+      "from_node": "Edfa_ILA_F__H_3",
+      "to_node": "Fiber_F__H_4"
+    },
+    {
+      "from_node": "Fiber_F__H_4",
+      "to_node": "Edfa_ILA_F__H_4"
+    },
+    {
+      "from_node": "Edfa_ILA_F__H_4",
+      "to_node": "Fiber_F__H_5"
+    },
+    {
+      "from_node": "Fiber_F__H_5",
+      "to_node": "Roadm_H"
+    },
+    {
+      "from_node": "Roadm_H",
+      "to_node": "Fiber_H__F_1"
+    },
+    {
+      "from_node": "Fiber_H__F_1",
+      "to_node": "Edfa_ILA_H__F_1"
+    },
+    {
+      "from_node": "Edfa_ILA_H__F_1",
+      "to_node": "Fiber_H__F_2"
+    },
+    {
+      "from_node": "Fiber_H__F_2",
+      "to_node": "Edfa_ILA_H__F_2"
+    },
+    {
+      "from_node": "Edfa_ILA_H__F_2",
+      "to_node": "Fiber_H__F_3"
+    },
+    {
+      "from_node": "Fiber_H__F_3",
+      "to_node": "Edfa_ILA_H__F_3"
+    },
+    {
+      "from_node": "Edfa_ILA_H__F_3",
+      "to_node": "Fiber_H__F_4"
+    },
+    {
+      "from_node": "Fiber_H__F_4",
+      "to_node": "Edfa_ILA_H__F_4"
+    },
+    {
+      "from_node": "Edfa_ILA_H__F_4",
+      "to_node": "Fiber_H__F_5"
+    },
+    {
+      "from_node": "Fiber_H__F_5",
+      "to_node": "Roadm_F"
+    }
+  ]
+}

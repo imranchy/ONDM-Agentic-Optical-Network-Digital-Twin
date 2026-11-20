@@ -1,0 +1,348 @@
+{
+  "sample_id": "topo_0025",
+  "image": "topo_0025.png",
+  "topology_type": "hybrid",
+  "nodes": [
+    {
+      "id": "A",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 929,
+        "y": 518
+      },
+      "bbox_xyxy_px": [
+        898,
+        487,
+        960,
+        549
+      ]
+    },
+    {
+      "id": "B",
+      "equipment_type": "ILA",
+      "position_px": {
+        "x": 961,
+        "y": 1063
+      },
+      "bbox_xyxy_px": [
+        930,
+        1032,
+        992,
+        1094
+      ]
+    },
+    {
+      "id": "C",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 686,
+        "y": 1140
+      },
+      "bbox_xyxy_px": [
+        655,
+        1109,
+        717,
+        1171
+      ]
+    },
+    {
+      "id": "D",
+      "equipment_type": "ILA",
+      "position_px": {
+        "x": 832,
+        "y": 859
+      },
+      "bbox_xyxy_px": [
+        801,
+        828,
+        863,
+        890
+      ]
+    },
+    {
+      "id": "E",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 417,
+        "y": 899
+      },
+      "bbox_xyxy_px": [
+        386,
+        868,
+        448,
+        930
+      ]
+    },
+    {
+      "id": "F",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 140,
+        "y": 990
+      },
+      "bbox_xyxy_px": [
+        109,
+        959,
+        171,
+        1021
+      ]
+    },
+    {
+      "id": "G",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 1140,
+        "y": 140
+      },
+      "bbox_xyxy_px": [
+        1109,
+        109,
+        1171,
+        171
+      ]
+    },
+    {
+      "id": "H",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 617,
+        "y": 496
+      },
+      "bbox_xyxy_px": [
+        586,
+        465,
+        648,
+        527
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "B",
+      "distance_km": 270,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        924,
+        513,
+        966,
+        1068
+      ]
+    },
+    {
+      "source": "A",
+      "target": "D",
+      "distance_km": 270,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        827,
+        513,
+        934,
+        864
+      ]
+    },
+    {
+      "source": "A",
+      "target": "G",
+      "distance_km": 190,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        924,
+        135,
+        1145,
+        523
+      ]
+    },
+    {
+      "source": "A",
+      "target": "H",
+      "distance_km": 310,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        612,
+        491,
+        934,
+        523
+      ]
+    },
+    {
+      "source": "B",
+      "target": "C",
+      "distance_km": 350,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        681,
+        1058,
+        966,
+        1145
+      ]
+    },
+    {
+      "source": "C",
+      "target": "D",
+      "distance_km": 180,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        681,
+        854,
+        837,
+        1145
+      ]
+    },
+    {
+      "source": "C",
+      "target": "E",
+      "distance_km": 260,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        412,
+        894,
+        691,
+        1145
+      ]
+    },
+    {
+      "source": "E",
+      "target": "F",
+      "distance_km": 200,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        135,
+        894,
+        422,
+        995
+      ]
+    },
+    {
+      "source": "E",
+      "target": "H",
+      "distance_km": 180,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        412,
+        491,
+        622,
+        904
+      ]
+    }
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "difficulty": "medium",
+    "image_size": 1280,
+    "node_separation_min_px": 241.4,
+    "label_placement_conflicts": 0,
+    "distance_label_boxes": [
+      {
+        "source": "A",
+        "target": "B",
+        "text": "270 km",
+        "bbox_xyxy_px": [
+          883,
+          779,
+          961,
+          804
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "D",
+        "text": "270 km",
+        "bbox_xyxy_px": [
+          819,
+          669,
+          897,
+          694
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "G",
+        "text": "190 km",
+        "bbox_xyxy_px": [
+          1015,
+          327,
+          1093,
+          352
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "H",
+        "text": "310 km",
+        "bbox_xyxy_px": [
+          735,
+          471,
+          813,
+          496
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "B",
+        "target": "C",
+        "text": "350 km",
+        "bbox_xyxy_px": [
+          778,
+          1066,
+          856,
+          1091
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "C",
+        "target": "D",
+        "text": "180 km",
+        "bbox_xyxy_px": [
+          740,
+          997,
+          818,
+          1022
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "C",
+        "target": "E",
+        "text": "260 km",
+        "bbox_xyxy_px": [
+          527,
+          989,
+          605,
+          1014
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "E",
+        "target": "F",
+        "text": "200 km",
+        "bbox_xyxy_px": [
+          232,
+          910,
+          310,
+          935
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "E",
+        "target": "H",
+        "text": "180 km",
+        "bbox_xyxy_px": [
+          498,
+          695,
+          576,
+          720
+        ],
+        "placement_conflicts": 0
+      }
+    ],
+    "equipment_semantics": "synthetic illustrative",
+    "simulation_parameters": "not provided; must be supplied by a documented equipment library"
+  }
+}

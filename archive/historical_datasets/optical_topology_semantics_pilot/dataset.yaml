@@ -1,0 +1,9 @@
+path: C:/Users/dipto/Downloads/Projects/Imran ONDM 27/optical_topology_semantics_pilot
+train: train.txt
+val: val.txt
+test: test.txt
+names:
+  0: ROADM
+  1: ILA
+  2: TRANSCEIVER
+  3: fiber_link

@@ -1,0 +1,7 @@
+structure_id,topology_type,num_nodes,num_edges,num_samples
+S03,ring,4,4,92
+S02,star,4,3,87
+S01,ring,3,3,85
+S05,star,5,4,85
+S06,ring,5,5,78
+S04,star,3,2,73

@@ -1,0 +1,152 @@
+{
+  "sample_id": "topo_0007",
+  "image": "topo_0007.png",
+  "topology_type": "random_watts_strogatz",
+  "nodes": [
+    {
+      "id": "A"
+    },
+    {
+      "id": "B"
+    },
+    {
+      "id": "C"
+    },
+    {
+      "id": "D"
+    },
+    {
+      "id": "E"
+    },
+    {
+      "id": "F"
+    },
+    {
+      "id": "G"
+    },
+    {
+      "id": "H"
+    },
+    {
+      "id": "I"
+    },
+    {
+      "id": "J"
+    },
+    {
+      "id": "K"
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "C",
+      "distance_km": 300
+    },
+    {
+      "source": "A",
+      "target": "D",
+      "distance_km": 250
+    },
+    {
+      "source": "A",
+      "target": "F",
+      "distance_km": 300
+    },
+    {
+      "source": "A",
+      "target": "J",
+      "distance_km": 270
+    },
+    {
+      "source": "A",
+      "target": "K",
+      "distance_km": 230
+    },
+    {
+      "source": "B",
+      "target": "C",
+      "distance_km": 160
+    },
+    {
+      "source": "B",
+      "target": "D",
+      "distance_km": 280
+    },
+    {
+      "source": "B",
+      "target": "K",
+      "distance_km": 120
+    },
+    {
+      "source": "C",
+      "target": "E",
+      "distance_km": 110
+    },
+    {
+      "source": "C",
+      "target": "I",
+      "distance_km": 390
+    },
+    {
+      "source": "D",
+      "target": "E",
+      "distance_km": 380
+    },
+    {
+      "source": "D",
+      "target": "F",
+      "distance_km": 350
+    },
+    {
+      "source": "E",
+      "target": "F",
+      "distance_km": 230
+    },
+    {
+      "source": "E",
+      "target": "G",
+      "distance_km": 230
+    },
+    {
+      "source": "E",
+      "target": "I",
+      "distance_km": 140
+    },
+    {
+      "source": "F",
+      "target": "J",
+      "distance_km": 210
+    },
+    {
+      "source": "G",
+      "target": "H",
+      "distance_km": 380
+    },
+    {
+      "source": "G",
+      "target": "J",
+      "distance_km": 80
+    },
+    {
+      "source": "H",
+      "target": "I",
+      "distance_km": 370
+    },
+    {
+      "source": "H",
+      "target": "J",
+      "distance_km": 220
+    },
+    {
+      "source": "I",
+      "target": "K",
+      "distance_km": 390
+    },
+    {
+      "source": "J",
+      "target": "K",
+      "distance_km": 390
+    }
+  ]
+}

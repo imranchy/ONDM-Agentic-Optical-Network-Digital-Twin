@@ -1,0 +1,620 @@
+{
+  "sample_id": "topo_0004",
+  "image": "topo_0004.png",
+  "topology_type": "random_erdos_renyi",
+  "nodes": [
+    {
+      "id": "A",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 338,
+        "y": 1140
+      },
+      "bbox_xyxy_px": [
+        308,
+        1110,
+        368,
+        1170
+      ]
+    },
+    {
+      "id": "B",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 239,
+        "y": 374
+      },
+      "bbox_xyxy_px": [
+        209,
+        344,
+        269,
+        404
+      ]
+    },
+    {
+      "id": "C",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 917,
+        "y": 942
+      },
+      "bbox_xyxy_px": [
+        887,
+        912,
+        947,
+        972
+      ]
+    },
+    {
+      "id": "D",
+      "equipment_type": "ILA",
+      "position_px": {
+        "x": 211,
+        "y": 140
+      },
+      "bbox_xyxy_px": [
+        181,
+        110,
+        241,
+        170
+      ]
+    },
+    {
+      "id": "E",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 361,
+        "y": 282
+      },
+      "bbox_xyxy_px": [
+        331,
+        252,
+        391,
+        312
+      ]
+    },
+    {
+      "id": "F",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 1140,
+        "y": 1066
+      },
+      "bbox_xyxy_px": [
+        1110,
+        1036,
+        1170,
+        1096
+      ]
+    },
+    {
+      "id": "G",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 429,
+        "y": 875
+      },
+      "bbox_xyxy_px": [
+        399,
+        845,
+        459,
+        905
+      ]
+    },
+    {
+      "id": "H",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 621,
+        "y": 776
+      },
+      "bbox_xyxy_px": [
+        591,
+        746,
+        651,
+        806
+      ]
+    },
+    {
+      "id": "I",
+      "equipment_type": "ILA",
+      "position_px": {
+        "x": 140,
+        "y": 575
+      },
+      "bbox_xyxy_px": [
+        110,
+        545,
+        170,
+        605
+      ]
+    },
+    {
+      "id": "J",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 358,
+        "y": 720
+      },
+      "bbox_xyxy_px": [
+        328,
+        690,
+        388,
+        750
+      ]
+    },
+    {
+      "id": "K",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 680,
+        "y": 579
+      },
+      "bbox_xyxy_px": [
+        650,
+        549,
+        710,
+        609
+      ]
+    },
+    {
+      "id": "L",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 450,
+        "y": 571
+      },
+      "bbox_xyxy_px": [
+        420,
+        541,
+        480,
+        601
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "G",
+      "distance_km": 220,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        333,
+        870,
+        434,
+        1145
+      ]
+    },
+    {
+      "source": "B",
+      "target": "D",
+      "distance_km": 210,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        206,
+        135,
+        244,
+        379
+      ]
+    },
+    {
+      "source": "B",
+      "target": "E",
+      "distance_km": 160,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        234,
+        277,
+        366,
+        379
+      ]
+    },
+    {
+      "source": "B",
+      "target": "I",
+      "distance_km": 100,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        135,
+        369,
+        244,
+        580
+      ]
+    },
+    {
+      "source": "B",
+      "target": "L",
+      "distance_km": 100,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        234,
+        369,
+        455,
+        576
+      ]
+    },
+    {
+      "source": "C",
+      "target": "F",
+      "distance_km": 200,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        912,
+        937,
+        1145,
+        1071
+      ]
+    },
+    {
+      "source": "C",
+      "target": "H",
+      "distance_km": 180,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        616,
+        771,
+        922,
+        947
+      ]
+    },
+    {
+      "source": "D",
+      "target": "E",
+      "distance_km": 300,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        206,
+        135,
+        366,
+        287
+      ]
+    },
+    {
+      "source": "E",
+      "target": "L",
+      "distance_km": 90,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        356,
+        277,
+        455,
+        576
+      ]
+    },
+    {
+      "source": "G",
+      "target": "H",
+      "distance_km": 40,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        424,
+        771,
+        626,
+        880
+      ]
+    },
+    {
+      "source": "G",
+      "target": "J",
+      "distance_km": 330,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        353,
+        715,
+        434,
+        880
+      ]
+    },
+    {
+      "source": "G",
+      "target": "L",
+      "distance_km": 60,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        424,
+        566,
+        455,
+        880
+      ]
+    },
+    {
+      "source": "H",
+      "target": "J",
+      "distance_km": 120,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        353,
+        715,
+        626,
+        781
+      ]
+    },
+    {
+      "source": "H",
+      "target": "K",
+      "distance_km": 40,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        616,
+        574,
+        685,
+        781
+      ]
+    },
+    {
+      "source": "H",
+      "target": "L",
+      "distance_km": 290,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        445,
+        566,
+        626,
+        781
+      ]
+    },
+    {
+      "source": "I",
+      "target": "J",
+      "distance_km": 170,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        135,
+        570,
+        363,
+        725
+      ]
+    },
+    {
+      "source": "J",
+      "target": "L",
+      "distance_km": 230,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        353,
+        566,
+        455,
+        725
+      ]
+    },
+    {
+      "source": "K",
+      "target": "L",
+      "distance_km": 400,
+      "visual_style": "dashed",
+      "bbox_xyxy_px": [
+        445,
+        566,
+        685,
+        584
+      ]
+    }
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "difficulty": "medium",
+    "image_size": 1280,
+    "node_separation_min_px": 152.8,
+    "label_placement_conflicts": 0,
+    "distance_label_boxes": [
+      {
+        "source": "A",
+        "target": "G",
+        "text": "220 km",
+        "bbox_xyxy_px": [
+          366,
+          1002,
+          444,
+          1027
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "B",
+        "target": "D",
+        "text": "210 km",
+        "bbox_xyxy_px": [
+          208,
+          241,
+          286,
+          266
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "B",
+        "target": "E",
+        "text": "160 km",
+        "bbox_xyxy_px": [
+          283,
+          345,
+          361,
+          370
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "B",
+        "target": "I",
+        "text": "100 km",
+        "bbox_xyxy_px": [
+          129,
+          451,
+          207,
+          476
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "B",
+        "target": "L",
+        "text": "100 km",
+        "bbox_xyxy_px": [
+          289,
+          476,
+          367,
+          501
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "C",
+        "target": "F",
+        "text": "200 km",
+        "bbox_xyxy_px": [
+          978,
+          1011,
+          1056,
+          1036
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "C",
+        "target": "H",
+        "text": "180 km",
+        "bbox_xyxy_px": [
+          741,
+          826,
+          819,
+          851
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "D",
+        "target": "E",
+        "text": "300 km",
+        "bbox_xyxy_px": [
+          262,
+          181,
+          340,
+          206
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "E",
+        "target": "L",
+        "text": "90 km",
+        "bbox_xyxy_px": [
+          350,
+          420,
+          417,
+          445
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "G",
+        "target": "H",
+        "text": "40 km",
+        "bbox_xyxy_px": [
+          502,
+          833,
+          569,
+          858
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "G",
+        "target": "J",
+        "text": "330 km",
+        "bbox_xyxy_px": [
+          375,
+          775,
+          453,
+          800
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "G",
+        "target": "L",
+        "text": "60 km",
+        "bbox_xyxy_px": [
+          428,
+          712,
+          495,
+          737
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "H",
+        "target": "J",
+        "text": "120 km",
+        "bbox_xyxy_px": [
+          482,
+          765,
+          560,
+          790
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "H",
+        "target": "K",
+        "text": "40 km",
+        "bbox_xyxy_px": [
+          639,
+          671,
+          706,
+          696
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "H",
+        "target": "L",
+        "text": "290 km",
+        "bbox_xyxy_px": [
+          514,
+          646,
+          592,
+          671
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "I",
+        "target": "J",
+        "text": "170 km",
+        "bbox_xyxy_px": [
+          197,
+          654,
+          275,
+          679
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "J",
+        "target": "L",
+        "text": "230 km",
+        "bbox_xyxy_px": [
+          384,
+          645,
+          462,
+          670
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "K",
+        "target": "L",
+        "text": "400 km",
+        "bbox_xyxy_px": [
+          526,
+          539,
+          604,
+          564
+        ],
+        "placement_conflicts": 0
+      }
+    ],
+    "equipment_semantics": "synthetic illustrative",
+    "simulation_parameters": "not provided; must be supplied by a documented equipment library"
+  }
+}

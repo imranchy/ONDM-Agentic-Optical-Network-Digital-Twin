@@ -1,0 +1,210 @@
+diff --git a/app/streamlit_app.py b/app/streamlit_app.py
+index 81a4fc1..8621220 100644
+--- a/app/streamlit_app.py
++++ b/app/streamlit_app.py
+@@ -31,9 +31,9 @@ VERDICT_COLOR = {"FEASIBLE (simulated)": "#00c853", "MARGINAL": "#ffab00", "NOT
+ 
+ st.markdown("""
+ <style>
+-.block-container {padding-top: 1.2rem;}
+-.synth-banner {background: linear-gradient(90deg,#4a148c,#1a237e); color:#fff; padding:6px 14px; border-radius:6px;
+-  font-size:0.85rem; margin-bottom:8px; letter-spacing:0.3px}
++.block-container {padding-top: 3.6rem;}
++.stTabs [data-baseweb="tab-list"] {gap: 6px; flex-wrap: wrap;}
++.stTabs [data-baseweb="tab"] {padding: 6px 12px; font-weight: 600;}
+ .kpi {background:#111a2e; border:1px solid #23314f; border-radius:8px; padding:8px 12px; text-align:center}
+ .kpi .v {font-size:1.35rem; font-weight:700; color:#e3f2fd} .kpi .l {font-size:0.75rem; color:#90a4ae}
+ .verdict {display:inline-block; padding:2px 10px; border-radius:10px; font-weight:700; color:#0b1220}
+@@ -65,10 +65,10 @@ def vision_models() -> list[str]:
+ 
+ # ------------------------------------------------------------------------------------------ sidebar
+ with st.sidebar:
+-    st.markdown("## 🛰️ ONDM Digital Twin")
++    st.markdown("## Digital Twin")
+     st.caption("Agentic VLM · GNPy · NetBox · NetworkX")
+     samples = topo.list_samples()
+-    sample = st.selectbox("Synthetic topology", samples, index=samples.index("topo_0013") if "topo_0013" in samples else 0,
++    sample = st.selectbox("Topology", samples, index=samples.index("topo_0013") if "topo_0013" in samples else 0,
+                           format_func=lambda s: f"{s} · {topo.manifest().get(s, {}).get('topology', '')} · "
+                                                 f"{topo.manifest().get(s, {}).get('nodes', '?')} sites")
+     models = vision_models()
+@@ -76,7 +76,7 @@ with st.sidebar:
+     model = st.selectbox("VLM (Ollama)", models, index=models.index(default_model))
+     think = st.toggle("Model 'thinking' (slower; thinking-capable models only)", value=False)
+     use_image = st.toggle("Send diagram image to VLM", value=True)
+-    live_inv = st.toggle("Use live NetBox (else local fallback)", value=True)
++    live_inv = st.toggle("Use live NetBox", value=True)
+     st.divider()
+     st.markdown("**Transmission requirement (GNPy)**")
+     cat = gnpy_engine.transceiver_catalog()
+@@ -90,7 +90,7 @@ with st.sidebar:
+     requirement = gnpy_engine.TransmissionRequirement(line_rate_gbps=rate, trx_type=trx_type, trx_mode=trx_mode,
+                                                       extra_margin_db=margin, channel_power_dbm=power,
+                                                       max_span_km=float(span))
+-    st.caption(f"Mode: {trx_type} / {trx_mode} (GNPy example library)")
++    st.caption(f"Mode: {trx_type} / {trx_mode} (GNPy library)")
+     st.divider()
+     stt = service_status(model)
+     v = stt["vlm"]
+@@ -106,10 +106,6 @@ with st.sidebar:
+     if st.button("↻ Refresh status", width="stretch"):
+         service_status.clear(); vision_models.clear(); st.rerun()
+ 
+-st.markdown('<div class="synth-banner">⚠️ SIMULATED ENVIRONMENT — synthetic topologies, synthetic NetBox inventory and '
+-            'GNPy example equipment parameters. Not real operator telemetry. Feasibility claims are valid only '
+-            'under the stated simulation assumptions.</div>', unsafe_allow_html=True)
+-
+ 
+ def make_agent(on_step=None) -> ONDMAgent:
+     return ONDMAgent(OllamaVLM(model=model), think=think, prefer_live_inventory=live_inv, on_step=on_step)
+@@ -195,7 +191,7 @@ def render_run(run, key: str):
+         st.plotly_chart(topology_figure(run.sample_id, run.highlight, gnpy=run.gnpy, height=520),
+                         width="stretch", key=f"fig_{key}")
+     with c2:
+-        st.markdown("#### 🧠 Engineering assessment")
++        st.markdown("#### Engineering assessment")
+         st.markdown(run.answer or "_no answer_")
+         st.markdown(f'<div class="origin">VLM: {model} · total {run.total_s}s · '
+                     f'task: {run.task} · inventory: {(run.inventory or {}).get("source", "not queried")}</div>',
+@@ -241,9 +237,9 @@ def run_with_live_trace(request: str, hints: dict, label: str):
+ # ------------------------------------------------------------------------------------------ layout
+ g = topo.build_graph(sample)
+ summ = topo.summary(sample)
+-tabs = st.tabs(["🛰️ Overview", "① Service provisioning", "② Fiber failure & restoration",
+-                "③ Inventory troubleshooting", "💬 Engineering chat", "🗄️ NetBox explorer", "🔬 GNPy lab",
+-                "👁️ Diagram reading", "ℹ️ Assumptions"])
++tabs = st.tabs(["Overview", "1 · Service provisioning", "2 · Fiber failure & restoration",
++                "3 · Inventory troubleshooting", "Engineering chat", "NetBox explorer", "GNPy lab",
++                "Diagram reading", "Assumptions"])
+ 
+ # ---------------- Overview
+ with tabs[0]:
+@@ -274,11 +270,9 @@ with tabs[1]:
+     src = c[0].selectbox("Source ROADM", nodes, index=0, key="p_src")
+     dst = c[1].selectbox("Destination ROADM", nodes, index=min(6, len(nodes) - 1), key="p_dst")
+     kp = c[2].number_input("Candidate routes (k)", 1, 5, 3, key="p_k")
+-    req = c[3].text_area("Operator request", height=80, key=f"p_req_{sample}_{src}_{dst}_{rate}",
+-                         value=f"Provision a {rate}G optical service between ROADM {src} and ROADM {dst}. Inspect the "
+-                               f"available equipment, generate code to identify candidate routes, and determine their "
+-                               f"optical feasibility using GNPy.")
+-    if st.button("▶ Run provisioning agent", type="primary", key="p_run", disabled=src == dst):
++    req = c[3].text_area("Operator request", height=80, key="p_req",
++                         placeholder="Type the operator request, e.g. Provision a 400G service between ROADM A and ROADM G…")
++    if st.button("▶ Run provisioning agent", type="primary", key="p_run", disabled=src == dst or not req.strip()):
+         st.session_state["bc1"] = run_with_live_trace(req, {"task": "provisioning", "source": src, "target": dst,
+                                                             "k_paths": int(kp), "line_rate_gbps": rate,
+                                                             "strict": True}, "service provisioning")
+@@ -294,10 +288,9 @@ with tabs[2]:
+     c = st.columns([1.2, 3])
+     link = c[0].selectbox("Failed fiber link", edges, format_func=lambda e: f"{e[0]}–{e[1]} ({g[e[0]][e[1]]['distance_km']:g} km)",
+                           key="f_link")
+-    req2 = c[1].text_area("Operator request", height=80, key=f"f_req_{sample}_{link}",
+-                          value=f"Analyze the failure of fiber link {link[0]}-{link[1]}. Generate code to identify "
+-                                f"affected routes and calculate possible restoration paths.")
+-    if st.button("▶ Run failure-analysis agent", type="primary", key="f_run"):
++    req2 = c[1].text_area("Operator request", height=80, key="f_req",
++                          placeholder="Type the operator request, e.g. Analyze the failure of fiber link H-J…")
++    if st.button("▶ Run failure-analysis agent", type="primary", key="f_run", disabled=not req2.strip()):
+         st.session_state["bc2"] = run_with_live_trace(req2, {"task": "failure_restoration",
+                                                              "failed_link": list(link), "strict": True},
+                                                       "failure analysis")
+@@ -323,10 +316,9 @@ with tabs[3]:
+                "GNPy to farthest reachable site → explanation")
+     c = st.columns([1, 3])
+     roadm = c[0].selectbox("ROADM", sorted(g.nodes()), index=sorted(g.nodes()).index("D") if "D" in g else 0, key="t_roadm")
+-    req3 = c[1].text_area("Operator request", height=80, key=f"t_req_{sample}_{roadm}",
+-                          value=f"Inspect the equipment and fiber connections associated with ROADM {roadm}. Identify "
+-                                f"potential connectivity or equipment constraints affecting service provisioning.")
+-    if st.button("▶ Run troubleshooting agent", type="primary", key="t_run"):
++    req3 = c[1].text_area("Operator request", height=80, key="t_req",
++                          placeholder="Type the operator request, e.g. Inspect the equipment and fiber connections of ROADM D…")
++    if st.button("▶ Run troubleshooting agent", type="primary", key="t_run", disabled=not req3.strip()):
+         st.session_state["bc3"] = run_with_live_trace(req3, {"task": "troubleshooting", "roadm": roadm, "strict": True},
+                                                       "troubleshooting")
+     if st.session_state.get("bc3") and st.session_state["bc3"].sample_id == sample:
+diff --git a/docs/CODING_AGENT_BRIEF.md b/docs/CODING_AGENT_BRIEF.md
+index 8559e6c..9b0c73b 100644
+--- a/docs/CODING_AGENT_BRIEF.md
++++ b/docs/CODING_AGENT_BRIEF.md
+@@ -1,27 +1,38 @@
+-# Coding Agent Handoff — Monday 16 November 2026
++# Coding agent handoff — ONDM Monday prototype
+ 
+-**Goal:** Build a convincing Streamlit demonstration with ONE small local image-capable VLM. No fine-tuning, TopoBench scores, formal benchmarking or production deployment is required by Monday.
++## Objective
+ 
+-## Existing resources
++By 16 November 2026, deliver a polished **functional** Streamlit app demonstrating one small, image-capable VLM and three operator workflows. Do not train or benchmark models for this milestone.
+ 
+-Import the corrected 30-topology semantic pilot from the provided GitHub starter ZIP. Use its graph JSON as the authoritative graph structure and corresponding images as visual VLM inputs. Retain the available GNPy converter and sample outputs; no need to invoke GNPy live for the Monday demo.
++## Source of truth
+ 
+-## Required scenarios
++Use `data/semantic_pilot/graphs/*.json` for verified topology, `images/*.png` for the model image input, and `manifest.csv` for sample metadata. There are 30 paired samples. Keep graph source immutable during hypothetical failure analysis.
+ 
+-1. **Service provisioning:** select real topology endpoints; invoke NetworkX shortest-path and alternative-path functions; show span distances and caveat optical feasibility.
+-2. **Fault impact:** select an existing edge; simulate removal on a graph copy; recalculate connectivity and possible restoration paths.
+-3. **Inventory lookup:** query synthetic sites, ROADMs and links derived from the same topology, with a future read-only NetBox adapter boundary. Do not imply a live NetBox service exists.
++## Business scenarios
+ 
+-## Architecture and acceptance criteria
++1. Service provisioning: input two existing ROADM IDs, calculate candidate shortest-distance route, highlight path and report kilometers/intermediate nodes. Never claim physical feasibility from NetworkX alone.
++2. Link failure: select an existing edge, remove it on a temporary graph copy, show whether the network disconnects and available alternative paths.
++3. Inventory-aware questions: build a local read-only inventory representation from graph JSON; expose a NetBox-compatible adapter interface but do not claim a real NetBox server is connected.
+ 
+-- Polished dark Streamlit UI, topology selector, graph viewer, original image, question input, suggested prompts, highlighted routes and tool traces.
+-- Actual multimodal inference with a small locally runnable VLM; provide pluggable adapter, model configuration and honest error handling when model unavailable.
+-- Deterministic, typed NetworkX tools for shortest paths, path diversity, failures, inventories.
+-- Model may **propose** tool invocations, but arbitrary generated Python must **not** be executed on host. Add an isolated experimental sandbox later if needed.
+-- Validate schema and node IDs, surface evidence sources and tool outputs, avoid hardcoded answers.
+-- Smoke-test all three workflows against existing graphs; document Windows installation and launcher.
+-- Secrets in environment variables only; synthetic-data labeling in UI.
++## Architecture
+ 
+-## Later research phases
++- Streamlit professional dark NOC-like UI: topology browser, graph/image view, chat, 3 example prompt buttons, evidence/tool trace, highlighted route/failure, synthetic-data status.
++- One hardware-appropriate VLM with working image input and text generation; select only after checking hardware and actual model capabilities.
++- Structured tool calling; NetworkX performs route and resilience math, VLM explains output. Validate tool inputs. Do not execute arbitrary model-generated Python on the host.
++- Explicitly distinguish facts from graph JSON, VLM observations, deterministic computation and assumptions.
++- Graceful handling of unknown node, no alternate path, unavailable model, and malformed input.
++- Basic automated tests for graph loading, routing and failure scenarios.
++- Optional read-only GNPy result display; interactive GNPy orchestration and full NetBox deployment are future milestones.
+ 
+-Expanded equipment fidelity, full GNPy quality-of-transmission simulations, read-only real NetBox integration, topology-to-inventory extraction, leakage-free grouped splits and independent VLM benchmarks.
++## Acceptance criteria
++
++- Fresh clone runnable on Windows from documented installation steps.
++- Genuine VLM response to a dataset topology image, not a hardcoded text sample.
++- At least one tool selected/invoked by the agent with validated computed output.
++- Three workflows operate on selected sample graphs with visible provenance.
++- Correct handling of unreachable paths and unavailable model service.
++- No secrets, real inventory, or large model checkpoints committed.
++
++## Later ONDM work
++
++Topology-group holdouts and leakage audit; systematic VLM metrics; full GNPy validation with equipment and transceiver thresholds; live read-only NetBox inventory; TopoBench compatibility review; optional model-generated code in a restricted sandbox.
+diff --git a/docs/presentation/ONDM_Merged_Presentation.pptx b/docs/presentation/ONDM_Merged_Presentation.pptx
+index e659c0c..0490638 100644
+Binary files a/docs/presentation/ONDM_Merged_Presentation.pptx and b/docs/presentation/ONDM_Merged_Presentation.pptx differ
+diff --git a/integrations/gnpy/full_topology_to_gnpy.py b/integrations/gnpy/full_topology_to_gnpy.py
+index 494995f..b9c526e 100644
+--- a/integrations/gnpy/full_topology_to_gnpy.py
++++ b/integrations/gnpy/full_topology_to_gnpy.py
+@@ -161,4 +161,4 @@ def main():
+     convert(args)
+ 
+ if __name__=='__main__':
+-    main()
+\ No newline at end of file
++    main()
+diff --git a/integrations/gnpy/topology_to_gnpy_poc.py b/integrations/gnpy/topology_to_gnpy_poc.py
+index 2fd13b1..77c9418 100644
+--- a/integrations/gnpy/topology_to_gnpy_poc.py
++++ b/integrations/gnpy/topology_to_gnpy_poc.py
+@@ -80,4 +80,4 @@ def main():
+     print('Next: run gnpy-transmission-example with this topology and reference equipment library.')
+ 
+ if __name__ == '__main__':
+-    main()
+\ No newline at end of file
++    main()

@@ -1,14 +1,20 @@
+# --- Python / environments ---
 .venv/
 venv/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+.pytest_cache/
+
+# --- secrets (never commit) ---
 .env
 .env.*
-!.env.example
 *.pem
 *.key
 credentials*.json
+archive/unrelated/
+
+# --- model weights / training outputs (out of scope for this phase) ---
 models/
 checkpoints/
 runs/
@@ -18,28 +24,21 @@ wandb/
 *.pt
 *.pth
 *.onnx
-outputs/
-results/
-simulations/tmp/
-simulations/cache/
+
+# --- large archives: kept locally, documented by SHA-256 in archive READMEs ---
+*.zip
+
+# --- generated datasets: regenerated from configs + seeds ---
+data/generated/
+data/pilot/*/images_cache/
+references/topology_bench/raw/
+
+# --- misc ---
 *.log
+!archive/historical_datasets/gnpy_runs/generated/*.log
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-
-# --- ONDM app (added 2026-11-13) ---
-# local research archives / legacy pilots kept out of the active release
-*.zip
-optical_topology_pilot/
-optical_topology_semantics_pilot/
-optical_topology_v2_pilot/
-Untitled.ipynb
-# runtime caches and local state
-simulations/cache/
-simulations/netbox/
-simulations/smoke/
-simulations/generated/*.log
 .claude/
-.pytest_cache/
 *.pptx.tmp

@@ -1,0 +1,300 @@
+{
+  "sample_id": "topo_0024",
+  "image": "topo_0024.png",
+  "topology_type": "star",
+  "nodes": [
+    {
+      "id": "A",
+      "equipment_type": "ROADM",
+      "position_px": {
+        "x": 652,
+        "y": 654
+      },
+      "bbox_xyxy_px": [
+        621,
+        623,
+        683,
+        685
+      ]
+    },
+    {
+      "id": "B",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 1085,
+        "y": 375
+      },
+      "bbox_xyxy_px": [
+        1054,
+        344,
+        1116,
+        406
+      ]
+    },
+    {
+      "id": "C",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 140,
+        "y": 716
+      },
+      "bbox_xyxy_px": [
+        109,
+        685,
+        171,
+        747
+      ]
+    },
+    {
+      "id": "D",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 1140,
+        "y": 820
+      },
+      "bbox_xyxy_px": [
+        1109,
+        789,
+        1171,
+        851
+      ]
+    },
+    {
+      "id": "E",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 826,
+        "y": 1140
+      },
+      "bbox_xyxy_px": [
+        795,
+        1109,
+        857,
+        1171
+      ]
+    },
+    {
+      "id": "F",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 283,
+        "y": 291
+      },
+      "bbox_xyxy_px": [
+        252,
+        260,
+        314,
+        322
+      ]
+    },
+    {
+      "id": "G",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 381,
+        "y": 1094
+      },
+      "bbox_xyxy_px": [
+        350,
+        1063,
+        412,
+        1125
+      ]
+    },
+    {
+      "id": "H",
+      "equipment_type": "TRANSCEIVER",
+      "position_px": {
+        "x": 704,
+        "y": 140
+      },
+      "bbox_xyxy_px": [
+        673,
+        109,
+        735,
+        171
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "B",
+      "distance_km": 160,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        647,
+        370,
+        1090,
+        659
+      ]
+    },
+    {
+      "source": "A",
+      "target": "C",
+      "distance_km": 290,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        135,
+        649,
+        657,
+        721
+      ]
+    },
+    {
+      "source": "A",
+      "target": "D",
+      "distance_km": 130,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        647,
+        649,
+        1145,
+        825
+      ]
+    },
+    {
+      "source": "A",
+      "target": "E",
+      "distance_km": 140,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        647,
+        649,
+        831,
+        1145
+      ]
+    },
+    {
+      "source": "A",
+      "target": "F",
+      "distance_km": 330,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        278,
+        286,
+        657,
+        659
+      ]
+    },
+    {
+      "source": "A",
+      "target": "G",
+      "distance_km": 220,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        376,
+        649,
+        657,
+        1099
+      ]
+    },
+    {
+      "source": "A",
+      "target": "H",
+      "distance_km": 250,
+      "visual_style": "solid",
+      "bbox_xyxy_px": [
+        647,
+        135,
+        709,
+        659
+      ]
+    }
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "difficulty": "easy",
+    "image_size": 1280,
+    "node_separation_min_px": 447.3,
+    "label_placement_conflicts": 0,
+    "distance_label_boxes": [
+      {
+        "source": "A",
+        "target": "B",
+        "text": "160 km",
+        "bbox_xyxy_px": [
+          841,
+          521,
+          919,
+          546
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "C",
+        "text": "290 km",
+        "bbox_xyxy_px": [
+          354,
+          649,
+          432,
+          674
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "D",
+        "text": "130 km",
+        "bbox_xyxy_px": [
+          849,
+          746,
+          927,
+          771
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "E",
+        "text": "140 km",
+        "bbox_xyxy_px": [
+          678,
+          892,
+          756,
+          917
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "F",
+        "text": "330 km",
+        "bbox_xyxy_px": [
+          444,
+          443,
+          522,
+          468
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "G",
+        "text": "220 km",
+        "bbox_xyxy_px": [
+          457,
+          849,
+          535,
+          874
+        ],
+        "placement_conflicts": 0
+      },
+      {
+        "source": "A",
+        "target": "H",
+        "text": "250 km",
+        "bbox_xyxy_px": [
+          661,
+          386,
+          739,
+          411
+        ],
+        "placement_conflicts": 0
+      }
+    ],
+    "equipment_semantics": "synthetic illustrative",
+    "simulation_parameters": "not provided; must be supplied by a documented equipment library"
+  }
+}

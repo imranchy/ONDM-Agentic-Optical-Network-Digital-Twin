@@ -1,0 +1,113 @@
+{
+  "sample_id": "topo_0028",
+  "image": "topo_0028.png",
+  "topology_type": "random_watts_strogatz",
+  "nodes": [
+    {
+      "id": "A"
+    },
+    {
+      "id": "B"
+    },
+    {
+      "id": "C"
+    },
+    {
+      "id": "D"
+    },
+    {
+      "id": "E"
+    },
+    {
+      "id": "F"
+    },
+    {
+      "id": "G"
+    },
+    {
+      "id": "H"
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "C",
+      "distance_km": 200
+    },
+    {
+      "source": "A",
+      "target": "F",
+      "distance_km": 150
+    },
+    {
+      "source": "A",
+      "target": "G",
+      "distance_km": 380
+    },
+    {
+      "source": "A",
+      "target": "H",
+      "distance_km": 160
+    },
+    {
+      "source": "B",
+      "target": "D",
+      "distance_km": 220
+    },
+    {
+      "source": "B",
+      "target": "E",
+      "distance_km": 300
+    },
+    {
+      "source": "B",
+      "target": "F",
+      "distance_km": 310
+    },
+    {
+      "source": "B",
+      "target": "G",
+      "distance_km": 380
+    },
+    {
+      "source": "B",
+      "target": "H",
+      "distance_km": 260
+    },
+    {
+      "source": "C",
+      "target": "D",
+      "distance_km": 130
+    },
+    {
+      "source": "C",
+      "target": "E",
+      "distance_km": 230
+    },
+    {
+      "source": "D",
+      "target": "E",
+      "distance_km": 130
+    },
+    {
+      "source": "D",
+      "target": "F",
+      "distance_km": 110
+    },
+    {
+      "source": "E",
+      "target": "F",
+      "distance_km": 150
+    },
+    {
+      "source": "E",
+      "target": "G",
+      "distance_km": 340
+    },
+    {
+      "source": "F",
+      "target": "G",
+      "distance_km": 220
+    }
+  ]
+}
